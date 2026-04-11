@@ -16,7 +16,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Bank auction property listing monitor")
     parser.add_argument(
         "command",
-        choices=["run-once", "daemon", "serve-api", "filter-bot"],
+        choices=["run-once", "daemon", "serve-api", "filter-bot", "reset-cache"],
         help="Run mode",
     )
     args = parser.parse_args()
@@ -60,6 +60,14 @@ def main() -> None:
         from project.telegram_bot.filter_commands import run_filter_command_bot
 
         run_filter_command_bot(settings)
+
+    if args.command == "reset-cache":
+        from project.cache.store import ListingCacheStore
+
+        store = ListingCacheStore(settings.listing_cache_path, settings.source_site)
+        store.save({})
+        print(f"Cleared listings in {store.path.resolve()} (Gujarat-only URLs will refill on next run-once).")
+        return
 
 
 if __name__ == "__main__":
