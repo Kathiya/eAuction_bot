@@ -5,8 +5,8 @@
 #   TELEGRAM_BOT_TOKEN   — required for notifications
 #   TELEGRAM_CHAT_ID     — comma-separated chat IDs
 #   LISTING_SEARCH_URLS  — optional; pipe-separated search URLs
-# Optional env vars can be added to the "Run monitor" step if needed, e.g. HTTP_VERIFY_SSL=false,
-# NOTIFY_ON_FIRST_RUN=true (avoid empty-string secrets for booleans — omit or set explicit values).
+# TELEGRAM_FULL_DIGEST_EACH_RUN=true — sends every scraped row + search URLs to Telegram after each run (audit).
+# Optional: HTTP_VERIFY_SSL=false, NOTIFY_ON_FIRST_RUN=true (use explicit values for booleans in env).
 #
 # The bot commit uses [skip ci] so the push does not re-trigger this workflow.
 
@@ -38,6 +38,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           LISTING_SEARCH_URLS: ${{ secrets.LISTING_SEARCH_URLS }}
+          TELEGRAM_FULL_DIGEST_EACH_RUN: "true"
         run: python -m project.main run-once
 
       - name: Commit cache if changed

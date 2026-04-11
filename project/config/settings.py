@@ -6,10 +6,8 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 # Pipe-separated search URLs when LISTING_SEARCH_URLS is unset; empty env value = legacy single template.
 EAUCTIONS_DEFAULT_LISTING_SEARCH_URLS = (
-    "https://www.eauctionsindia.com/search?keyword=&category=residential&state=gujarat&city=ahmedabad"
-    "&area=&bank=&from=&to=&min_price=&max_price=|"
-    "https://www.eauctionsindia.com/search?keyword=&category=vehicle-auctions&state=gujarat&city="
-    "&area=&bank=&from=&to=&min_price=&max_price="
+    "https://www.eauctionsindia.com/search?keyword=&category=residential&state=gujarat&city=ahmedabad&area=&bank=&from=&to=&min_price=&max_price=|"
+    "https://www.eauctionsindia.com/search?keyword=&category=vehicle-auctions&state=gujarat&city=&area=&bank=&from=&to=&min_price=&max_price="
 )
 
 
@@ -121,6 +119,12 @@ class Settings(BaseSettings):
         default=False,
         validation_alias="NOTIFY_ON_CONTENT_CHANGE",
         description="If true, notify when content_hash changes for an existing stable_id",
+    )
+
+    telegram_send_full_digest_each_run: bool = Field(
+        default=False,
+        validation_alias="TELEGRAM_FULL_DIGEST_EACH_RUN",
+        description="After each successful run, send all scraped listings (chunked) plus search URLs for audit",
     )
 
     log_json: bool = Field(default=True, validation_alias="LOG_JSON")

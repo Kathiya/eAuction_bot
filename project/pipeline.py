@@ -6,7 +6,7 @@ from project.cache.store import CacheFileLock, ListingCacheStore, diff_listings
 from project.config.settings import Settings
 from project.filters.engine import FilterEngine, load_listing_filter_from_path
 from project.filters.models import PropertyListing
-from project.notifier.telegram import TelegramNotifier
+from project.notifier.telegram import TelegramNotifier, format_full_digest_html
 from project.scraper.http_client import HttpListingSource
 
 logger = logging.getLogger(__name__)
@@ -127,6 +127,15 @@ def run_cycle(settings: Settings) -> int:
                     "count": len(current),
                 },
             )
+            if notifier.enabled and settings.telegram_send_full_digest_each_run:
+                try:
+                    digest_html = format_full_digest_html(settings, current)
+                    notifier.send_html_multipart(digest_html)
+                except Exception:
+                    logger.exception(
+                        "telegram_digest_failed",
+                        extra={"event": "telegram_digest_failed"},
+                    )
 
     return notify_count
 
