@@ -67,8 +67,18 @@ class Settings(BaseSettings):
     listing_search_urls: str = Field(
         default=EAUCTIONS_DEFAULT_LISTING_SEARCH_URLS,
         validation_alias="LISTING_SEARCH_URLS",
-        description="Pipe | separated eAuctions search URLs; set empty for legacy LISTING_PAGE_URL only",
+        description="Pipe | separated eAuctions search URLs; blank env uses built-in Gujarat defaults",
     )
+
+    @field_validator("listing_search_urls", mode="before")
+    @classmethod
+    def _empty_listing_search_urls_use_defaults(cls, v: object) -> object:
+        """GitHub Actions sets missing secrets to ''; that must not enable unfiltered /search?page=1."""
+        if v is None:
+            return EAUCTIONS_DEFAULT_LISTING_SEARCH_URLS
+        if str(v).strip() == "":
+            return EAUCTIONS_DEFAULT_LISTING_SEARCH_URLS
+        return v
 
     listing_page_url: str = Field(
         default="https://www.eauctionsindia.com/search?page=1",

@@ -4,7 +4,7 @@
 # Repository secrets (Settings → Secrets and variables → Actions):
 #   TELEGRAM_BOT_TOKEN   — required for notifications
 #   TELEGRAM_CHAT_ID     — comma-separated chat IDs
-#   LISTING_SEARCH_URLS  — optional; pipe-separated search URLs
+#   LISTING_SEARCH_URLS  — optional; only add this secret if overriding URLs (do not create empty secret)
 # TELEGRAM_FULL_DIGEST_EACH_RUN=true — sends every scraped row + search URLs to Telegram after each run (audit).
 # Optional: HTTP_VERIFY_SSL=false, NOTIFY_ON_FIRST_RUN=true (use explicit values for booleans in env).
 #
@@ -37,7 +37,6 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          LISTING_SEARCH_URLS: ${{ secrets.LISTING_SEARCH_URLS }}
           TELEGRAM_FULL_DIGEST_EACH_RUN: "true"
         run: python -m project.main run-once
 
