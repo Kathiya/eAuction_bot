@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-04-11T11:33:05.679367+00:00",
+  "updated_at": "2026-04-11T11:59:32.841696+00:00",
   "listings": {
     "ei_738484": {
       "stable_id": "ei_738484",
@@ -14,7 +14,8 @@
       "district": "Bharuch",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:8a5a7ff86504099bf1aa2397e673679e69afd209b2347ef4619316a745dcead0"
+      "content_hash": "sha256:8a5a7ff86504099bf1aa2397e673679e69afd209b2347ef4619316a745dcead0",
+      "stream_label": null
     },
     "ei_739200": {
       "stable_id": "ei_739200",
@@ -27,7 +28,8 @@
       "district": "Rewa",
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:7b91edd84227890525295b67530ccec6f803248c9e9794e2ef13c4dab18723ef"
+      "content_hash": "sha256:7b91edd84227890525295b67530ccec6f803248c9e9794e2ef13c4dab18723ef",
+      "stream_label": null
     },
     "ei_739261": {
       "stable_id": "ei_739261",
@@ -40,7 +42,8 @@
       "district": "Surat",
       "property_type": "Plot",
       "bank": null,
-      "content_hash": "sha256:ecc31d3c19cd0bb125a687d36a3ee66484d100087ed522929a66c3b230af6d08"
+      "content_hash": "sha256:ecc31d3c19cd0bb125a687d36a3ee66484d100087ed522929a66c3b230af6d08",
+      "stream_label": null
     },
     "ei_740039": {
       "stable_id": "ei_740039",
@@ -53,7 +56,8 @@
       "district": "Udham Singh Nagar",
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:cfec408e8dd67dbfe7bf8760434fe4a60b62a1c8c4c61dd9a0efcdabffa5b45e"
+      "content_hash": "sha256:cfec408e8dd67dbfe7bf8760434fe4a60b62a1c8c4c61dd9a0efcdabffa5b45e",
+      "stream_label": null
     },
     "ei_741416": {
       "stable_id": "ei_741416",
@@ -66,7 +70,8 @@
       "district": "Muzaffarnagar",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:453acc1ee63ad6f58f5cc55b0d593bf828d0611a042640efe5792b7a2a144c1b"
+      "content_hash": "sha256:453acc1ee63ad6f58f5cc55b0d593bf828d0611a042640efe5792b7a2a144c1b",
+      "stream_label": null
     },
     "ei_741417": {
       "stable_id": "ei_741417",
@@ -79,7 +84,8 @@
       "district": "Muzaffarnagar",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:56dbc2ffe5c8e92437a5ba06479ac956a728055c6907e6f44fd203b6cf4ca7d8"
+      "content_hash": "sha256:56dbc2ffe5c8e92437a5ba06479ac956a728055c6907e6f44fd203b6cf4ca7d8",
+      "stream_label": null
     },
     "ei_741418": {
       "stable_id": "ei_741418",
@@ -92,7 +98,8 @@
       "district": "Muzaffarnagar",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:56dbc2ffe5c8e92437a5ba06479ac956a728055c6907e6f44fd203b6cf4ca7d8"
+      "content_hash": "sha256:56dbc2ffe5c8e92437a5ba06479ac956a728055c6907e6f44fd203b6cf4ca7d8",
+      "stream_label": null
     },
     "ei_741964": {
       "stable_id": "ei_741964",
@@ -105,7 +112,8 @@
       "district": "SAS Nagar",
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:2c9043a20db8db834247969d7fe92b2061c79e70587850015bc6264ff719f222"
+      "content_hash": "sha256:2c9043a20db8db834247969d7fe92b2061c79e70587850015bc6264ff719f222",
+      "stream_label": null
     },
     "ei_742197": {
       "stable_id": "ei_742197",
@@ -118,7 +126,8 @@
       "district": "Junagadh",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:067f2ac4da27984160ab35701760b5a36dfa4afb0f4f22e8f7d1a1cd737e8208"
+      "content_hash": "sha256:067f2ac4da27984160ab35701760b5a36dfa4afb0f4f22e8f7d1a1cd737e8208",
+      "stream_label": null
     },
     "ei_742198": {
       "stable_id": "ei_742198",
@@ -131,7 +140,8 @@
       "district": "Rajkot",
       "property_type": "Plot",
       "bank": null,
-      "content_hash": "sha256:b57e0faaead4270deb29b590f634e89112f0fbf34866f782ffada64ca4e335cf"
+      "content_hash": "sha256:b57e0faaead4270deb29b590f634e89112f0fbf34866f782ffada64ca4e335cf",
+      "stream_label": null
     },
     "ei_742528": {
       "stable_id": "ei_742528",
@@ -144,7 +154,8 @@
       "district": "Thane",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:dfe47ad9bad7a82148764e6e903228988196c277e75872e121fc162b52d0f596"
+      "content_hash": "sha256:dfe47ad9bad7a82148764e6e903228988196c277e75872e121fc162b52d0f596",
+      "stream_label": null
     },
     "ei_743232": {
       "stable_id": "ei_743232",
@@ -157,7 +168,8 @@
       "district": "East Singhbhum",
       "property_type": "Plot",
       "bank": null,
-      "content_hash": "sha256:31e4c6be4f72d07b172f92bb6d48585dec351e81cd68d57565b16b96a925099c"
+      "content_hash": "sha256:31e4c6be4f72d07b172f92bb6d48585dec351e81cd68d57565b16b96a925099c",
+      "stream_label": null
     }
   }
 }
