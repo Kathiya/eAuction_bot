@@ -6,6 +6,9 @@ from project.config.settings import Settings
 
 
 def _with_page(url: str, page: int) -> str:
+    # Keep first-page URL exactly as configured; some targets reject explicit page=1.
+    if page <= 1:
+        return url.strip()
     parts = urlparse(url.strip())
     q = list(parse_qsl(parts.query, keep_blank_values=True))
     keys = {k for k, _ in q}

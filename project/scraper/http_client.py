@@ -3,6 +3,7 @@ from __future__ import annotations
 import logging
 import time
 from typing import Any
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 import certifi
 import requests
@@ -35,7 +36,15 @@ def _build_session(settings: Settings) -> requests.Session:
     adapter = HTTPAdapter(max_retries=retries)
     s.mount("https://", adapter)
     s.mount("http://", adapter)
-    s.headers.update({"User-Agent": settings.http_user_agent})
+    s.headers.update(
+        {
+            "User-Agent": settings.http_user_agent,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache",
+        }
+    )
     return s
 
 
@@ -44,8 +53,26 @@ class HttpListingSource:
         self._s = settings
         self._session = _build_session(settings)
 
+    @staticmethod
+    def _remove_page_param(url: str) -> str:
+        parts = urlparse(url)
+        q = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True) if k != "page"]
+        return urlunparse((parts.scheme, parts.netloc, parts.path, parts.params, urlencode(q), parts.fragment))
+
     def _get_text(self, url: str) -> str:
         r = self._session.get(url, timeout=self._s.request_timeout_s)
+        if r.status_code == 403 and "page=1" in url:
+            # Some WAF rules reject explicit page=1; retry once without the parameter.
+            fallback_url = self._remove_page_param(url)
+            logger.warning(
+                "http_403_retry_without_page",
+                extra={
+                    "event": "http_403_retry_without_page",
+                    "url": url,
+                    "fallback_url": fallback_url,
+                },
+            )
+            r = self._session.get(fallback_url, timeout=self._s.request_timeout_s)
         r.raise_for_status()
         return r.text
 
