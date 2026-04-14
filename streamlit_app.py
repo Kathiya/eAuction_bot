@@ -9,7 +9,8 @@ Secrets (Streamlit Cloud: App settings → Secrets), or set the same names in th
 
 If CACHE_JSON_URL is unset, the app reads ``./data/listings_cache.json`` next to this file (local dev).
 
-Data is refreshed on a TTL (see ``load_cache``); adjust ``ttl=`` if you want fresher data without redeploying.
+Data is refreshed on a TTL (see ``load_cache``). Use **Refresh data** in the sidebar to drop the in-app cache immediately.
+GitHub **raw** URLs can lag behind ``git push`` for several minutes (CDN); refresh again later or open the raw URL in a browser to verify.
 
 ---
 
@@ -60,7 +61,10 @@ def load_cache() -> tuple[dict, dict, str | None]:
 
     try:
         if url:
-            headers: dict[str, str] = {}
+            headers: dict[str, str] = {
+                "Cache-Control": "no-cache",
+                "Pragma": "no-cache",
+            }
             if token:
                 headers["Authorization"] = f"token {token}"
             r = httpx.get(url, headers=headers, timeout=60.0, follow_redirects=True)
@@ -80,6 +84,12 @@ def load_cache() -> tuple[dict, dict, str | None]:
 def main() -> None:
     st.set_page_config(page_title="eAuctions cache", layout="wide")
     st.title("eAuctions listing cache")
+
+    with st.sidebar:
+        st.caption("Data source: **CACHE_JSON_URL** secret if set, else local `data/listings_cache.json`.")
+        if st.button("Refresh data"):
+            load_cache.clear()
+            st.rerun()
 
     meta, listings, err = load_cache()
     if err:
