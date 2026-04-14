@@ -3,7 +3,7 @@ from __future__ import annotations
 import logging
 import time
 from typing import Any
-from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse, quote_plus
 
 from curl_cffi import requests as cffi_requests
 from curl_cffi.requests import Session as CurlSession
@@ -13,26 +13,25 @@ from project.config.settings import Settings
 from project.filters.models import PropertyListing
 from project.scraper.api_parser import listings_from_api_payload
 from project.scraper.portal_parse import parse_listings_page
-from project.scraper.search_urls import build_fetch_urls, _with_page
+from project.scraper.search_urls import _with_page
 
 logger = logging.getLogger(__name__)
 
 _ORIGIN = "https://www.eauctionsindia.com"
 _IMPERSONATE = "chrome120"
 
-# ScraperAPI residential proxy endpoint — used only as fallback for page-1 403s.
-_SCRAPER_API_PROXY = "http://scraperapi:{key}@proxy-server.scraperapi.com:8001"
+# ScraperAPI URL-based endpoint: ScraperAPI fetches the target URL from their
+# residential IPs and returns the HTML body. No proxy config needed.
+_SCRAPER_API_URL = "https://api.scraperapi.com"
 
 
 class AllSourcesBlocked(Exception):
     """All configured search-URL page-1 requests returned 403."""
 
 
-def _make_session(impersonate: str, verify_ssl: bool, proxy_url: str | None = None) -> CurlSession:
+def _make_session(impersonate: str, verify_ssl: bool) -> CurlSession:
     s = CurlSession(impersonate=impersonate)
     s.verify = verify_ssl
-    if proxy_url:
-        s.proxies = {"http": proxy_url, "https": proxy_url}
     s.headers.update(
         {
             "User-Agent": (
@@ -95,14 +94,10 @@ class HttpListingSource:
     def __init__(self, settings: Settings) -> None:
         self._s = settings
         self._session = _make_session(_IMPERSONATE, settings.http_verify_ssl)
-        # Proxy session is built lazily only when a key is configured.
-        self._proxy_session: CurlSession | None = None
         if settings.scraper_api_key:
-            proxy_url = _SCRAPER_API_PROXY.format(key=settings.scraper_api_key)
-            self._proxy_session = _make_session(_IMPERSONATE, settings.http_verify_ssl, proxy_url)
             logger.info(
-                "proxy_session_ready",
-                extra={"event": "proxy_session_ready", "provider": "scraperapi"},
+                "scraperapi_enabled",
+                extra={"event": "scraperapi_enabled", "provider": "scraperapi"},
             )
 
     def _warm_up(self) -> None:
@@ -114,28 +109,34 @@ class HttpListingSource:
         except Exception as e:
             logger.warning("warm_up_failed", extra={"event": "warm_up_failed", "error": str(e)})
 
-    def _fetch_html(self, url: str, referer: str | None = None, via_proxy: bool = False) -> str:
-        """Fetch a single URL; optionally through the proxy session."""
+    def _fetch_html_direct(self, url: str, referer: str | None = None) -> str:
+        """Fetch a URL directly (no proxy). Retries once without page param on 403."""
         extra: dict[str, str] = {}
         if referer:
             extra["Referer"] = referer
             extra["sec-fetch-site"] = "same-origin"
-        session = self._proxy_session if via_proxy else self._session
-        assert session is not None
-        r = _http_get(session, url, self._s.request_timeout_s, self._s.max_retries, extra or None)
-        if r.status_code == 403 and not via_proxy:
-            # Some WAF rules reject explicit page=N; retry once without the parameter.
+        r = _http_get(self._session, url, self._s.request_timeout_s, self._s.max_retries, extra or None)
+        if r.status_code == 403:
             fallback_url = _remove_page_param(url)
             if fallback_url != url:
                 logger.warning(
                     "http_403_retry_without_page",
-                    extra={
-                        "event": "http_403_retry_without_page",
-                        "url": url,
-                        "fallback_url": fallback_url,
-                    },
+                    extra={"event": "http_403_retry_without_page", "url": url, "fallback_url": fallback_url},
                 )
-                r = _http_get(session, fallback_url, self._s.request_timeout_s, self._s.max_retries, extra or None)
+                r = _http_get(
+                    self._session, fallback_url, self._s.request_timeout_s, self._s.max_retries, extra or None
+                )
+        r.raise_for_status()
+        return r.text
+
+    def _fetch_html_via_scraperapi(self, url: str) -> str:
+        """
+        Fetch a URL through ScraperAPI's URL-based endpoint.
+        ScraperAPI makes the request from its own residential/datacenter IPs
+        and returns the HTML body directly — no proxy config needed.
+        """
+        api_url = f"{_SCRAPER_API_URL}?api_key={self._s.scraper_api_key}&url={quote_plus(url)}"
+        r = _http_get(self._session, api_url, self._s.request_timeout_s + 30, self._s.max_retries)
         r.raise_for_status()
         return r.text
 
@@ -177,66 +178,46 @@ class HttpListingSource:
                     time.sleep(self._s.rate_limit_delay_s)
 
                 url = _with_page(base_url, page)
-                via_proxy = False
+                used_scraperapi = False
 
                 try:
-                    html = self._fetch_html(url, referer=_ORIGIN + "/")
+                    html = self._fetch_html_direct(url, referer=_ORIGIN + "/")
 
                 except CurlHTTPError as e:
                     status = e.response.status_code if e.response is not None else 0
 
                     if status == 403:
-                        if page == 1:
-                            # Real block on the entry page for this search URL.
-                            if self._proxy_session:
-                                logger.warning(
-                                    "http_fetch_403_retrying_proxy",
-                                    extra={"event": "http_fetch_403_retrying_proxy", "url": url},
-                                )
-                                try:
-                                    html = self._fetch_html(url, referer=_ORIGIN + "/", via_proxy=True)
-                                    via_proxy = True
-                                except CurlHTTPError as proxy_exc:
-                                    proxy_status = (
-                                        proxy_exc.response.status_code
-                                        if proxy_exc.response is not None
-                                        else 0
-                                    )
-                                    logger.warning(
-                                        "http_fetch_403_proxy_also_failed",
-                                        extra={
-                                            "event": "http_fetch_403_proxy_also_failed",
-                                            "url": url,
-                                            "proxy_status": proxy_status,
-                                        },
-                                    )
-                                    page1_blocked += 1
-                                    break  # move to next search URL
-                                except Exception as proxy_exc:
-                                    logger.warning(
-                                        "http_fetch_403_proxy_also_failed",
-                                        extra={
-                                            "event": "http_fetch_403_proxy_also_failed",
-                                            "url": url,
-                                            "proxy_status": str(proxy_exc),
-                                        },
-                                    )
-                                    page1_blocked += 1
-                                    break
-                            else:
-                                logger.warning(
-                                    "http_fetch_403_no_proxy",
-                                    extra={"event": "http_fetch_403_no_proxy", "url": url},
-                                )
-                                page1_blocked += 1
-                                break  # move to next search URL
-                        else:
-                            # 403 on page 2+ = no more results for this search URL (not a real block).
+                        if page > 1:
+                            # 403 on page 2+ = site has no more results for this URL.
                             logger.info(
                                 "http_pagination_end",
                                 extra={"event": "http_pagination_end", "url": url, "page": page},
                             )
-                            break  # move to next search URL
+                            break
+
+                        # page == 1: real IP block — try ScraperAPI if key is configured.
+                        if not self._s.scraper_api_key:
+                            logger.warning(
+                                "http_fetch_403_no_scraperapi",
+                                extra={"event": "http_fetch_403_no_scraperapi", "url": url},
+                            )
+                            page1_blocked += 1
+                            break
+
+                        logger.warning(
+                            "http_fetch_403_retrying_scraperapi",
+                            extra={"event": "http_fetch_403_retrying_scraperapi", "url": url},
+                        )
+                        try:
+                            html = self._fetch_html_via_scraperapi(url)
+                            used_scraperapi = True
+                        except Exception as sa_exc:
+                            logger.warning(
+                                "scraperapi_also_failed",
+                                extra={"event": "scraperapi_also_failed", "url": url, "error": str(sa_exc)},
+                            )
+                            page1_blocked += 1
+                            break
 
                     else:
                         logger.error(
@@ -252,8 +233,8 @@ class HttpListingSource:
                     )
                     raise
 
-                if via_proxy:
-                    logger.info("proxy_fetch_ok", extra={"event": "proxy_fetch_ok", "url": url})
+                if used_scraperapi:
+                    logger.info("scraperapi_fetch_ok", extra={"event": "scraperapi_fetch_ok", "url": url})
 
                 batch = parse_listings_page(self._s, html, url)
                 logger.info(
@@ -264,13 +245,12 @@ class HttpListingSource:
                     merged[x.stable_id] = x
 
                 if not batch:
-                    # Empty page means we've exhausted results for this search URL.
                     break
 
         if page1_blocked == len(base_urls) and not merged:
             raise AllSourcesBlocked(
                 f"All {page1_blocked} search URL(s) returned 403 on page 1 — "
-                "site is blocking this IP range. Set SCRAPER_API_KEY secret to enable proxy fallback."
+                "site is blocking this IP. Add SCRAPER_API_KEY secret to enable ScraperAPI fallback."
             )
 
         return list(merged.values())
