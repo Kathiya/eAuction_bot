@@ -87,6 +87,9 @@ class ListingCacheStore:
         return self._path
 
     def load(self) -> dict[str, PropertyListing]:
+        import logging
+        _log = logging.getLogger(__name__)
+
         if not self._path.is_file():
             return {}
         try:
@@ -95,7 +98,19 @@ class ListingCacheStore:
         except json.JSONDecodeError:
             bad = self._path.with_suffix(self._path.suffix + ".corrupt")
             shutil.copy2(self._path, bad)
-            raise
+            try:
+                self._path.unlink()
+            except OSError:
+                pass
+            _log.critical(
+                "cache_corrupt_reset",
+                extra={
+                    "event": "cache_corrupt_reset",
+                    "backup": str(bad),
+                    "action": "starting_fresh",
+                },
+            )
+            return {}
 
         return _decode_listings_object(data.get("listings"))
 

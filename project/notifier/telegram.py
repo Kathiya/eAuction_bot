@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import html
 import logging
+import time
 import httpx
 
 from project.config.settings import Settings
@@ -10,6 +11,8 @@ from project.filters.models import PropertyListing
 logger = logging.getLogger(__name__)
 
 _TELEGRAM_HTML_SAFE = 3800
+_TELEGRAM_SEND_URL = "https://api.telegram.org/bot{token}/sendMessage"
+_MAX_SEND_ATTEMPTS = 4
 
 
 def format_full_digest_html(settings: Settings, current: dict[str, PropertyListing]) -> str:
@@ -37,10 +40,12 @@ def format_full_digest_html(settings: Settings, current: dict[str, PropertyListi
         lines.append(f"<i>{html.escape(lab)}</i> ({len(by_label[lab])})")
         for p in sorted(by_label[lab], key=lambda x: x.stable_id):
             loc = ", ".join(x for x in [p.city, p.state] if x) or "—"
-            t = (p.title or "")[:220]
+            t = (p.title or "")[:180]
+            price_str = f" — {html.escape(p.price_display)}" if p.price_display else ""
+            end_str = f" ⏰{html.escape(p.auction_end_date)}" if p.auction_end_date else ""
             lines.append(
-                f"• <code>{html.escape(p.stable_id)}</code> {html.escape(t)} "
-                f"<i>({html.escape(loc)})</i>"
+                f"• <code>{html.escape(p.stable_id)}</code> {html.escape(t)}"
+                f"{price_str}{end_str} <i>({html.escape(loc)})</i>"
             )
         lines.append("")
     return "\n".join(lines).strip()
@@ -81,6 +86,10 @@ def format_listing_message(listing: PropertyListing) -> str:
         f"<b>{t}</b>",
         f"Price: {price}",
     ]
+    if listing.auction_end_date:
+        lines.append(f"Bid closes: <b>{html.escape(listing.auction_end_date)}</b>")
+    if listing.bank:
+        lines.append(f"Bank: {html.escape(listing.bank)}")
     if listing.stream_label:
         lines.append(f"Stream: {html.escape(listing.stream_label)}")
     if listing.state or listing.city:
@@ -90,6 +99,8 @@ def format_listing_message(listing: PropertyListing) -> str:
         lines.append(f"Location: {loc}")
     if listing.district:
         lines.append(f"District: {html.escape(listing.district)}")
+    if listing.first_seen_at:
+        lines.append(f"First seen: {html.escape(listing.first_seen_at[:10])}")
     sid = html.escape(listing.stable_id)
     lines.append(f"Property ID: <code>{sid}</code>")
     safe_url = html.escape(listing.url or "", quote=True)
@@ -109,10 +120,54 @@ def _coerce_chat_id(chat_id: str) -> str | int:
     return s
 
 
+def _post_with_retry(client: httpx.Client, url: str, payload: dict) -> dict:
+    """POST to Telegram with exponential backoff; handles 429 retry_after header."""
+    last_exc: Exception | None = None
+    for attempt in range(_MAX_SEND_ATTEMPTS):
+        r = client.post(url, json=payload)
+        if r.status_code == 429:
+            retry_after = r.json().get("parameters", {}).get("retry_after", 5)
+            wait = float(retry_after) + 1.0
+            logger.warning(
+                "telegram_rate_limited",
+                extra={"event": "telegram_rate_limited", "retry_after": retry_after, "attempt": attempt + 1},
+            )
+            time.sleep(wait)
+            last_exc = RuntimeError(f"Telegram 429 rate-limited (retry_after={retry_after})")
+            continue
+        if r.is_error:
+            raise RuntimeError(f"Telegram API {r.status_code}: {r.text[:500]}")
+        body = r.json()
+        if not body.get("ok"):
+            raise RuntimeError(str(body))
+        return body
+    raise last_exc or RuntimeError("Telegram send failed after retries")
+
+
 class TelegramNotifier:
     def __init__(self, bot_token: str, chat_ids: list[str]) -> None:
         self._token = bot_token
         self._chat_ids = [c for c in chat_ids if c]
+        self._client: httpx.Client | None = None
+
+    def _get_client(self) -> httpx.Client:
+        if self._client is None or self._client.is_closed:
+            self._client = httpx.Client(timeout=45.0)
+        return self._client
+
+    def close(self) -> None:
+        if self._client is not None:
+            try:
+                self._client.close()
+            except Exception:
+                pass
+            self._client = None
+
+    def __enter__(self) -> "TelegramNotifier":
+        return self
+
+    def __exit__(self, *_) -> None:
+        self.close()
 
     @property
     def enabled(self) -> bool:
@@ -122,67 +177,50 @@ class TelegramNotifier:
         if not self.enabled:
             raise RuntimeError("Telegram notifier is not configured")
         text = format_listing_message(listing)
-        url = f"https://api.telegram.org/bot{self._token}/sendMessage"
-        with httpx.Client(timeout=30.0) as client:
-            for chat_id in self._chat_ids:
-                payload = {
-                    "chat_id": _coerce_chat_id(chat_id),
-                    "text": text,
-                    "parse_mode": "HTML",
-                    "disable_web_page_preview": False,
-                }
-                r = client.post(url, json=payload)
-                if r.is_error:
-                    detail = r.text
-                    raise RuntimeError(
-                        f"Telegram API {r.status_code}: {detail[:500]}"
-                    ) from None
-                r.raise_for_status()
-                body = r.json()
-                if not body.get("ok"):
-                    raise RuntimeError(str(body))
-                logger.info(
-                    "notify_sent",
-                    extra={
-                        "event": "notify_sent",
-                        "channel": "telegram",
-                        "stable_id": listing.stable_id,
-                        "chat_id": chat_id,
-                    },
-                )
+        url = _TELEGRAM_SEND_URL.format(token=self._token)
+        client = self._get_client()
+        for chat_id in self._chat_ids:
+            payload = {
+                "chat_id": _coerce_chat_id(chat_id),
+                "text": text,
+                "parse_mode": "HTML",
+                "disable_web_page_preview": False,
+            }
+            _post_with_retry(client, url, payload)
+            logger.info(
+                "notify_sent",
+                extra={
+                    "event": "notify_sent",
+                    "channel": "telegram",
+                    "stable_id": listing.stable_id,
+                    "chat_id": chat_id,
+                },
+            )
 
     def send_html_multipart(self, html_body: str) -> None:
         """Send long HTML as multiple Telegram messages (same chats as listings)."""
         if not self.enabled:
             raise RuntimeError("Telegram notifier is not configured")
         parts = _chunk_html_message(html_body)
-        url = f"https://api.telegram.org/bot{self._token}/sendMessage"
-        with httpx.Client(timeout=60.0) as client:
-            for chat_id in self._chat_ids:
-                for i, part in enumerate(parts):
-                    header = f"<i>Digest {i + 1}/{len(parts)}</i>\n\n" if len(parts) > 1 else ""
-                    payload = {
-                        "chat_id": _coerce_chat_id(chat_id),
-                        "text": header + part,
-                        "parse_mode": "HTML",
-                        "disable_web_page_preview": True,
-                    }
-                    r = client.post(url, json=payload)
-                    if r.is_error:
-                        raise RuntimeError(
-                            f"Telegram API {r.status_code}: {r.text[:500]}"
-                        ) from None
-                    r.raise_for_status()
-                    body = r.json()
-                    if not body.get("ok"):
-                        raise RuntimeError(str(body))
-                    logger.info(
-                        "digest_part_sent",
-                        extra={
-                            "event": "digest_part_sent",
-                            "channel": "telegram",
-                            "part": i + 1,
-                            "parts": len(parts),
-                            "chat_id": chat_id,
-                        },
-                    )
+        url = _TELEGRAM_SEND_URL.format(token=self._token)
+        client = self._get_client()
+        for chat_id in self._chat_ids:
+            for i, part in enumerate(parts):
+                header = f"<i>Digest {i + 1}/{len(parts)}</i>\n\n" if len(parts) > 1 else ""
+                payload = {
+                    "chat_id": _coerce_chat_id(chat_id),
+                    "text": header + part,
+                    "parse_mode": "HTML",
+                    "disable_web_page_preview": True,
+                }
+                _post_with_retry(client, url, payload)
+                logger.info(
+                    "digest_part_sent",
+                    extra={
+                        "event": "digest_part_sent",
+                        "channel": "telegram",
+                        "part": i + 1,
+                        "parts": len(parts),
+                        "chat_id": chat_id,
+                    },
+                )

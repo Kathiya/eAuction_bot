@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import re
 import time
 from typing import Any
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse, quote_plus
@@ -23,6 +24,12 @@ _IMPERSONATE = "chrome120"
 # ScraperAPI URL-based endpoint: ScraperAPI fetches the target URL from their
 # residential IPs and returns the HTML body. No proxy config needed.
 _SCRAPER_API_URL = "https://api.scraperapi.com"
+_API_KEY_RE = re.compile(r"(api_key=)[^&\s]+", re.I)
+
+
+def _safe_url(url: str) -> str:
+    """Mask api_key value in URLs before logging to prevent credential leaks."""
+    return _API_KEY_RE.sub(r"\1***", url)
 
 
 class AllSourcesBlocked(Exception):
@@ -136,7 +143,12 @@ class HttpListingSource:
         and returns the HTML body directly — no proxy config needed.
         """
         api_url = f"{_SCRAPER_API_URL}?api_key={self._s.scraper_api_key}&url={quote_plus(url)}"
-        r = _http_get(self._session, api_url, self._s.request_timeout_s + 30, self._s.max_retries)
+        try:
+            r = _http_get(self._session, api_url, self._s.request_timeout_s + 30, self._s.max_retries)
+        except Exception as exc:
+            # Re-raise with the api_key masked so it cannot appear in logs or tracebacks
+            safe = _safe_url(str(exc))
+            raise type(exc)(safe) from None
         r.raise_for_status()
         return r.text
 
@@ -214,7 +226,11 @@ class HttpListingSource:
                         except Exception as sa_exc:
                             logger.warning(
                                 "scraperapi_also_failed",
-                                extra={"event": "scraperapi_also_failed", "url": url, "error": str(sa_exc)},
+                                extra={
+                                    "event": "scraperapi_also_failed",
+                                    "url": url,
+                                    "error": _safe_url(str(sa_exc)),
+                                },
                             )
                             page1_blocked += 1
                             break

@@ -4,49 +4,125 @@ import re
 from html import unescape
 from urllib.parse import parse_qs, urljoin, urlparse
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 from project.filters.models import PropertyListing, parse_price_inr
 
 _BASE = "https://www.eauctionsindia.com"
 _AUCTION_ID_RE = re.compile(r"Auction\s+ID\s*:?\s*#\s*(\d+)", re.I)
 _RESERVE_RE = re.compile(
-    r"Reserve\s+Price\s*:\s*(₹\s*[\d.,]+(?:\.\d+)?)",
+    r"Reserve\s+Price\s*[:\-]\s*(₹\s*[\d.,]+(?:\s*(?:Lac|Lakh|Lacs|Cr|Crore))?)",
     re.I,
 )
-_HREF_VIEW = re.compile(r'href=(["\'])([^"\']*)\1', re.I)
+_BANK_RE = re.compile(
+    r"(?:Bank(?:\s+Name)?|Auctioned\s+by)\s*[:\-]\s*([A-Za-z][A-Za-z0-9 &,.\-']{2,60}?)(?:\s*[|<\n\r]|$)",
+    re.I,
+)
+_DATE_RE = re.compile(
+    r"(?:Auction\s+Date|Bid\s+(?:End\s+)?Date|Last\s+Date|E-Auction\s+Date)\s*[:\-]\s*"
+    r"((?:\d{1,2}[\/\-]\d{1,2}[\/\-]\d{2,4}|\d{1,2}\s+\w{3,9}\s+\d{4}))",
+    re.I,
+)
+
+# Tags that signal we have reached a structural boundary; stop walking up
+_STOP_TAGS = {"body", "html", "main", "form"}
+# Block-level tags that are plausible card containers
+_BLOCK_TAGS = {"div", "article", "section", "li", "tr", "td", "table"}
 
 
-def _title_from_chunk(chunk: str) -> str:
-    soup = BeautifulSoup(chunk, "html.parser")
-    for tag_name in ("h5", "h4", "h3"):
-        el = soup.find(tag_name)
-        if el:
+def _find_card_container(node: Tag) -> Tag:
+    """
+    Walk up the DOM from the Auction-ID text node to find the tightest block
+    element that wraps the entire listing card.
+
+    Strategy:
+    - Walk upward through parent tags.
+    - Whenever we land on a block element (div, article, etc.), record it as
+      the best candidate.
+    - Stop early when the parent is a structural stop-tag (body, html, …) or
+      when the parent contains ≥3x the text of the current element (meaning
+      the parent spans multiple cards, so the current element is the card).
+    """
+    current: Tag = node.parent  # type: ignore[assignment]
+    best: Tag = current
+
+    for _ in range(14):
+        if current is None or not isinstance(current, Tag):
+            break
+        tag_name = (current.name or "").lower()
+        if tag_name in _STOP_TAGS:
+            break
+
+        if tag_name in _BLOCK_TAGS:
+            current_len = len(current.get_text())
+            parent = current.parent
+            if parent and isinstance(parent, Tag):
+                parent_name = (parent.name or "").lower()
+                if parent_name in _STOP_TAGS:
+                    # Parent is a document boundary — this block is as high as we go
+                    best = current
+                    break
+                parent_len = len(parent.get_text())
+                if current_len > 0 and parent_len >= current_len * 3:
+                    # Parent spans multiple cards; current is the card container
+                    best = current
+                    break
+            best = current
+
+        current = current.parent  # type: ignore[assignment]
+
+    return best
+
+
+def _title_from_card(card: Tag) -> str:
+    for tag_name in ("h5", "h4", "h3", "h2"):
+        el = card.find(tag_name)
+        if el and isinstance(el, Tag):
             t = unescape(el.get_text(" ", strip=True))
             if t and len(t) > 3:
                 return t
     return ""
 
 
-def _price_from_chunk(chunk: str) -> str:
-    m = _RESERVE_RE.search(chunk)
+def _price_from_text(text: str) -> str:
+    m = _RESERVE_RE.search(text)
     if m:
         return m.group(1).strip()
     return ""
 
 
-def _detail_url(chunk: str, page_url: str) -> str:
-    for m in _HREF_VIEW.finditer(chunk):
-        href = unescape(m.group(2).strip())
-        if not href or href.startswith("#") or "javascript:" in href.lower():
+def _bank_from_text(text: str) -> str | None:
+    m = _BANK_RE.search(text)
+    if not m:
+        return None
+    name = m.group(1).strip().rstrip(".,")
+    # Skip obviously wrong matches (very short, or a URL fragment, etc.)
+    if len(name) < 3 or "/" in name:
+        return None
+    return name
+
+
+def _auction_date_from_text(text: str) -> str | None:
+    m = _DATE_RE.search(text)
+    if m:
+        return m.group(1).strip()
+    return None
+
+
+def _detail_url_from_card(card: Tag, page_url: str) -> str:
+    skip = {"#", "", "javascript:"}
+    blocked = {"search", "login", "register", "signup"}
+    for a in card.find_all("a", href=True):
+        href = unescape(str(a["href"]).strip())
+        if not href or any(href.lower().startswith(s) for s in skip):
             continue
         low = href.lower()
-        if "view" in low or "property" in low or "auction" in low or "detail" in low:
+        if any(kw in low for kw in ("view", "property", "auction", "detail")):
             return urljoin(_BASE, href)
-    for m in _HREF_VIEW.finditer(chunk):
-        href = unescape(m.group(2).strip())
-        hl = href.lower()
-        if href.startswith("/") and "search" not in hl and "login" not in hl:
+    for a in card.find_all("a", href=True):
+        href = unescape(str(a["href"]).strip())
+        low = href.lower()
+        if href.startswith("/") and not any(kw in low for kw in blocked):
             return urljoin(_BASE, href)
     return page_url
 
@@ -96,32 +172,37 @@ def _location_from_title(title: str) -> tuple[str | None, str | None]:
     return parts[0], parts[-1]
 
 
-def parse_eauctionsindia_html(html: str, page_url: str) -> list[PropertyListing]:
-    if not html or "Auction ID" not in html:
+def parse_eauctionsindia_html(html_text: str, page_url: str) -> list[PropertyListing]:
+    if not html_text or "Auction ID" not in html_text:
         return []
 
+    soup = BeautifulSoup(html_text, "html.parser")
     out: list[PropertyListing] = []
     seen: set[str] = set()
 
-    for m in _AUCTION_ID_RE.finditer(html):
+    for text_node in soup.find_all(string=_AUCTION_ID_RE):
+        m = _AUCTION_ID_RE.search(str(text_node))
+        if not m:
+            continue
         aid = m.group(1).strip()
         stable_id = f"ei_{aid}"
         if stable_id in seen:
             continue
         seen.add(stable_id)
 
-        pos = m.start()
-        chunk = html[max(0, pos - 2200) : min(len(html), pos + 900)]
+        card = _find_card_container(text_node)  # type: ignore[arg-type]
+        card_text = card.get_text(" ", strip=True)
+        card_html = str(card)  # preserve tags so regex terminators (<, \n) work
 
-        title = _title_from_chunk(chunk) or f"Auction {aid}"
-        price_display = _price_from_chunk(chunk)
-        url = _detail_url(chunk, page_url)
+        title = _title_from_card(card) or f"Auction {aid}"
+        price_display = _price_from_text(card_text)
+        url = _detail_url_from_card(card, page_url)
+        bank = _bank_from_text(card_html)
+        auction_end_date = _auction_date_from_text(card_html)
+
         city, district = _location_from_title(title)
         url_state, url_city = _hints_from_page_url(page_url)
-        if url_state:
-            state = url_state
-        else:
-            state = None
+        state = url_state or None
         if url_city:
             city = url_city or city
 
@@ -144,7 +225,8 @@ def parse_eauctionsindia_html(html: str, page_url: str) -> list[PropertyListing]
                 city=city,
                 district=district,
                 property_type=prop_type,
-                bank=None,
+                bank=bank,
+                auction_end_date=auction_end_date,
                 stream_label=stream_label,
             ).with_content_hash()
         )

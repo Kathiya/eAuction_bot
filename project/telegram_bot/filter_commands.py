@@ -43,13 +43,14 @@ def _normalize_cmd(text: str) -> tuple[str, str]:
 
 
 def _format_filters(f: ListingFilter) -> str:
+    kw_mode = f"({f.keyword_match_mode.upper()} — {'any one' if f.keyword_match_mode == 'any' else 'all'} must match)"
     lines = [
         "<b>Current filters</b>",
         f"States: {', '.join(f.states) or '(any)'}",
         f"Cities: {', '.join(f.cities) or '(any)'}",
         f"Districts: {', '.join(f.districts) or '(any)'}",
         f"Property types: {', '.join(f.property_types) or '(any)'}",
-        f"Keywords: {', '.join(f.keywords) or '(any)'}",
+        f"Keywords: {', '.join(f.keywords) or '(any)'} {kw_mode if f.keywords else ''}",
         f"Price min INR: {f.price_min_inr if f.price_min_inr is not None else '—'}",
         f"Price max INR: {f.price_max_inr if f.price_max_inr is not None else '—'}",
         "",

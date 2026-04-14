@@ -1,6 +1,6 @@
 import hashlib
 import re
-from typing import Any
+from typing import Any, Literal
 
 from pydantic import BaseModel, Field, field_validator
 
@@ -11,6 +11,10 @@ def compute_content_hash(
     url: str,
     state: str | None,
     city: str | None,
+    district: str | None = None,
+    property_type: str | None = None,
+    bank: str | None = None,
+    auction_end_date: str | None = None,
 ) -> str:
     raw = "|".join(
         [
@@ -19,6 +23,10 @@ def compute_content_hash(
             url.strip().lower(),
             (state or "").strip().lower(),
             (city or "").strip().lower(),
+            (district or "").strip().lower(),
+            (property_type or "").strip().lower(),
+            (bank or "").strip().lower(),
+            (auction_end_date or "").strip().lower(),
         ]
     )
     return "sha256:" + hashlib.sha256(raw.encode("utf-8")).hexdigest()
@@ -35,14 +43,23 @@ class PropertyListing(BaseModel):
     district: str | None = None
     property_type: str | None = None
     bank: str | None = None
+    auction_end_date: str | None = None
     content_hash: str | None = None
     stream_label: str | None = None
+    first_seen_at: str | None = None
 
     model_config = {"frozen": False}
 
     @property
     def keywords_text(self) -> str:
-        parts = [self.title, self.property_type or "", self.state or "", self.city or "", self.district or ""]
+        parts = [
+            self.title,
+            self.property_type or "",
+            self.state or "",
+            self.city or "",
+            self.district or "",
+            self.bank or "",
+        ]
         return " ".join(p for p in parts if p).lower()
 
     def with_content_hash(self) -> "PropertyListing":
@@ -52,6 +69,10 @@ class PropertyListing(BaseModel):
             self.url,
             self.state,
             self.city,
+            self.district,
+            self.property_type,
+            self.bank,
+            self.auction_end_date,
         )
         clone = self.model_copy(update={"content_hash": h})
         return clone
@@ -70,6 +91,8 @@ class ListingFilter(BaseModel):
     districts: list[str] = Field(default_factory=list)
     property_types: list[str] = Field(default_factory=list)
     keywords: list[str] = Field(default_factory=list)
+    # "any" = at least one keyword must match (OR); "all" = every keyword must match (AND)
+    keyword_match_mode: Literal["any", "all"] = "any"
     price_min_inr: float | None = None
     price_max_inr: float | None = None
 
@@ -112,8 +135,12 @@ class ListingFilter(BaseModel):
                 return False
         if self.keywords:
             blob = listing.keywords_text
-            for kw in self.keywords:
-                if kw.strip().lower() not in blob:
+            normalized = [kw.strip().lower() for kw in self.keywords]
+            if self.keyword_match_mode == "all":
+                if not all(kw in blob for kw in normalized):
+                    return False
+            else:
+                if not any(kw in blob for kw in normalized):
                     return False
         if self.price_min_inr is not None:
             if listing.price_inr is None or listing.price_inr < self.price_min_inr:

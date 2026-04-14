@@ -125,9 +125,12 @@ def main() -> None:
                 "stable_id": p.stable_id,
                 "title": p.title,
                 "price": p.price_display,
+                "bank": p.bank or "",
+                "bid_closes": p.auction_end_date or "",
                 "city": p.city,
                 "state": p.state,
                 "type": p.property_type,
+                "first_seen": (p.first_seen_at or "")[:10],
                 "url": p.url,
             }
         )
