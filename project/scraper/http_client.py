@@ -19,6 +19,12 @@ from project.scraper.search_urls import build_fetch_urls
 
 logger = logging.getLogger(__name__)
 
+_ORIGIN = "https://www.eauctionsindia.com"
+
+
+class AllSourcesBlocked(Exception):
+    """All configured search URLs returned 403; the site is blocking CI/cloud IPs."""
+
 
 def _build_session(settings: Settings) -> requests.Session:
     s = requests.Session()
@@ -39,10 +45,24 @@ def _build_session(settings: Settings) -> requests.Session:
     s.headers.update(
         {
             "User-Agent": settings.http_user_agent,
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept": (
+                "text/html,application/xhtml+xml,application/xml;"
+                "q=0.9,image/avif,image/webp,image/apng,*/*;"
+                "q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ),
             "Accept-Language": "en-US,en;q=0.9",
+            "Accept-Encoding": "gzip, deflate, br",
             "Cache-Control": "no-cache",
             "Pragma": "no-cache",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+            "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": '"Windows"',
+            "sec-fetch-dest": "document",
+            "sec-fetch-mode": "navigate",
+            "sec-fetch-site": "none",
+            "sec-fetch-user": "?1",
         }
     )
     return s
@@ -59,20 +79,34 @@ class HttpListingSource:
         q = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True) if k != "page"]
         return urlunparse((parts.scheme, parts.netloc, parts.path, parts.params, urlencode(q), parts.fragment))
 
-    def _get_text(self, url: str) -> str:
-        r = self._session.get(url, timeout=self._s.request_timeout_s)
-        if r.status_code == 403 and "page=1" in url:
+    def _warm_up(self) -> None:
+        """Visit the homepage first to acquire cookies and establish a realistic browsing session."""
+        try:
+            self._session.get(_ORIGIN + "/", timeout=self._s.request_timeout_s)
+            logger.info("warm_up_ok", extra={"event": "warm_up_ok"})
+            time.sleep(1.5)
+        except Exception as e:
+            logger.warning("warm_up_failed", extra={"event": "warm_up_failed", "error": str(e)})
+
+    def _get_text(self, url: str, referer: str | None = None) -> str:
+        extra: dict[str, str] = {}
+        if referer:
+            extra["Referer"] = referer
+            extra["sec-fetch-site"] = "same-origin"
+        r = self._session.get(url, timeout=self._s.request_timeout_s, headers=extra or None)
+        if r.status_code == 403:
             # Some WAF rules reject explicit page=1; retry once without the parameter.
             fallback_url = self._remove_page_param(url)
-            logger.warning(
-                "http_403_retry_without_page",
-                extra={
-                    "event": "http_403_retry_without_page",
-                    "url": url,
-                    "fallback_url": fallback_url,
-                },
-            )
-            r = self._session.get(fallback_url, timeout=self._s.request_timeout_s)
+            if fallback_url != url:
+                logger.warning(
+                    "http_403_retry_without_page",
+                    extra={
+                        "event": "http_403_retry_without_page",
+                        "url": url,
+                        "fallback_url": fallback_url,
+                    },
+                )
+                r = self._session.get(fallback_url, timeout=self._s.request_timeout_s, headers=extra or None)
         r.raise_for_status()
         return r.text
 
@@ -105,19 +139,37 @@ class HttpListingSource:
         if api_items:
             return api_items
 
+        self._warm_up()
+
         merged: dict[str, PropertyListing] = {}
         urls = build_fetch_urls(self._s)
+        blocked_count = 0
+
         for i, url in enumerate(urls):
             if i > 0:
                 time.sleep(self._s.rate_limit_delay_s)
             try:
-                html = self._get_text(url)
+                html = self._get_text(url, referer=_ORIGIN + "/")
+            except requests.exceptions.HTTPError as e:
+                if e.response is not None and e.response.status_code == 403:
+                    blocked_count += 1
+                    logger.warning(
+                        "http_fetch_403",
+                        extra={"event": "http_fetch_403", "url": url},
+                    )
+                    continue
+                logger.error(
+                    "http_fetch_failed",
+                    extra={"event": "http_fetch_failed", "url": url, "error": str(e)},
+                )
+                raise
             except Exception as e:
                 logger.error(
                     "http_fetch_failed",
                     extra={"event": "http_fetch_failed", "url": url, "error": str(e)},
                 )
                 raise
+
             batch = parse_listings_page(self._s, html, url)
             logger.info(
                 "http_page_parsed",
@@ -127,4 +179,10 @@ class HttpListingSource:
                 merged[x.stable_id] = x
             if not batch and i > 0:
                 break
+
+        if blocked_count > 0 and not merged:
+            raise AllSourcesBlocked(
+                f"{blocked_count} URL(s) returned 403 — the site is blocking requests from this IP range"
+            )
+
         return list(merged.values())

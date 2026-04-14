@@ -7,7 +7,7 @@ from project.config.settings import Settings
 from project.filters.engine import FilterEngine, load_listing_filter_from_path
 from project.filters.models import PropertyListing
 from project.notifier.telegram import TelegramNotifier, format_full_digest_html
-from project.scraper.http_client import HttpListingSource
+from project.scraper.http_client import AllSourcesBlocked, HttpListingSource
 
 logger = logging.getLogger(__name__)
 
@@ -41,6 +41,16 @@ def run_cycle(settings: Settings) -> int:
 
         try:
             raw = fetch_fn()
+        except AllSourcesBlocked as e:
+            logger.warning(
+                "scrape_all_blocked",
+                extra={
+                    "event": "scrape_all_blocked",
+                    "error": str(e),
+                    "cached_count": len(previous),
+                },
+            )
+            return 0
         except Exception as e:
             logger.exception(
                 "scrape_failed",
