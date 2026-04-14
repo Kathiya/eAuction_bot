@@ -5,11 +5,8 @@ import time
 from typing import Any
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
-import certifi
-import requests
-import urllib3
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
+from curl_cffi import requests as cffi_requests
+from curl_cffi.requests import Session as CurlSession
 
 from project.config.settings import Settings
 from project.filters.models import PropertyListing
@@ -21,27 +18,18 @@ logger = logging.getLogger(__name__)
 
 _ORIGIN = "https://www.eauctionsindia.com"
 
+# Impersonate Chrome 120 at the TLS layer — bypasses JA3/JA4 fingerprint checks
+# that block Python requests even when HTTP headers look correct.
+_IMPERSONATE = "chrome120"
+
 
 class AllSourcesBlocked(Exception):
     """All configured search URLs returned 403; the site is blocking CI/cloud IPs."""
 
 
-def _build_session(settings: Settings) -> requests.Session:
-    s = requests.Session()
-    if settings.http_verify_ssl:
-        s.verify = certifi.where()
-    else:
-        s.verify = False
-        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-    retries = Retry(
-        total=settings.max_retries,
-        backoff_factor=0.8,
-        status_forcelist=(502, 503, 504),
-        allowed_methods=("GET", "HEAD"),
-    )
-    adapter = HTTPAdapter(max_retries=retries)
-    s.mount("https://", adapter)
-    s.mount("http://", adapter)
+def _build_session(settings: Settings) -> CurlSession:
+    s = CurlSession(impersonate=_IMPERSONATE)
+    s.verify = settings.http_verify_ssl
     s.headers.update(
         {
             "User-Agent": settings.http_user_agent,
@@ -68,6 +56,29 @@ def _build_session(settings: Settings) -> requests.Session:
     return s
 
 
+def _http_get(
+    session: CurlSession,
+    url: str,
+    timeout: float,
+    max_retries: int,
+    extra_headers: dict[str, str] | None = None,
+) -> cffi_requests.Response:
+    """GET with simple retry on transient 5xx / network errors (not 4xx)."""
+    last_exc: Exception | None = None
+    for attempt in range(max_retries + 1):
+        try:
+            r = session.get(url, timeout=timeout, headers=extra_headers)
+            if r.status_code < 500:
+                return r
+            # 5xx — wait and retry
+            last_exc = cffi_requests.HTTPError(response=r)
+        except cffi_requests.RequestsError as e:
+            last_exc = e
+        if attempt < max_retries:
+            time.sleep(0.8 * (2**attempt))
+    raise last_exc  # type: ignore[misc]
+
+
 class HttpListingSource:
     def __init__(self, settings: Settings) -> None:
         self._s = settings
@@ -80,7 +91,7 @@ class HttpListingSource:
         return urlunparse((parts.scheme, parts.netloc, parts.path, parts.params, urlencode(q), parts.fragment))
 
     def _warm_up(self) -> None:
-        """Visit the homepage first to acquire cookies and establish a realistic browsing session."""
+        """Visit the homepage first to acquire cookies and set a realistic navigation context."""
         try:
             self._session.get(_ORIGIN + "/", timeout=self._s.request_timeout_s)
             logger.info("warm_up_ok", extra={"event": "warm_up_ok"})
@@ -93,9 +104,8 @@ class HttpListingSource:
         if referer:
             extra["Referer"] = referer
             extra["sec-fetch-site"] = "same-origin"
-        r = self._session.get(url, timeout=self._s.request_timeout_s, headers=extra or None)
+        r = _http_get(self._session, url, self._s.request_timeout_s, self._s.max_retries, extra or None)
         if r.status_code == 403:
-            # Some WAF rules reject explicit page=1; retry once without the parameter.
             fallback_url = self._remove_page_param(url)
             if fallback_url != url:
                 logger.warning(
@@ -106,12 +116,14 @@ class HttpListingSource:
                         "fallback_url": fallback_url,
                     },
                 )
-                r = self._session.get(fallback_url, timeout=self._s.request_timeout_s, headers=extra or None)
+                r = _http_get(
+                    self._session, fallback_url, self._s.request_timeout_s, self._s.max_retries, extra or None
+                )
         r.raise_for_status()
         return r.text
 
     def _get_json(self, url: str) -> Any:
-        r = self._session.get(url, timeout=self._s.request_timeout_s)
+        r = _http_get(self._session, url, self._s.request_timeout_s, self._s.max_retries)
         r.raise_for_status()
         return r.json()
 
@@ -150,7 +162,7 @@ class HttpListingSource:
                 time.sleep(self._s.rate_limit_delay_s)
             try:
                 html = self._get_text(url, referer=_ORIGIN + "/")
-            except requests.exceptions.HTTPError as e:
+            except cffi_requests.HTTPError as e:
                 if e.response is not None and e.response.status_code == 403:
                     blocked_count += 1
                     logger.warning(
