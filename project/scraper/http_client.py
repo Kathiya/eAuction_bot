@@ -7,6 +7,7 @@ from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 from curl_cffi import requests as cffi_requests
 from curl_cffi.requests import Session as CurlSession
+from curl_cffi.requests.exceptions import HTTPError as CurlHTTPError
 
 from project.config.settings import Settings
 from project.filters.models import PropertyListing
@@ -71,8 +72,8 @@ def _http_get(
             if r.status_code < 500:
                 return r
             # 5xx — wait and retry
-            last_exc = cffi_requests.HTTPError(response=r)
-        except cffi_requests.RequestsError as e:
+            last_exc = CurlHTTPError(f"HTTP Error {r.status_code}: {r.reason}", 0, r)
+        except Exception as e:
             last_exc = e
         if attempt < max_retries:
             time.sleep(0.8 * (2**attempt))
@@ -162,7 +163,7 @@ class HttpListingSource:
                 time.sleep(self._s.rate_limit_delay_s)
             try:
                 html = self._get_text(url, referer=_ORIGIN + "/")
-            except cffi_requests.HTTPError as e:
+            except CurlHTTPError as e:
                 if e.response is not None and e.response.status_code == 403:
                     blocked_count += 1
                     logger.warning(
