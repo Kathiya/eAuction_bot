@@ -26,6 +26,14 @@ def run_cycle(settings: Settings) -> int:
         settings.telegram_bot_token or "",
         settings.parsed_telegram_chat_ids(),
     )
+    if not notifier.enabled:
+        logger.warning(
+            "telegram_disabled",
+            extra={
+                "event": "telegram_disabled",
+                "reason": "TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID is missing/empty",
+            },
+        )
 
     with lock:
         previous = store.load()
@@ -50,6 +58,15 @@ def run_cycle(settings: Settings) -> int:
                     "cached_count": len(previous),
                 },
             )
+            if notifier.enabled:
+                try:
+                    notifier.send_html_multipart(
+                        f"⚠️ <b>eAuctions scrape blocked (403)</b>\n\n"
+                        f"The site returned 403 for all search URLs — likely blocking the CI/cloud IP.\n"
+                        f"Cached data ({len(previous)} listings) is unchanged."
+                    )
+                except Exception:
+                    logger.exception("notify_blocked_alert_failed", extra={"event": "notify_blocked_alert_failed"})
             return 0
         except Exception as e:
             logger.exception(
