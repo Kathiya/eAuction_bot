@@ -54,6 +54,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_FULL_DIGEST_EACH_RUN: "true"
           NOTIFY_ON_FIRST_RUN: "true"
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
         run: python -m project.main run-once
 
       - name: Commit cache if changed

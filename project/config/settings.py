@@ -95,6 +95,15 @@ class Settings(BaseSettings):
         validation_alias="HTTP_LISTING_API_URL",
         description="Optional internal JSON API base; if set, HTTP client tries API before HTML",
     )
+    scraper_api_key: str | None = Field(
+        default=None,
+        validation_alias="SCRAPER_API_KEY",
+        description=(
+            "Optional ScraperAPI key (scraperapi.com free tier = 1000 calls/month). "
+            "When set, any page-1 URL that returns 403 is retried through the ScraperAPI proxy. "
+            "Pages 2+ that return 403 are treated as end-of-results and do NOT consume a proxy call."
+        ),
+    )
     http_user_agent: str = Field(
         default="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
