@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-04-15T08:00:32.086101+00:00",
+  "updated_at": "2026-04-15T13:56:02.021061+00:00",
   "listings": {
     "ei_718208": {
       "stable_id": "ei_718208",
@@ -19,16 +19,16 @@
     },
     "ei_724176": {
       "stable_id": "ei_724176",
-      "url": "https://www.eauctionsindia.com/properties/726915",
+      "url": "https://www.eauctionsindia.com/properties/746622",
       "title": "eAuction Car in Gandhinagar, Gandhinagar",
-      "price_display": "₹9,90,000.00",
-      "price_inr": 990000.0,
+      "price_display": "₹1,60,000.00",
+      "price_inr": 160000.0,
       "state": "Gujarat",
       "city": "Gandhinagar",
       "district": "Gandhinagar",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:3244006a3d8be89c1f32bfa2267953dc5ea95f765ea363c0016e2a9e7490d6fb",
+      "content_hash": "sha256:6caaa10b5ab71e2471cc83f5e8bd7b6f1d74f3f284be9067b1bd78af934d8928",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_726319": {
@@ -57,20 +57,6 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:5a77c11b6fd43218bb6ff280bf05a2cbf337e84be904516cc3ac8e8f48cd2903",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_732477": {
-      "stable_id": "ei_732477",
-      "url": "https://www.eauctionsindia.com/properties/726319",
-      "title": "eAuction Car in Rajkot, Rajkot",
-      "price_display": "₹15,90,000.00",
-      "price_inr": 1590000.0,
-      "state": "Gujarat",
-      "city": "Rajkot",
-      "district": "Rajkot",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:3cd5df8298e6b6748a3fc7b6b999ba03f1d4fbb2e008b28185825fb976bb2220",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_734124": {
@@ -145,16 +131,16 @@
     },
     "ei_741137": {
       "stable_id": "ei_741137",
-      "url": "https://www.eauctionsindia.com/properties/741137",
+      "url": "https://www.eauctionsindia.com/properties/745754",
       "title": "eAuction Bungalow in Asarva, Ahmedabad",
-      "price_display": "₹1,45,50,000.00",
-      "price_inr": 14550000.0,
+      "price_display": "₹5,50,000.00",
+      "price_inr": 550000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Bungalow",
       "bank": null,
-      "content_hash": "sha256:6414d76ec34ad0d0682360d752b67c2585f723d8d1cc8856ba1092c948d4fd92",
+      "content_hash": "sha256:ba72d9de7b636ee1344cd7b38751c0fecf207b134eef39fd8191f0581cbf8496",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_741804": {
@@ -169,20 +155,6 @@
       "property_type": "Flat",
       "bank": null,
       "content_hash": "sha256:ee0452f9a98eb3cbd4a9ca1ab7111c08c3de82cb233b190ebd08167da2d5905d",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_742058": {
-      "stable_id": "ei_742058",
-      "url": "https://www.eauctionsindia.com/properties/740143",
-      "title": "eAuction Flat in Ghatlodiya, Ahmedabad",
-      "price_display": "₹2,27,10,000.00",
-      "price_inr": 22710000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:860cce0c3fa40e6a7bea88be0d10febbcfcc22d522870789ad6937591b2135f3",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_742121": {
@@ -299,30 +271,30 @@
     },
     "ei_745552": {
       "stable_id": "ei_745552",
-      "url": "https://www.eauctionsindia.com/properties/739360",
+      "url": "https://www.eauctionsindia.com/properties/746255",
       "title": "eAuction Non- Agricultural Land in Vatva, Ahmedabad",
-      "price_display": "₹6,82,00,000.00",
-      "price_inr": 68200000.0,
+      "price_display": "₹6,00,000.00",
+      "price_inr": 600000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:97cda30ae2921290b2416dbab40fa9908601179dfc7b176b5f0a72225336c757",
+      "content_hash": "sha256:9900f6a4200ebb802a60ff3682c117fa3103a0dfb9389b2748383672ec8111cf",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_745754": {
       "stable_id": "ei_745754",
       "url": "https://www.eauctionsindia.com/properties/745552",
       "title": "eAuction Flat in Gandhinagar, Ahmedabad",
-      "price_display": "₹11,00,000.00",
-      "price_inr": 1100000.0,
+      "price_display": "₹5,50,000.00",
+      "price_inr": 550000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:7ed47f3e11d9f543673fb400d0b6b1b9b0866e6a111833cef1b91928c95a8be0",
+      "content_hash": "sha256:608ca7ce18ec4e8b5915312d645e80d2f7819e1a29a5ed4dee319084ceb6fdbe",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_745824": {
@@ -337,6 +309,34 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:a893876d306254ca6408c99f9c33a2d2defaafe058ab5e086abc3bf244daa38b",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_746255": {
+      "stable_id": "ei_746255",
+      "url": "https://www.eauctionsindia.com/properties/739360",
+      "title": "eAuction Plot in Botad,, Ahmedabad",
+      "price_display": "₹6,82,00,000.00",
+      "price_inr": 68200000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Plot",
+      "bank": null,
+      "content_hash": "sha256:1f7ca066cc9aa6ede2efa2272c012f7b74336b2da32092c1dbb0ee4b7de2b896",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_746622": {
+      "stable_id": "ei_746622",
+      "url": "https://www.eauctionsindia.com/properties/726915",
+      "title": "eAuction Car in Ahmedabad, Ahmedabad",
+      "price_display": "₹9,90,000.00",
+      "price_inr": 990000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:18001d66766f5b9b5362d1fef79de5c4155299ff0ec8492a6ec233f03f972dbb",
       "stream_label": "Vehicles · Gujarat"
     }
   }
