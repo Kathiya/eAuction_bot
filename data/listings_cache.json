@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-04-16T07:59:35.649771+00:00",
+  "updated_at": "2026-04-16T14:05:03.740174+00:00",
   "listings": {
     "ei_718208": {
       "stable_id": "ei_718208",
@@ -75,30 +75,16 @@
     },
     "ei_739360": {
       "stable_id": "ei_739360",
-      "url": "https://www.eauctionsindia.com/properties/745147",
+      "url": "https://www.eauctionsindia.com/properties/747288",
       "title": "eAuction Non- Agricultural Land in Daskroi, Ahmedabad",
-      "price_display": "₹15,47,000.00",
-      "price_inr": 1547000.0,
+      "price_display": "₹1,80,00,000.00",
+      "price_inr": 18000000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:3585bbb250c1cd07693870bccb78e785f9d8732a801653267e2126d791684a84",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_741137": {
-      "stable_id": "ei_741137",
-      "url": "https://www.eauctionsindia.com/properties/745754",
-      "title": "eAuction Bungalow in Asarva, Ahmedabad",
-      "price_display": "₹5,50,000.00",
-      "price_inr": 550000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Bungalow",
-      "bank": null,
-      "content_hash": "sha256:ba72d9de7b636ee1344cd7b38751c0fecf207b134eef39fd8191f0581cbf8496",
+      "content_hash": "sha256:8cea3cbb0a74b1186dd326c6cd8670f97d82f9079026d6836b800f4e0d42fcdf",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_741804": {
@@ -241,20 +227,6 @@
       "content_hash": "sha256:9900f6a4200ebb802a60ff3682c117fa3103a0dfb9389b2748383672ec8111cf",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
-    "ei_745754": {
-      "stable_id": "ei_745754",
-      "url": "https://www.eauctionsindia.com/properties/745552",
-      "title": "eAuction Flat in Gandhinagar, Ahmedabad",
-      "price_display": "₹11,00,000.00",
-      "price_inr": 1100000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:7ed47f3e11d9f543673fb400d0b6b1b9b0866e6a111833cef1b91928c95a8be0",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
     "ei_745824": {
       "stable_id": "ei_745824",
       "url": "https://www.eauctionsindia.com/properties/734124",
@@ -337,6 +309,34 @@
       "property_type": "Flat",
       "bank": null,
       "content_hash": "sha256:590be8b053173464e8feb0113be7a6faf43e6d3da04d61e482c79fc2c81f4ef5",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_747288": {
+      "stable_id": "ei_747288",
+      "url": "https://www.eauctionsindia.com/properties/747289",
+      "title": "eAuction Bungalow in Vadaj, Ahmedabad",
+      "price_display": "₹21,00,000.00",
+      "price_inr": 2100000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Bungalow",
+      "bank": null,
+      "content_hash": "sha256:40f763d5a08ea2f35bcb443be09f9d34acbdc23cc26b02887f89a8e981d58949",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_747289": {
+      "stable_id": "ei_747289",
+      "url": "https://www.eauctionsindia.com/properties/745147",
+      "title": "eAuction Bungalow in Mehasana, Ahmedabad",
+      "price_display": "₹15,47,000.00",
+      "price_inr": 1547000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Bungalow",
+      "bank": null,
+      "content_hash": "sha256:6bb889ba3d900098efd0a44de4e9965856ea43e33135f8b929839289b5386150",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
