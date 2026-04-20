@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-04-20T08:22:37.850304+00:00",
+  "updated_at": "2026-04-20T14:01:49.247324+00:00",
   "listings": {
     "ei_718208": {
       "stable_id": "ei_718208",
@@ -157,20 +157,6 @@
       "content_hash": "sha256:475828d4f7185d63549dc83b56cb249031c837b0a7723da60883a52b73b7bbcb",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_745147": {
-      "stable_id": "ei_745147",
-      "url": "https://www.eauctionsindia.com/properties/745148",
-      "title": "eAuction House in Barejadi, Ahmedabad",
-      "price_display": "₹10,80,000.00",
-      "price_inr": 1080000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "House",
-      "bank": null,
-      "content_hash": "sha256:f98ecf0192dfb340a1fe9dc15d6af28663f7ee72eb77a12f4e972bf6e93f9aaa",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
     "ei_745148": {
       "stable_id": "ei_745148",
       "url": "https://www.eauctionsindia.com/properties/745197",
@@ -187,16 +173,16 @@
     },
     "ei_745197": {
       "stable_id": "ei_745197",
-      "url": "https://www.eauctionsindia.com/properties/748405",
+      "url": "https://www.eauctionsindia.com/properties/749797",
       "title": "eAuction Flat in Vatva, Ahmedabad",
-      "price_display": "₹8,79,025.00",
-      "price_inr": 879025.0,
+      "price_display": "₹12,55,000.00",
+      "price_inr": 1255000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:ad9b9bc30abfadff7fb93da3aeb7248e13fc9a0768c3d3d0b20b6c1dc9ce6cde",
+      "content_hash": "sha256:068a38efd6179d30cc6b5e1904605054c468e02ffe361dd6fde7dcdac20fcbd3",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_745824": {
@@ -337,6 +323,20 @@
       "property_type": "Flat",
       "bank": null,
       "content_hash": "sha256:aae35402d3581c5420ea108ac77cf87fab9e84b903d5fa9f260666de01c2eedb",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_749797": {
+      "stable_id": "ei_749797",
+      "url": "https://www.eauctionsindia.com/properties/748405",
+      "title": "eAuction Flat in Sabarmati, Ahmedabad",
+      "price_display": "₹8,79,025.00",
+      "price_inr": 879025.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:4c3e78c6de99755acd86adf9e1e2f318bc10e4d1c371e6526d2a65c9bcffc0dd",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
