@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-04-22T08:01:32.200489+00:00",
+  "updated_at": "2026-04-22T14:01:37.053009+00:00",
   "listings": {
     "ei_724176": {
       "stable_id": "ei_724176",
@@ -47,44 +47,44 @@
     },
     "ei_741416": {
       "stable_id": "ei_741416",
-      "url": "https://www.eauctionsindia.com/properties/741416",
+      "url": "https://www.eauctionsindia.com/properties/741417",
       "title": "eAuction Land in Muzaffar Nagar., Muzaffarnagar",
-      "price_display": "₹23,00,000.00",
-      "price_inr": 2300000.0,
+      "price_display": "₹18,00,000.00",
+      "price_inr": 1800000.0,
       "state": "Gujarat",
       "city": "Muzaffar Nagar.",
       "district": "Muzaffarnagar",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:3db84f241f720d53558de5e0008f481216f52edc3e184975f8485b4187263901",
+      "content_hash": "sha256:6c20b09b2de9fa11806983344fdf79ff0b770f3862d9df1d32945dc5cabb0c5c",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_741417": {
       "stable_id": "ei_741417",
-      "url": "https://www.eauctionsindia.com/properties/741418",
+      "url": "https://www.eauctionsindia.com/properties/741417",
       "title": "eAuction Land in Muzaffar Nagar., Muzaffarnagar",
-      "price_display": "₹18,06,000.00",
-      "price_inr": 1806000.0,
+      "price_display": "₹18,00,000.00",
+      "price_inr": 1800000.0,
       "state": "Gujarat",
       "city": "Muzaffar Nagar.",
       "district": "Muzaffarnagar",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:e6f5c418cd3f1fd371ac6ba66b3997fce5aee87327e9a6d9852e4be79401c3b6",
+      "content_hash": "sha256:6c20b09b2de9fa11806983344fdf79ff0b770f3862d9df1d32945dc5cabb0c5c",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_741418": {
       "stable_id": "ei_741418",
-      "url": "https://www.eauctionsindia.com/properties/744301",
+      "url": "https://www.eauctionsindia.com/properties/750949",
       "title": "eAuction Land in Muzaffar Nagar., Muzaffarnagar",
-      "price_display": "₹76,15,000.00",
-      "price_inr": 7615000.0,
+      "price_display": "₹1,72,30,000.00",
+      "price_inr": 17230000.0,
       "state": "Gujarat",
       "city": "Muzaffar Nagar.",
       "district": "Muzaffarnagar",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:64430fa66edfe599893b466bc0944ade4f041e655813e9a3fbded235f98d4ee2",
+      "content_hash": "sha256:490796d30839dbbdfaac16b498fb6a49765e99cabe78554f12baaf439ba09154",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_741804": {
@@ -409,20 +409,6 @@
       "content_hash": "sha256:65dfd8dba1bd8ac0b5409aa67ffe2a85b1eb9da4823407cd4644a12e2f096d9f",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
-    "ei_749430": {
-      "stable_id": "ei_749430",
-      "url": "https://www.eauctionsindia.com/properties/748077",
-      "title": "eAuction House in Karveer, Kolhapur",
-      "price_display": "₹16,70,00,000.00",
-      "price_inr": 167000000.0,
-      "state": "Gujarat",
-      "city": "Karveer",
-      "district": "Kolhapur",
-      "property_type": "House",
-      "bank": null,
-      "content_hash": "sha256:5a670b6dc684776f687146da6735031a193aa94798b230a802acc74d92827883",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_749797": {
       "stable_id": "ei_749797",
       "url": "https://www.eauctionsindia.com/properties/748405",
@@ -505,6 +491,20 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:589d55939033a6ac59c87b378b3e7595df84c965eea487bd5974df52faa33baa",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_750949": {
+      "stable_id": "ei_750949",
+      "url": "https://www.eauctionsindia.com/properties/744301",
+      "title": "eAuction House in Medchal, Hyderabad",
+      "price_display": "₹76,15,000.00",
+      "price_inr": 7615000.0,
+      "state": "Gujarat",
+      "city": "Medchal",
+      "district": "Hyderabad",
+      "property_type": "House",
+      "bank": null,
+      "content_hash": "sha256:038de85ea23af51e7afff195d098472ca875512680b4af5be4a6f5944b4aafb2",
       "stream_label": "Vehicles · Gujarat"
     }
   }
