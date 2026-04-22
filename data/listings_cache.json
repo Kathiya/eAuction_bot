@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-04-21T19:23:02.880643+00:00",
+  "updated_at": "2026-04-22T03:29:25.015279+00:00",
   "listings": {
     "ei_724176": {
       "stable_id": "ei_724176",
@@ -43,48 +43,6 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:56ff4e379ce50c71817fb3ecd4b8748929e6e963de056fa056dfa9d3c2e24927",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_741416": {
-      "stable_id": "ei_741416",
-      "url": "https://www.eauctionsindia.com/properties/741416",
-      "title": "eAuction Land in Muzaffar Nagar., Muzaffarnagar",
-      "price_display": "₹23,00,000.00",
-      "price_inr": 2300000.0,
-      "state": "Gujarat",
-      "city": "Muzaffar Nagar.",
-      "district": "Muzaffarnagar",
-      "property_type": "Land",
-      "bank": null,
-      "content_hash": "sha256:3db84f241f720d53558de5e0008f481216f52edc3e184975f8485b4187263901",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_741417": {
-      "stable_id": "ei_741417",
-      "url": "https://www.eauctionsindia.com/properties/741418",
-      "title": "eAuction Land in Muzaffar Nagar., Muzaffarnagar",
-      "price_display": "₹18,06,000.00",
-      "price_inr": 1806000.0,
-      "state": "Gujarat",
-      "city": "Muzaffar Nagar.",
-      "district": "Muzaffarnagar",
-      "property_type": "Land",
-      "bank": null,
-      "content_hash": "sha256:e6f5c418cd3f1fd371ac6ba66b3997fce5aee87327e9a6d9852e4be79401c3b6",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_741418": {
-      "stable_id": "ei_741418",
-      "url": "https://www.eauctionsindia.com/properties/744301",
-      "title": "eAuction Land in Muzaffar Nagar., Muzaffarnagar",
-      "price_display": "₹76,15,000.00",
-      "price_inr": 7615000.0,
-      "state": "Gujarat",
-      "city": "Muzaffar Nagar.",
-      "district": "Muzaffarnagar",
-      "property_type": "Land",
-      "bank": null,
-      "content_hash": "sha256:64430fa66edfe599893b466bc0944ade4f041e655813e9a3fbded235f98d4ee2",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_741804": {
@@ -171,48 +129,6 @@
       "content_hash": "sha256:475828d4f7185d63549dc83b56cb249031c837b0a7723da60883a52b73b7bbcb",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_744269": {
-      "stable_id": "ei_744269",
-      "url": "https://www.eauctionsindia.com/properties/744269",
-      "title": "eAuction Commercial Building in Sambhal, Sambhal",
-      "price_display": "₹2,95,00,000.00",
-      "price_inr": 29500000.0,
-      "state": "Gujarat",
-      "city": "Sambhal",
-      "district": "Sambhal",
-      "property_type": "Commercial Building",
-      "bank": null,
-      "content_hash": "sha256:def4a9e6db8a1da6e47e2a7912433db94fbdc057cba3f74442d287f4f6663a8e",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_744301": {
-      "stable_id": "ei_744301",
-      "url": "https://www.eauctionsindia.com/properties/744302",
-      "title": "eAuction Land in Visakhapatnam, Visakhapatnam",
-      "price_display": "₹2,38,000.00",
-      "price_inr": 238000.0,
-      "state": "Gujarat",
-      "city": "Visakhapatnam",
-      "district": "Visakhapatnam",
-      "property_type": "Land",
-      "bank": null,
-      "content_hash": "sha256:a1548498d9d6bb91764f5e8af298c6fbfe5a08a1cffd228337604662a4784102",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_744302": {
-      "stable_id": "ei_744302",
-      "url": "https://www.eauctionsindia.com/properties/750345",
-      "title": "eAuction Plant & Machinery in Visakhapatnam, Visakhapatnam",
-      "price_display": "₹2,38,000.00",
-      "price_inr": 238000.0,
-      "state": "Gujarat",
-      "city": "Visakhapatnam",
-      "district": "Visakhapatnam",
-      "property_type": null,
-      "bank": null,
-      "content_hash": "sha256:9610bae2c5c84c18cd0f6f33ca55b2ca11e86d6f3a875d6835e716b602e104bb",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_745197": {
       "stable_id": "ei_745197",
       "url": "https://www.eauctionsindia.com/properties/749797",
@@ -253,48 +169,6 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:18001d66766f5b9b5362d1fef79de5c4155299ff0ec8492a6ec233f03f972dbb",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_748077": {
-      "stable_id": "ei_748077",
-      "url": "https://www.eauctionsindia.com/properties/748078",
-      "title": "eAuction Commercial Building in Kanayannur Taluk, Ernakulam",
-      "price_display": "₹6,19,20,000.00",
-      "price_inr": 61920000.0,
-      "state": "Gujarat",
-      "city": "Kanayannur Taluk",
-      "district": "Ernakulam",
-      "property_type": "Commercial Building",
-      "bank": null,
-      "content_hash": "sha256:5c4d4a9bfb314afbd19abdf3bec82202efc9b7915bac194135e250803575b8b3",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_748078": {
-      "stable_id": "ei_748078",
-      "url": "https://www.eauctionsindia.com/properties/748082",
-      "title": "eAuction Land in Kozhikode, Kozhikode",
-      "price_display": "₹2,70,00,000.00",
-      "price_inr": 27000000.0,
-      "state": "Gujarat",
-      "city": "Kozhikode",
-      "district": "Kozhikode",
-      "property_type": "Land",
-      "bank": null,
-      "content_hash": "sha256:69b9012a18c0461b7b2561af327060c3b78a1b04ef483b6d58a02dc48ad0b896",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_748082": {
-      "stable_id": "ei_748082",
-      "url": "https://www.eauctionsindia.com/properties/741416",
-      "title": "eAuction Land in Nilambur Taluk, Malappuram",
-      "price_display": "₹23,00,000.00",
-      "price_inr": 2300000.0,
-      "state": "Gujarat",
-      "city": "Nilambur Taluk",
-      "district": "Malappuram",
-      "property_type": "Land",
-      "bank": null,
-      "content_hash": "sha256:1782ef9e284681d7badeb040231bb67ecdbf030a98a8b01125cd49b299edc51f",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_748405": {
@@ -409,20 +283,6 @@
       "content_hash": "sha256:65dfd8dba1bd8ac0b5409aa67ffe2a85b1eb9da4823407cd4644a12e2f096d9f",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
-    "ei_749430": {
-      "stable_id": "ei_749430",
-      "url": "https://www.eauctionsindia.com/properties/748077",
-      "title": "eAuction House in Karveer, Kolhapur",
-      "price_display": "₹16,70,00,000.00",
-      "price_inr": 167000000.0,
-      "state": "Gujarat",
-      "city": "Karveer",
-      "district": "Kolhapur",
-      "property_type": "House",
-      "bank": null,
-      "content_hash": "sha256:5a670b6dc684776f687146da6735031a193aa94798b230a802acc74d92827883",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_749797": {
       "stable_id": "ei_749797",
       "url": "https://www.eauctionsindia.com/properties/748405",
@@ -463,34 +323,6 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:6a06f9dc861dbdb4d47ab81c04cdd7c6d9058de5d3bb3c8d192a7b15fd6d84a7",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_750345": {
-      "stable_id": "ei_750345",
-      "url": "https://www.eauctionsindia.com/properties/750346",
-      "title": "eAuction Land And Building in Mallapally, Pathanamthitta",
-      "price_display": "₹34,40,000.00",
-      "price_inr": 3440000.0,
-      "state": "Gujarat",
-      "city": "Mallapally",
-      "district": "Pathanamthitta",
-      "property_type": null,
-      "bank": null,
-      "content_hash": "sha256:98eb0f927a5ac4a1751f471d3113c0ff25f8bc35ae694b065189a87b8cdbf8a1",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_750346": {
-      "stable_id": "ei_750346",
-      "url": "https://www.eauctionsindia.com/properties/744269",
-      "title": "eAuction Land And Building in Pathanamthitta V, Pathanamthitta",
-      "price_display": "₹2,95,00,000.00",
-      "price_inr": 29500000.0,
-      "state": "Gujarat",
-      "city": "Pathanamthitta V",
-      "district": "Pathanamthitta",
-      "property_type": null,
-      "bank": null,
-      "content_hash": "sha256:135460717f13153a806df8f37f6c83596b5f8623ec6d1b7e79912096d7520a8a",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_750378": {
