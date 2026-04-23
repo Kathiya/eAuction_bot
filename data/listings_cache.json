@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-04-23T14:03:00.735321+00:00",
+  "updated_at": "2026-04-23T19:24:00.669443+00:00",
   "listings": {
     "ei_724176": {
       "stable_id": "ei_724176",
@@ -47,16 +47,16 @@
     },
     "ei_741804": {
       "stable_id": "ei_741804",
-      "url": "https://www.eauctionsindia.com/properties/741804",
+      "url": "https://www.eauctionsindia.com/properties/752080",
       "title": "eAuction Flat in Vatva, Ahmedabad",
-      "price_display": "₹15,00,000.00",
-      "price_inr": 1500000.0,
+      "price_display": "₹21,26,000.00",
+      "price_inr": 2126000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:ee0452f9a98eb3cbd4a9ca1ab7111c08c3de82cb233b190ebd08167da2d5905d",
+      "content_hash": "sha256:2e9d1fed0cecaeee55b43394ab76fc0758d26687ee741a340bdca9d36a5dec1a",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_742121": {
@@ -128,20 +128,6 @@
       "bank": null,
       "content_hash": "sha256:475828d4f7185d63549dc83b56cb249031c837b0a7723da60883a52b73b7bbcb",
       "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_745197": {
-      "stable_id": "ei_745197",
-      "url": "https://www.eauctionsindia.com/properties/749797",
-      "title": "eAuction Flat in Vatva, Ahmedabad",
-      "price_display": "₹12,55,000.00",
-      "price_inr": 1255000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:068a38efd6179d30cc6b5e1904605054c468e02ffe361dd6fde7dcdac20fcbd3",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_745824": {
       "stable_id": "ei_745824",
@@ -338,6 +324,20 @@
       "bank": null,
       "content_hash": "sha256:589d55939033a6ac59c87b378b3e7595df84c965eea487bd5974df52faa33baa",
       "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_752080": {
+      "stable_id": "ei_752080",
+      "url": "https://www.eauctionsindia.com/properties/752080",
+      "title": "eAuction Land in Ahmedabad, Ahmedabad",
+      "price_display": "₹21,26,000.00",
+      "price_inr": 2126000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:9c8f7f4bdb0379edf4054802673d0959b54dab3e5995258938527c35945f7570",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
 }
