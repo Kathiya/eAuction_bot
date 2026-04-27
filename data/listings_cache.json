@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-04-27T14:14:05.545949+00:00",
+  "updated_at": "2026-04-27T19:43:33.420940+00:00",
   "listings": {
     "ei_726915": {
       "stable_id": "ei_726915",
@@ -101,6 +101,48 @@
       "content_hash": "sha256:475828d4f7185d63549dc83b56cb249031c837b0a7723da60883a52b73b7bbcb",
       "stream_label": "Vehicles · Gujarat"
     },
+    "ei_744269": {
+      "stable_id": "ei_744269",
+      "url": "https://www.eauctionsindia.com/properties/744269",
+      "title": "eAuction Commercial Building in Sambhal, Sambhal",
+      "price_display": "₹2,95,00,000.00",
+      "price_inr": 29500000.0,
+      "state": "Gujarat",
+      "city": "Sambhal",
+      "district": "Sambhal",
+      "property_type": "Commercial Building",
+      "bank": null,
+      "content_hash": "sha256:def4a9e6db8a1da6e47e2a7912433db94fbdc057cba3f74442d287f4f6663a8e",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_744301": {
+      "stable_id": "ei_744301",
+      "url": "https://www.eauctionsindia.com/properties/744302",
+      "title": "eAuction Land in Visakhapatnam, Visakhapatnam",
+      "price_display": "₹2,38,000.00",
+      "price_inr": 238000.0,
+      "state": "Gujarat",
+      "city": "Visakhapatnam",
+      "district": "Visakhapatnam",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:a1548498d9d6bb91764f5e8af298c6fbfe5a08a1cffd228337604662a4784102",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_744302": {
+      "stable_id": "ei_744302",
+      "url": "https://www.eauctionsindia.com/properties/750345",
+      "title": "eAuction Plant & Machinery in Visakhapatnam, Visakhapatnam",
+      "price_display": "₹37,40,000.00",
+      "price_inr": 3740000.0,
+      "state": "Gujarat",
+      "city": "Visakhapatnam",
+      "district": "Visakhapatnam",
+      "property_type": null,
+      "bank": null,
+      "content_hash": "sha256:395b10fb2ca8c0baa41b25ce3944f5811cd3b9dcd7bbcb20dce4137064058739",
+      "stream_label": "Vehicles · Gujarat"
+    },
     "ei_745824": {
       "stable_id": "ei_745824",
       "url": "https://www.eauctionsindia.com/properties/734124",
@@ -143,6 +185,34 @@
       "content_hash": "sha256:6a06f9dc861dbdb4d47ab81c04cdd7c6d9058de5d3bb3c8d192a7b15fd6d84a7",
       "stream_label": "Vehicles · Gujarat"
     },
+    "ei_750345": {
+      "stable_id": "ei_750345",
+      "url": "https://www.eauctionsindia.com/properties/750346",
+      "title": "eAuction Land And Building in Mallapally, Pathanamthitta",
+      "price_display": "₹34,40,000.00",
+      "price_inr": 3440000.0,
+      "state": "Gujarat",
+      "city": "Mallapally",
+      "district": "Pathanamthitta",
+      "property_type": null,
+      "bank": null,
+      "content_hash": "sha256:98eb0f927a5ac4a1751f471d3113c0ff25f8bc35ae694b065189a87b8cdbf8a1",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_750346": {
+      "stable_id": "ei_750346",
+      "url": "https://www.eauctionsindia.com/properties/750346",
+      "title": "eAuction Land And Building in Pathanamthitta V, Pathanamthitta",
+      "price_display": "₹34,40,000.00",
+      "price_inr": 3440000.0,
+      "state": "Gujarat",
+      "city": "Pathanamthitta V",
+      "district": "Pathanamthitta",
+      "property_type": null,
+      "bank": null,
+      "content_hash": "sha256:0a06531a75cab647152f8aaed2b275beeb653baf65e6b124946bab376846fe0a",
+      "stream_label": "Vehicles · Gujarat"
+    },
     "ei_750378": {
       "stable_id": "ei_750378",
       "url": "https://www.eauctionsindia.com/properties/752679",
@@ -155,6 +225,34 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:a3d38acc00f4b8bd289c1ed9a31623a1fed33bb243372c23a57e5bc6c8e6e972",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_751519": {
+      "stable_id": "ei_751519",
+      "url": "https://www.eauctionsindia.com/properties/751523",
+      "title": "eAuction Flat in Ambernath, Mumbai",
+      "price_display": "₹30,55,000.00",
+      "price_inr": 3055000.0,
+      "state": "Gujarat",
+      "city": "Ambernath",
+      "district": "Mumbai",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:c15bd8176b9f65c736170bbe142ba9591e3880e71fd3e9200d0b46389137fa24",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_751523": {
+      "stable_id": "ei_751523",
+      "url": "https://www.eauctionsindia.com/properties/744269",
+      "title": "eAuction Plot in Ambernath, Mumbai",
+      "price_display": "₹2,95,00,000.00",
+      "price_inr": 29500000.0,
+      "state": "Gujarat",
+      "city": "Ambernath",
+      "district": "Mumbai",
+      "property_type": "Plot",
+      "bank": null,
+      "content_hash": "sha256:f43818af3a4faed14e1b2f17ce51c7dda276f5be415d544456bf62d36580f793",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_752611": {
@@ -198,6 +296,48 @@
       "bank": null,
       "content_hash": "sha256:a751b5d6ea74cbbde6cdab77af984d7ecc2b68eb9d461862d5a0b62121202634",
       "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_754196": {
+      "stable_id": "ei_754196",
+      "url": "https://www.eauctionsindia.com/properties/754197",
+      "title": "eAuction Land in Anantapur, Anantapur",
+      "price_display": "₹24,60,960.00",
+      "price_inr": 2460960.0,
+      "state": "Gujarat",
+      "city": "Anantapur",
+      "district": "Anantapur",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:f71e7142c1bea4a40d46404fcfa39462f96cc9cc65827cd62c91e862034eee67",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_754197": {
+      "stable_id": "ei_754197",
+      "url": "https://www.eauctionsindia.com/properties/754198",
+      "title": "eAuction Plot in Wanaparthy, Wanaparthy",
+      "price_display": "₹12,44,800.00",
+      "price_inr": 1244800.0,
+      "state": "Gujarat",
+      "city": "Wanaparthy",
+      "district": "Wanaparthy",
+      "property_type": "Plot",
+      "bank": null,
+      "content_hash": "sha256:96ea313badc92195b64489012b5520ae4f0bd2ceecc561722c02662f9cb4a94a",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_754198": {
+      "stable_id": "ei_754198",
+      "url": "https://www.eauctionsindia.com/properties/754437",
+      "title": "eAuction House in Anantapur, Anantapur",
+      "price_display": "₹72,00,000.00",
+      "price_inr": 7200000.0,
+      "state": "Gujarat",
+      "city": "Anantapur",
+      "district": "Anantapur",
+      "property_type": "House",
+      "bank": null,
+      "content_hash": "sha256:b8e73e36fb2df5ad79650f217b44a5ad37d2ec83606d311b4b0e677f99e6c5ab",
+      "stream_label": "Vehicles · Gujarat"
     },
     "ei_754243": {
       "stable_id": "ei_754243",
@@ -338,6 +478,34 @@
       "bank": null,
       "content_hash": "sha256:a371ffa2e8d26b4cb8882bfc6fc4a7cd05673e03f34e0675d7d780688d7ff426",
       "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_754437": {
+      "stable_id": "ei_754437",
+      "url": "https://www.eauctionsindia.com/properties/754438",
+      "title": "eAuction House in Haveli, Pune",
+      "price_display": "₹71,00,000.00",
+      "price_inr": 7100000.0,
+      "state": "Gujarat",
+      "city": "Haveli",
+      "district": "Pune",
+      "property_type": "House",
+      "bank": null,
+      "content_hash": "sha256:39026a2a0727893b79f4ef06ed738497cb53420ad0c6ac46cbb62742d224bdc4",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_754438": {
+      "stable_id": "ei_754438",
+      "url": "https://www.eauctionsindia.com/properties/754438",
+      "title": "eAuction House in Haveli, Pune",
+      "price_display": "₹71,00,000.00",
+      "price_inr": 7100000.0,
+      "state": "Gujarat",
+      "city": "Haveli",
+      "district": "Pune",
+      "property_type": "House",
+      "bank": null,
+      "content_hash": "sha256:39026a2a0727893b79f4ef06ed738497cb53420ad0c6ac46cbb62742d224bdc4",
+      "stream_label": "Vehicles · Gujarat"
     }
   }
 }
