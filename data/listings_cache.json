@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-04-28T08:35:45.350271+00:00",
+  "updated_at": "2026-04-28T14:32:30.907633+00:00",
   "listings": {
-    "ei_726915": {
-      "stable_id": "ei_726915",
-      "url": "https://www.eauctionsindia.com/properties/750207",
-      "title": "eAuction Car in Ambawadi, Ahmedabad",
-      "price_display": "₹5,85,000.00",
-      "price_inr": 585000.0,
-      "state": "Gujarat",
-      "city": "Ambawadi",
-      "district": "Ahmedabad",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:e58f465e5f79a213d3d827dcf20a1c54ce23999b0402eafa0ded7165a9f370b3",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_734124": {
       "stable_id": "ei_734124",
       "url": "https://www.eauctionsindia.com/properties/743246",
@@ -33,16 +19,16 @@
     },
     "ei_742121": {
       "stable_id": "ei_742121",
-      "url": "https://www.eauctionsindia.com/properties/742122",
+      "url": "https://www.eauctionsindia.com/properties/742121",
       "title": "eAuction Car in Odhav, Ahmedabad",
-      "price_display": "₹2,65,000.00",
-      "price_inr": 265000.0,
+      "price_display": "₹12,15,000.00",
+      "price_inr": 1215000.0,
       "state": "Gujarat",
       "city": "Odhav",
       "district": "Ahmedabad",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:d57d1811c84dcd1123e516463a58b0c6390afe59dfa6a3e8c0229e9be2f63db5",
+      "content_hash": "sha256:e91031085874528e71f15fa6385b517679b122269473cabc588bfb94a306ba2a",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_742122": {
@@ -75,16 +61,16 @@
     },
     "ei_743246": {
       "stable_id": "ei_743246",
-      "url": "https://www.eauctionsindia.com/properties/743246",
+      "url": "https://www.eauctionsindia.com/properties/742121",
       "title": "eAuction Car in Tal-Mundra, Kutch",
-      "price_display": "₹8,00,000.00",
-      "price_inr": 800000.0,
+      "price_display": "₹12,15,000.00",
+      "price_inr": 1215000.0,
       "state": "Gujarat",
       "city": "Tal-Mundra",
       "district": "Kutch",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:74a0f28a5671ae51e7cad8673e405cc2ffe2604087bed9fb720a33fe77c9667c",
+      "content_hash": "sha256:e50f50e0df6ecc868adf9536ba1773afbfc2379dfc444947f310b9f324e16cf2",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_743247": {
@@ -131,16 +117,16 @@
     },
     "ei_750378": {
       "stable_id": "ei_750378",
-      "url": "https://www.eauctionsindia.com/properties/750378",
+      "url": "https://www.eauctionsindia.com/properties/755416",
       "title": "eAuction Car in Sayajigunj, Vadodara",
-      "price_display": "₹12,42,000.00",
-      "price_inr": 1242000.0,
+      "price_display": "₹3,50,000.00",
+      "price_inr": 350000.0,
       "state": "Gujarat",
       "city": "Sayajigunj",
       "district": "Vadodara",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:1976d5d2eaa5219a2b328a4c2d2e1a53266bf7764aed3b42d5604bb346e3dd06",
+      "content_hash": "sha256:8fc4f9a6d42e2879125b5bfa642820c333a4b87f88bf4494effb88ccadbbf51c",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_752611": {
@@ -337,6 +323,20 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:a9a0954d454847b7c54ce3b8eb51006ad51ff45ae5e6d22ee11a334d0510292c",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_755416": {
+      "stable_id": "ei_755416",
+      "url": "https://www.eauctionsindia.com/properties/755416",
+      "title": "eAuction Car in Vadodara, Vadodara",
+      "price_display": "₹3,50,000.00",
+      "price_inr": 350000.0,
+      "state": "Gujarat",
+      "city": "Vadodara",
+      "district": "Vadodara",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:08eaf4952d6fc28f66dde3f44d687121bfe72e8674f1718113f5fa063707c684",
       "stream_label": "Vehicles · Gujarat"
     }
   }
