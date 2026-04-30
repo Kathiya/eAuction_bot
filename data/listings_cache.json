@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-04-30T03:50:51.288761+00:00",
+  "updated_at": "2026-04-30T08:32:34.778022+00:00",
   "listings": {
     "ei_734124": {
       "stable_id": "ei_734124",
@@ -493,18 +493,18 @@
       "content_hash": "sha256:c39c2fe655a27f9385c8c198676121f72aeddec0b6a04a6c675d14c55396e8fe",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_755953": {
-      "stable_id": "ei_755953",
+    "ei_756113": {
+      "stable_id": "ei_756113",
       "url": "https://www.eauctionsindia.com/properties/755693",
-      "title": "eAuction Land in Kotkapura, Faridkot",
+      "title": "eAuction Land And Building in Tirur, Malappuram",
       "price_display": "₹13,51,000.00",
       "price_inr": 1351000.0,
       "state": "Gujarat",
-      "city": "Kotkapura",
-      "district": "Faridkot",
-      "property_type": "Land",
+      "city": "Tirur",
+      "district": "Malappuram",
+      "property_type": null,
       "bank": null,
-      "content_hash": "sha256:83cde9d82d7a10898a8053c6350e9da10db80344800d99d1d8f03221c3650991",
+      "content_hash": "sha256:f4180e5065e4ea7d33f9e1bc9577171e3bf4c7f9521af1e8febb4e68e04d9f8d",
       "stream_label": "Vehicles · Gujarat"
     }
   }
