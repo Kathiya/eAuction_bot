@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-05-02T13:27:45.307160+00:00",
+  "updated_at": "2026-05-03T13:39:05.914097+00:00",
   "listings": {
     "ei_743247": {
       "stable_id": "ei_743247",
@@ -47,16 +47,16 @@
     },
     "ei_751523": {
       "stable_id": "ei_751523",
-      "url": "https://www.eauctionsindia.com/properties/744269",
+      "url": "https://www.eauctionsindia.com/properties/757396",
       "title": "eAuction Plot in Ambernath, Mumbai",
-      "price_display": "₹2,95,00,000.00",
-      "price_inr": 29500000.0,
+      "price_display": "₹1,30,00,000.00",
+      "price_inr": 13000000.0,
       "state": "Gujarat",
       "city": "Ambernath",
       "district": "Mumbai",
       "property_type": "Plot",
       "bank": null,
-      "content_hash": "sha256:f43818af3a4faed14e1b2f17ce51c7dda276f5be415d544456bf62d36580f793",
+      "content_hash": "sha256:2cde71637200816298361aee8571b9d0bada9a3a4a94a4a43b49073a2639a9b2",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_752679": {
@@ -115,20 +115,6 @@
       "content_hash": "sha256:2312f97df443b0bf54338d7141019f0c3f7dd0025f58e5f1456c8103aba0ec7d",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
-    "ei_754715": {
-      "stable_id": "ei_754715",
-      "url": "https://www.eauctionsindia.com/properties/754716",
-      "title": "eAuction Land in Palus., Sangli",
-      "price_display": "₹47,00,000.00",
-      "price_inr": 4700000.0,
-      "state": "Gujarat",
-      "city": "Palus.",
-      "district": "Sangli",
-      "property_type": "Land",
-      "bank": null,
-      "content_hash": "sha256:58bad4260daedbfc5df047bffbe86bcc33ef66ad749b795ab9373a1be8591449",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_754716": {
       "stable_id": "ei_754716",
       "url": "https://www.eauctionsindia.com/properties/756412",
@@ -173,16 +159,16 @@
     },
     "ei_755245": {
       "stable_id": "ei_755245",
-      "url": "https://www.eauctionsindia.com/properties/756340",
+      "url": "https://www.eauctionsindia.com/properties/757498",
       "title": "eAuction Land And Building in Taliparamba, Kannur",
-      "price_display": "₹1,68,49,728.00",
-      "price_inr": 16849728.0,
+      "price_display": "₹9,47,000.00",
+      "price_inr": 947000.0,
       "state": "Gujarat",
       "city": "Taliparamba",
       "district": "Kannur",
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:82db806b57be7272660cc4f06e23cd309f1492b5b92475b324e91426e9716a2a",
+      "content_hash": "sha256:fdb149dfa0da03c3348ef1d93dbd1b00e1e6520d6e20c44e0d845fbbf96fc159",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_755416": {
@@ -197,20 +183,6 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:f1794a4cb59830e63791bdab144b8a31fee0d29b91511d39d29420b0dd31efab",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_756335": {
-      "stable_id": "ei_756335",
-      "url": "https://www.eauctionsindia.com/properties/754715",
-      "title": "eAuction Gold Auctions in Coimbatore",
-      "price_display": "₹12,16,80,000.00",
-      "price_inr": 121680000.0,
-      "state": "Gujarat",
-      "city": "Coimbatore",
-      "district": null,
-      "property_type": "Gold Auctions",
-      "bank": null,
-      "content_hash": "sha256:6a8076423b5bcb9a635e0076ffc049eff48c0a96ef7aa357d64e4edd3e669c65",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_756340": {
@@ -229,16 +201,16 @@
     },
     "ei_756412": {
       "stable_id": "ei_756412",
-      "url": "https://www.eauctionsindia.com/properties/756412",
+      "url": "https://www.eauctionsindia.com/properties/755240",
       "title": "eAuction Land And Building in Srirangam, Tiruchirappalli",
-      "price_display": "₹27,00,000.00",
-      "price_inr": 2700000.0,
+      "price_display": "₹31,20,000.00",
+      "price_inr": 3120000.0,
       "state": "Gujarat",
       "city": "Srirangam",
       "district": "Tiruchirappalli",
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:6de76efcdb120513326b6c3d43b79a4201a675ca41f0bf396e115d2df34888fa",
+      "content_hash": "sha256:483095d612506f30bdd663f0b9c688896e44fcc3eed1cfb5962e1bfd9a606e14",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_756527": {
@@ -311,20 +283,6 @@
       "content_hash": "sha256:275dbf8745408d9be19bf1307747575912131f3abc734564377cb86ec39597df",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
-    "ei_756863": {
-      "stable_id": "ei_756863",
-      "url": "https://www.eauctionsindia.com/properties/756864",
-      "title": "eAuction Car in Ahmedabad, Ahmedabad",
-      "price_display": "₹8,50,000.00",
-      "price_inr": 850000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:17ad408b6751fc7e963e00694360cb168035a49bac4e4e8393ad07ed22c9bc40",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_756864": {
       "stable_id": "ei_756864",
       "url": "https://www.eauctionsindia.com/properties/756865",
@@ -369,7 +327,7 @@
     },
     "ei_756867": {
       "stable_id": "ei_756867",
-      "url": "https://www.eauctionsindia.com/properties/756867",
+      "url": "https://www.eauctionsindia.com/properties/756868",
       "title": "eAuction Car in Ahmedabad, Ahmedabad",
       "price_display": "₹24,43,000.00",
       "price_inr": 2443000.0,
@@ -378,35 +336,21 @@
       "district": "Ahmedabad",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:2bf500307769d48fe9049ff3bdf7bf13767db584c0e85698cd8ff287d58f7a24",
+      "content_hash": "sha256:95f022a39c761967c54db652228fe7d723857853b465f3495640f7913efaeb27",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_756868": {
       "stable_id": "ei_756868",
-      "url": "https://www.eauctionsindia.com/properties/755416",
+      "url": "https://www.eauctionsindia.com/properties/756868",
       "title": "eAuction Car in Ahmedabad, Ahmedabad",
-      "price_display": "₹3,50,000.00",
-      "price_inr": 350000.0,
+      "price_display": "₹24,43,000.00",
+      "price_inr": 2443000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:72d05ffc862cc473e2f8c87fdb81ffc1326278abf113f9605cf3475b2ab649fb",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_756964": {
-      "stable_id": "ei_756964",
-      "url": "https://www.eauctionsindia.com/properties/756335",
-      "title": "eAuction Industrial Land & Building in Ahmedabad, Ahmedabad",
-      "price_display": "₹28,00,000.00",
-      "price_inr": 2800000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": null,
-      "bank": null,
-      "content_hash": "sha256:8caba05fa4d38ff309570a19e67b97d422a489ddfa878e42ab84aca059241751",
+      "content_hash": "sha256:95f022a39c761967c54db652228fe7d723857853b465f3495640f7913efaeb27",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_757012": {
@@ -506,6 +450,62 @@
       "bank": null,
       "content_hash": "sha256:efb36f629ebd5361bf522e0d803113e88a230770f479b9888f70bb4b39efc3bf",
       "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_757396": {
+      "stable_id": "ei_757396",
+      "url": "https://www.eauctionsindia.com/properties/744269",
+      "title": "eAuction Plot in Bapod, Vadodara",
+      "price_display": "₹2,95,00,000.00",
+      "price_inr": 29500000.0,
+      "state": "Gujarat",
+      "city": "Bapod",
+      "district": "Vadodara",
+      "property_type": "Plot",
+      "bank": null,
+      "content_hash": "sha256:88df9b23f5f2d426b6d027d4de3dc4a44255a18b0b7715e0ecf1ed2932d233b3",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_757486": {
+      "stable_id": "ei_757486",
+      "url": "https://www.eauctionsindia.com/properties/756340",
+      "title": "eAuction Land in Jambuva, Vadodara",
+      "price_display": "₹1,68,49,728.00",
+      "price_inr": 16849728.0,
+      "state": "Gujarat",
+      "city": "Jambuva",
+      "district": "Vadodara",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:0d0a20de4bffc9f46ea2902acc209e7cdfb157723f6535a79c784ba35fc2ff8e",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_757487": {
+      "stable_id": "ei_757487",
+      "url": "https://www.eauctionsindia.com/properties/755416",
+      "title": "eAuction Car in Lambha, Ahmedabad",
+      "price_display": "₹3,50,000.00",
+      "price_inr": 350000.0,
+      "state": "Gujarat",
+      "city": "Lambha",
+      "district": "Ahmedabad",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:50a64f078116cbbb8782957bef1db757120dbcf4f1e0af52477eac5b206c1e6c",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_757498": {
+      "stable_id": "ei_757498",
+      "url": "https://www.eauctionsindia.com/properties/757498",
+      "title": "eAuction Land And Building in Bhupatinagar, Purba Medinipur",
+      "price_display": "₹9,47,000.00",
+      "price_inr": 947000.0,
+      "state": "Gujarat",
+      "city": "Bhupatinagar",
+      "district": "Purba Medinipur",
+      "property_type": null,
+      "bank": null,
+      "content_hash": "sha256:2bab238e3692f189d46ea5e16bb5f2d55f55adfe977ff146742a04d040835202",
+      "stream_label": "Vehicles · Gujarat"
     }
   }
 }
