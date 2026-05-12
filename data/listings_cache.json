@@ -1,20 +1,20 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-05-11T04:09:52.922899+00:00",
+  "updated_at": "2026-05-12T14:41:42.592341+00:00",
   "listings": {
     "ei_743247": {
       "stable_id": "ei_743247",
-      "url": "https://www.eauctionsindia.com/properties/743247",
+      "url": "https://www.eauctionsindia.com/properties/759863",
       "title": "eAuction Car in Tal-Mundra, Kutch",
-      "price_display": "₹15,00,000.00",
-      "price_inr": 1500000.0,
+      "price_display": "₹4,25,000.00",
+      "price_inr": 425000.0,
       "state": "Gujarat",
       "city": "Tal-Mundra",
       "district": "Kutch",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:475828d4f7185d63549dc83b56cb249031c837b0a7723da60883a52b73b7bbcb",
+      "content_hash": "sha256:61d359fd39bba597bf07f853bd3b1cbae01d594cbf92e869b7ca4686015f5205",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_744269": {
@@ -129,34 +129,6 @@
       "content_hash": "sha256:88df9b23f5f2d426b6d027d4de3dc4a44255a18b0b7715e0ecf1ed2932d233b3",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_757770": {
-      "stable_id": "ei_757770",
-      "url": "https://www.eauctionsindia.com/properties/758024",
-      "title": "eAuction Plot in Viramgam, Ahmedabad",
-      "price_display": "₹16,00,000.00",
-      "price_inr": 1600000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Plot",
-      "bank": null,
-      "content_hash": "sha256:5845b32cbde920b3e32566af7eec852d7128d6636d0e541f08432ad09c89cad0",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_758024": {
-      "stable_id": "ei_758024",
-      "url": "https://www.eauctionsindia.com/properties/762495",
-      "title": "eAuction Land And Building in Viramgam, Ahmedabad",
-      "price_display": "₹17,35,000.00",
-      "price_inr": 1735000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": null,
-      "bank": null,
-      "content_hash": "sha256:c98d5e7198dce9bb1970e70ea9067297087e96e788ee9e051d1310cafa01217c",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
     "ei_758105": {
       "stable_id": "ei_758105",
       "url": "https://www.eauctionsindia.com/properties/757110",
@@ -187,16 +159,16 @@
     },
     "ei_758918": {
       "stable_id": "ei_758918",
-      "url": "https://www.eauctionsindia.com/properties/758918",
+      "url": "https://www.eauctionsindia.com/properties/761139",
       "title": "eAuction Flat in Naroda, Ahmedabad",
-      "price_display": "₹27,50,000.00",
-      "price_inr": 2750000.0,
+      "price_display": "₹11,34,000.00",
+      "price_inr": 1134000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:935e296ef7c0745b78a4cabfd9fe5bf7702eab22af72ab3368708fdcd6a956e1",
+      "content_hash": "sha256:6938839dc6c72538bcb2e343df1fba57553806667e35c7f479631c22ca44a778",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_759281": {
@@ -229,16 +201,16 @@
     },
     "ei_759715": {
       "stable_id": "ei_759715",
-      "url": "https://www.eauctionsindia.com/properties/759715",
+      "url": "https://www.eauctionsindia.com/properties/759716",
       "title": "eAuction Land And Building in Thanesar, Kurukshetra",
-      "price_display": "₹2,65,50,000.00",
-      "price_inr": 26550000.0,
+      "price_display": "₹72,00,000.00",
+      "price_inr": 7200000.0,
       "state": "Gujarat",
       "city": "Thanesar",
       "district": "Kurukshetra",
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:d84c9d597593a532b38d72566c9467172de2682a42f9c07052020697b3f02c8d",
+      "content_hash": "sha256:605d7b9f5e41f3ec18b9d960e0c604656cf6565b2ee5fd3e70754f35776729a6",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_759716": {
@@ -271,16 +243,16 @@
     },
     "ei_760501": {
       "stable_id": "ei_760501",
-      "url": "https://www.eauctionsindia.com/properties/761863",
+      "url": "https://www.eauctionsindia.com/properties/764661",
       "title": "eAuction Flat in Vatva, Ahmedabad",
-      "price_display": "₹10,00,000.00",
-      "price_inr": 1000000.0,
+      "price_display": "₹1,45,42,500.00",
+      "price_inr": 14542500.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:9b50b01d2f06ea286a029f2576bb6d16cc53137a586a637fb5019c64f56cf78b",
+      "content_hash": "sha256:034d3938e3f9e264461e9555b6e1ad3ea1b59929e519942e8ba6feed0230ade9",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_761139": {
@@ -355,16 +327,16 @@
     },
     "ei_761811": {
       "stable_id": "ei_761811",
-      "url": "https://www.eauctionsindia.com/properties/761811",
+      "url": "https://www.eauctionsindia.com/properties/761812",
       "title": "eAuction Plot in Kamrej, Surat",
-      "price_display": "₹14,40,000.00",
-      "price_inr": 1440000.0,
+      "price_display": "₹8,01,000.00",
+      "price_inr": 801000.0,
       "state": "Gujarat",
       "city": "Kamrej",
       "district": "Surat",
       "property_type": "Plot",
       "bank": null,
-      "content_hash": "sha256:f8044b4c9a71aec374db0446c1c087f9904c8653e675217c30c576840c1abaae",
+      "content_hash": "sha256:a999014a39ab64e68f3933f99ef0c2fa528c953986608194c499e3e03f6307db",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_761812": {
@@ -427,14 +399,14 @@
       "stable_id": "ei_761865",
       "url": "https://www.eauctionsindia.com/properties/762551",
       "title": "eAuction Land in Dev Manek Vatva, Ahmedabad",
-      "price_display": "₹10,30,000.00",
-      "price_inr": 1030000.0,
+      "price_display": "₹8,80,000.00",
+      "price_inr": 880000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:d3746502bc1ce97db71f8e853c1329e897f706672a31686be2c789745e2e594b",
+      "content_hash": "sha256:a4df778d3abc24d8ea534eb01165d108c507225223d219bc0f79d43205de70f3",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_762329": {
@@ -505,6 +477,34 @@
       "property_type": "Flat",
       "bank": null,
       "content_hash": "sha256:395404cd7bf8ac088bee760949302c8fdc128bfd659af8338ce901c6c73a5c34",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_764661": {
+      "stable_id": "ei_764661",
+      "url": "https://www.eauctionsindia.com/properties/764666",
+      "title": "eAuction Land in Naroda, Ahmedabad",
+      "price_display": "₹14,28,800.00",
+      "price_inr": 1428800.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:5fe272dfe5936abec111b1e8e1161a2946e7d1f4c8cdfba4ca8bc621e18400d8",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_764666": {
+      "stable_id": "ei_764666",
+      "url": "https://www.eauctionsindia.com/properties/761863",
+      "title": "eAuction Flat in Vatva, Ahmedabad",
+      "price_display": "₹10,00,000.00",
+      "price_inr": 1000000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:9b50b01d2f06ea286a029f2576bb6d16cc53137a586a637fb5019c64f56cf78b",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
