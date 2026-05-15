@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-05-15T04:05:55.150051+00:00",
+  "updated_at": "2026-05-15T09:19:39.622080+00:00",
   "listings": {
     "ei_743247": {
       "stable_id": "ei_743247",
@@ -170,20 +170,6 @@
       "bank": null,
       "content_hash": "sha256:421ddb5f9b081c957d9734e74f7b1a9f082bff3b8a266358e4175aa40e2d2970",
       "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_760501": {
-      "stable_id": "ei_760501",
-      "url": "https://www.eauctionsindia.com/properties/764661",
-      "title": "eAuction Flat in Vatva, Ahmedabad",
-      "price_display": "₹1,45,42,500.00",
-      "price_inr": 14542500.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:034d3938e3f9e264461e9555b6e1ad3ea1b59929e519942e8ba6feed0230ade9",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_761595": {
       "stable_id": "ei_761595",
@@ -425,16 +411,16 @@
     },
     "ei_766175": {
       "stable_id": "ei_766175",
-      "url": "https://www.eauctionsindia.com/properties/766175",
+      "url": "https://www.eauctionsindia.com/properties/768095",
       "title": "eAuction Flat in Thaltej, Ahmedabad",
-      "price_display": "₹58,50,000.00",
-      "price_inr": 5850000.0,
+      "price_display": "₹19,30,000.00",
+      "price_inr": 1930000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:db7c6eae80de285dc3a8602302f40810114032877f3e0e77193df41e92dd9071",
+      "content_hash": "sha256:788c05e50fae4f96c247d85f3da2b7087b2c009557cb02e3b42f758a52c2219c",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_766256": {
@@ -505,6 +491,20 @@
       "property_type": "Flat",
       "bank": null,
       "content_hash": "sha256:7454a0236ccdd8716f4964d117b2c951eb38453d5b7ce0be397ba5cd072220f1",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_768095": {
+      "stable_id": "ei_768095",
+      "url": "https://www.eauctionsindia.com/properties/768095",
+      "title": "eAuction Flat in Shahpur, Ahmedabad",
+      "price_display": "₹19,30,000.00",
+      "price_inr": 1930000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:d37947949bae3c3aea206e2f16adacaf0d6d8c906577d08e8f2cc8c8f732e5f3",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
