@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-05-18T15:49:54.637101+00:00",
+  "updated_at": "2026-05-18T19:54:45.414874+00:00",
   "listings": {
     "ei_743247": {
       "stable_id": "ei_743247",
@@ -29,48 +29,6 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:18ffc840e52bde086889544a0430c825b3d5a3b82357e13429866bb8ccdc6eec",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_756543": {
-      "stable_id": "ei_756543",
-      "url": "https://www.eauctionsindia.com/properties/759281",
-      "title": "eAuction Vehicle in Surat, Surat",
-      "price_display": "₹14,50,000.00",
-      "price_inr": 1450000.0,
-      "state": "Gujarat",
-      "city": "Surat",
-      "district": "Surat",
-      "property_type": "Vehicle",
-      "bank": null,
-      "content_hash": "sha256:757fb61120f4f52b863d02a61e1c9afc5c816db0bb2659007957716c1d35046a",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_759281": {
-      "stable_id": "ei_759281",
-      "url": "https://www.eauctionsindia.com/properties/759282",
-      "title": "eAuction Vehicle in Surat, Surat",
-      "price_display": "₹14,50,000.00",
-      "price_inr": 1450000.0,
-      "state": "Gujarat",
-      "city": "Surat",
-      "district": "Surat",
-      "property_type": "Vehicle",
-      "bank": null,
-      "content_hash": "sha256:d86e6a96f2dd2dbf72afd1a6b85902916a18d5a78f5159a1fb6b712604f46bbb",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_759282": {
-      "stable_id": "ei_759282",
-      "url": "https://www.eauctionsindia.com/properties/761595",
-      "title": "eAuction Vehicle in Surat, Surat",
-      "price_display": "₹12,15,000.00",
-      "price_inr": 1215000.0,
-      "state": "Gujarat",
-      "city": "Surat",
-      "district": "Surat",
-      "property_type": "Vehicle",
-      "bank": null,
-      "content_hash": "sha256:2036a903d4d3d7a8e55f79ab9d1145d374d4283f0cc06d03484c00722c63cc21",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_759863": {
@@ -337,6 +295,48 @@
       "property_type": "Vehicle",
       "bank": null,
       "content_hash": "sha256:ef8502f662da5b354f9955ff4e49df80a7a03f681dce0292b008fbef727a0768",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_771672": {
+      "stable_id": "ei_771672",
+      "url": "https://www.eauctionsindia.com/properties/771673",
+      "title": "eAuction Vehicle in Surat, Surat",
+      "price_display": "₹2,40,000.00",
+      "price_inr": 240000.0,
+      "state": "Gujarat",
+      "city": "Surat",
+      "district": "Surat",
+      "property_type": "Vehicle",
+      "bank": null,
+      "content_hash": "sha256:833a0333c99e6dccc9b01aadfa0e5d69c09cc52af66b2bc2694081d132162fc5",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_771673": {
+      "stable_id": "ei_771673",
+      "url": "https://www.eauctionsindia.com/properties/771674",
+      "title": "eAuction Vehicle in Surat, Surat",
+      "price_display": "₹72,000.00",
+      "price_inr": 72000.0,
+      "state": "Gujarat",
+      "city": "Surat",
+      "district": "Surat",
+      "property_type": "Vehicle",
+      "bank": null,
+      "content_hash": "sha256:950803cca48ef64ec85657cab291f922fb3eb893bdc7df27cb6df0796b885a5f",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_771674": {
+      "stable_id": "ei_771674",
+      "url": "https://www.eauctionsindia.com/properties/761595",
+      "title": "eAuction Vehicle in Surat, Surat",
+      "price_display": "₹12,15,000.00",
+      "price_inr": 1215000.0,
+      "state": "Gujarat",
+      "city": "Surat",
+      "district": "Surat",
+      "property_type": "Vehicle",
+      "bank": null,
+      "content_hash": "sha256:2036a903d4d3d7a8e55f79ab9d1145d374d4283f0cc06d03484c00722c63cc21",
       "stream_label": "Vehicles · Gujarat"
     }
   }
