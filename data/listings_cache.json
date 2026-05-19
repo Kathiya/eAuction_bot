@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-05-19T09:59:32.369540+00:00",
+  "updated_at": "2026-05-19T15:41:01.126607+00:00",
   "listings": {
     "ei_743247": {
       "stable_id": "ei_743247",
@@ -72,20 +72,6 @@
       "bank": null,
       "content_hash": "sha256:608bc321c3675de5e06e8cb5b55753ce8ada45446694ca666f6aeb102ac1894b",
       "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_761865": {
-      "stable_id": "ei_761865",
-      "url": "https://www.eauctionsindia.com/properties/768629",
-      "title": "eAuction Land in Dev Manek Vatva, Ahmedabad",
-      "price_display": "₹14,00,000.00",
-      "price_inr": 1400000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Land",
-      "bank": null,
-      "content_hash": "sha256:fe320eb66eed6298d39931b8d60cf244233239ba0b96a02c620d75644a6db723",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_762329": {
       "stable_id": "ei_762329",
@@ -229,16 +215,16 @@
     },
     "ei_768648": {
       "stable_id": "ei_768648",
-      "url": "https://www.eauctionsindia.com/properties/756527",
+      "url": "https://www.eauctionsindia.com/properties/772332",
       "title": "eAuction Car in Halol, Panchmahal",
-      "price_display": "₹1,75,000.00",
-      "price_inr": 175000.0,
+      "price_display": "₹1,96,200.00",
+      "price_inr": 196200.0,
       "state": "Gujarat",
       "city": "Halol",
       "district": "Panchmahal",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:e560c2543b02989f4323f8a283e70b23214e71450e7d2d137a057893f1a5cb57",
+      "content_hash": "sha256:398cb3631ab5e253b627f0ffbbe3db8a68b9fd5d5dafe580ded7c5f64f4f03d0",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_768673": {
@@ -257,16 +243,16 @@
     },
     "ei_768674": {
       "stable_id": "ei_768674",
-      "url": "https://www.eauctionsindia.com/properties/762551",
+      "url": "https://www.eauctionsindia.com/properties/772406",
       "title": "eAuction Flat in Ghatlodiya, Ahmedabad",
-      "price_display": "₹8,80,000.00",
-      "price_inr": 880000.0,
+      "price_display": "₹13,16,000.00",
+      "price_inr": 1316000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:1a49079b034b340cfafe2bdd92e740cf3e0f1b393e41f3600736dd0275d24b6c",
+      "content_hash": "sha256:8566fc36726c351ac7bfc95cbd6df66fdcbf8919c1c1d677372217fb3dbacd1e",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_769456": {
@@ -297,20 +283,6 @@
       "content_hash": "sha256:ef8502f662da5b354f9955ff4e49df80a7a03f681dce0292b008fbef727a0768",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_771672": {
-      "stable_id": "ei_771672",
-      "url": "https://www.eauctionsindia.com/properties/771673",
-      "title": "eAuction Vehicle in Surat, Surat",
-      "price_display": "₹2,40,000.00",
-      "price_inr": 240000.0,
-      "state": "Gujarat",
-      "city": "Surat",
-      "district": "Surat",
-      "property_type": "Vehicle",
-      "bank": null,
-      "content_hash": "sha256:833a0333c99e6dccc9b01aadfa0e5d69c09cc52af66b2bc2694081d132162fc5",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_771673": {
       "stable_id": "ei_771673",
       "url": "https://www.eauctionsindia.com/properties/771674",
@@ -338,6 +310,34 @@
       "bank": null,
       "content_hash": "sha256:2036a903d4d3d7a8e55f79ab9d1145d374d4283f0cc06d03484c00722c63cc21",
       "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_772332": {
+      "stable_id": "ei_772332",
+      "url": "https://www.eauctionsindia.com/properties/756527",
+      "title": "eAuction Car in Lambha, Ahmedabad",
+      "price_display": "₹1,75,000.00",
+      "price_inr": 175000.0,
+      "state": "Gujarat",
+      "city": "Lambha",
+      "district": "Ahmedabad",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:03b5a5425b34699df3d5228af189eba5d8bea764e86f82fa7d00cb9658fada27",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_772406": {
+      "stable_id": "ei_772406",
+      "url": "https://www.eauctionsindia.com/properties/762551",
+      "title": "eAuction Plot in Narol, Ahmedabad",
+      "price_display": "₹8,80,000.00",
+      "price_inr": 880000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Plot",
+      "bank": null,
+      "content_hash": "sha256:2a3d8244d3178e539c1cc48c5a6f071b02abcab75c49c22b02bcfd9ebfb5f5bb",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
 }
