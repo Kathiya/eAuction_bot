@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-05-22T14:54:30.098382+00:00",
+  "updated_at": "2026-05-22T19:59:44.543766+00:00",
   "listings": {
     "ei_743247": {
       "stable_id": "ei_743247",
@@ -61,16 +61,16 @@
     },
     "ei_762329": {
       "stable_id": "ei_762329",
-      "url": "https://www.eauctionsindia.com/bank-property-auctions-in-indian-cities",
-      "title": "Auction 762329",
+      "url": "https://www.eauctionsindia.com/properties/762329",
+      "title": "eAuction Car in Ellisbridge, Ahmedabad",
       "price_display": "₹6,96,000.00",
       "price_inr": 696000.0,
       "state": "Gujarat",
-      "city": null,
-      "district": null,
-      "property_type": null,
+      "city": "Ellisbridge",
+      "district": "Ahmedabad",
+      "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:426feac9c433f57a328360290e09d634977e4e1cdde98e949833e902e413226e",
+      "content_hash": "sha256:ce513f215ea4f4caa0948a445984b841b84f80f0a5c68341c1f7e43b1bc22705",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_762564": {
@@ -313,16 +313,16 @@
     },
     "ei_774601": {
       "stable_id": "ei_774601",
-      "url": "https://www.eauctionsindia.com/bank-property-auctions-in-indian-cities",
-      "title": "Auction 774601",
+      "url": "https://www.eauctionsindia.com/properties/774601",
+      "title": "eAuction Plot in Sanand, Ahmedabad",
       "price_display": "₹2,35,75,000.00",
       "price_inr": 23575000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
-      "district": null,
-      "property_type": null,
+      "district": "Ahmedabad",
+      "property_type": "Plot",
       "bank": null,
-      "content_hash": "sha256:8d04acd00bff2e04de62f6ede11aac92e5d1398a443e4ac554cdb1479d61deed",
+      "content_hash": "sha256:fcc6c9ab3c03b17291e00830f9279e4bceeb6139e98250afb37f5414fa599862",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_774871": {
