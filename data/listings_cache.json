@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-05-22T09:41:44.945147+00:00",
+  "updated_at": "2026-05-22T14:54:30.098382+00:00",
   "listings": {
     "ei_743247": {
       "stable_id": "ei_743247",
@@ -61,31 +61,17 @@
     },
     "ei_762329": {
       "stable_id": "ei_762329",
-      "url": "https://www.eauctionsindia.com/properties/762329",
-      "title": "eAuction Car in Ellisbridge, Ahmedabad",
+      "url": "https://www.eauctionsindia.com/bank-property-auctions-in-indian-cities",
+      "title": "Auction 762329",
       "price_display": "₹6,96,000.00",
       "price_inr": 696000.0,
       "state": "Gujarat",
-      "city": "Ellisbridge",
-      "district": "Ahmedabad",
-      "property_type": "Car",
+      "city": null,
+      "district": null,
+      "property_type": null,
       "bank": null,
-      "content_hash": "sha256:ce513f215ea4f4caa0948a445984b841b84f80f0a5c68341c1f7e43b1bc22705",
+      "content_hash": "sha256:426feac9c433f57a328360290e09d634977e4e1cdde98e949833e902e413226e",
       "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_762553": {
-      "stable_id": "ei_762553",
-      "url": "https://www.eauctionsindia.com/properties/762564",
-      "title": "eAuction Land in Dhandhuka, Ahmedabad",
-      "price_display": "₹20,00,000.00",
-      "price_inr": 2000000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Land",
-      "bank": null,
-      "content_hash": "sha256:a92498fc565c405963bdfac3b7b431a7b0b05f2cebeabb56675651b9e95b88fa",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_762564": {
       "stable_id": "ei_762564",
@@ -187,16 +173,16 @@
     },
     "ei_772817": {
       "stable_id": "ei_772817",
-      "url": "https://www.eauctionsindia.com/properties/774215",
+      "url": "https://www.eauctionsindia.com/properties/774871",
       "title": "eAuction Land in Kachchh, Ahmedabad",
-      "price_display": "₹1,47,97,800.00",
-      "price_inr": 14797800.0,
+      "price_display": "₹24,05,000.00",
+      "price_inr": 2405000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:2f8a9e2173487812884364604769ba0b60db06062147568397a2ee336ab9f630",
+      "content_hash": "sha256:a10e914b33575a32f6b2035f0b34ea38b174fd4c8e1735852506c02644da47b1",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_772870": {
@@ -327,16 +313,30 @@
     },
     "ei_774601": {
       "stable_id": "ei_774601",
-      "url": "https://www.eauctionsindia.com/properties/774601",
-      "title": "eAuction Plot in Sanand, Ahmedabad",
+      "url": "https://www.eauctionsindia.com/bank-property-auctions-in-indian-cities",
+      "title": "Auction 774601",
       "price_display": "₹2,35,75,000.00",
       "price_inr": 23575000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": null,
+      "property_type": null,
+      "bank": null,
+      "content_hash": "sha256:8d04acd00bff2e04de62f6ede11aac92e5d1398a443e4ac554cdb1479d61deed",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_774871": {
+      "stable_id": "ei_774871",
+      "url": "https://www.eauctionsindia.com/properties/774215",
+      "title": "eAuction Plot in Maninagar, Ahmedabad",
+      "price_display": "₹1,47,97,800.00",
+      "price_inr": 14797800.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Plot",
       "bank": null,
-      "content_hash": "sha256:fcc6c9ab3c03b17291e00830f9279e4bceeb6139e98250afb37f5414fa599862",
+      "content_hash": "sha256:eaeb10970d7696cb0a1545ab7cc1e11951ff6a5eac04bcae386b44dcc6348042",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
