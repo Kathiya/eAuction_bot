@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-05-23T08:29:20.596735+00:00",
+  "updated_at": "2026-05-23T13:53:51.972876+00:00",
   "listings": {
-    "ei_743247": {
-      "stable_id": "ei_743247",
-      "url": "https://www.eauctionsindia.com/properties/759863",
-      "title": "eAuction Car in Tal-Mundra, Kutch",
-      "price_display": "₹4,25,000.00",
-      "price_inr": 425000.0,
-      "state": "Gujarat",
-      "city": "Tal-Mundra",
-      "district": "Kutch",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:61d359fd39bba597bf07f853bd3b1cbae01d594cbf92e869b7ca4686015f5205",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_756527": {
       "stable_id": "ei_756527",
       "url": "https://www.eauctionsindia.com/properties/773420",
@@ -29,34 +15,6 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:c4e7009325437f222b02748d7cfd89e58ead1800250b047638a4ac56c1c99810",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_759863": {
-      "stable_id": "ei_759863",
-      "url": "https://www.eauctionsindia.com/properties/765403",
-      "title": "eAuction Car in Ahmedabad, Ahmedabad",
-      "price_display": "₹1,05,000.00",
-      "price_inr": 105000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:421ddb5f9b081c957d9734e74f7b1a9f082bff3b8a266358e4175aa40e2d2970",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_761596": {
-      "stable_id": "ei_761596",
-      "url": "https://www.eauctionsindia.com/properties/743247",
-      "title": "eAuction Car in Ahmedabad, Ahmedabad",
-      "price_display": "₹15,00,000.00",
-      "price_inr": 1500000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:608bc321c3675de5e06e8cb5b55753ce8ada45446694ca666f6aeb102ac1894b",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_762329": {
@@ -72,20 +30,6 @@
       "bank": null,
       "content_hash": "sha256:ce513f215ea4f4caa0948a445984b841b84f80f0a5c68341c1f7e43b1bc22705",
       "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_762564": {
-      "stable_id": "ei_762564",
-      "url": "https://www.eauctionsindia.com/properties/766175",
-      "title": "eAuction Flat in MOJE ASARWA, Ahmedabad",
-      "price_display": "₹58,50,000.00",
-      "price_inr": 5850000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:9221f33870e160b34b8620df0c34fe2ba622a3936acfd9c860ae41fd1be9fef4",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_765403": {
       "stable_id": "ei_765403",
@@ -131,16 +75,16 @@
     },
     "ei_768648": {
       "stable_id": "ei_768648",
-      "url": "https://www.eauctionsindia.com/properties/768648",
+      "url": "https://www.eauctionsindia.com/properties/772332",
       "title": "eAuction Car in Halol, Panchmahal",
-      "price_display": "₹2,10,000.00",
-      "price_inr": 210000.0,
+      "price_display": "₹1,96,200.00",
+      "price_inr": 196200.0,
       "state": "Gujarat",
       "city": "Halol",
       "district": "Panchmahal",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:4e3aeafe3b8a6fd7aebc4b53b6bbe565441e9b33a965e96719872e04bc48ec01",
+      "content_hash": "sha256:398cb3631ab5e253b627f0ffbbe3db8a68b9fd5d5dafe580ded7c5f64f4f03d0",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_771581": {
@@ -173,16 +117,16 @@
     },
     "ei_772817": {
       "stable_id": "ei_772817",
-      "url": "https://www.eauctionsindia.com/properties/774871",
+      "url": "https://www.eauctionsindia.com/properties/775581",
       "title": "eAuction Land in Kachchh, Ahmedabad",
-      "price_display": "₹6,76,000.00",
-      "price_inr": 676000.0,
+      "price_display": "₹15,31,000.00",
+      "price_inr": 1531000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:404f095dab7da588d9a1ff4faf16b71cab15ee9c1d509af920a70dde92e5d9ff",
+      "content_hash": "sha256:acc326c6dc68021c59e4a92fdbad204b39c7b6fe91000c97a454fddf925bc070",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_772870": {
@@ -215,16 +159,16 @@
     },
     "ei_773421": {
       "stable_id": "ei_773421",
-      "url": "https://www.eauctionsindia.com/properties/773421",
+      "url": "https://www.eauctionsindia.com/properties/773422",
       "title": "eAuction Vehicle in Vadodara, Vadodara",
-      "price_display": "₹3,37,000.00",
-      "price_inr": 337000.0,
+      "price_display": "₹11,13,000.00",
+      "price_inr": 1113000.0,
       "state": "Gujarat",
       "city": "Vadodara",
       "district": "Vadodara",
       "property_type": "Vehicle",
       "bank": null,
-      "content_hash": "sha256:759cb987e7a0af7ae097f815869954066180566563c07a3c0a644f28f5c52df2",
+      "content_hash": "sha256:b55ab3df9d93473f2493d481de80a211a25642346beabf161baee08d99cf8c20",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_773422": {
@@ -285,16 +229,16 @@
     },
     "ei_774474": {
       "stable_id": "ei_774474",
-      "url": "https://www.eauctionsindia.com/properties/774474",
+      "url": "https://www.eauctionsindia.com/properties/774475",
       "title": "eAuction Plot in Dascroi, Ahmedabad",
-      "price_display": "₹60,85,000.00",
-      "price_inr": 6085000.0,
+      "price_display": "₹36,00,000.00",
+      "price_inr": 3600000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Plot",
       "bank": null,
-      "content_hash": "sha256:f7c9dbbeed0c921afb25bfa40dda1359962c1d3203dec0566e2c451bf32711be",
+      "content_hash": "sha256:23de41220dc73c8f2cfa91873c11be32e15d1229a0e1e26d09e1b9da10fc2f3a",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_774475": {
@@ -338,6 +282,62 @@
       "bank": null,
       "content_hash": "sha256:eaeb10970d7696cb0a1545ab7cc1e11951ff6a5eac04bcae386b44dcc6348042",
       "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_775581": {
+      "stable_id": "ei_775581",
+      "url": "https://www.eauctionsindia.com/properties/775581",
+      "title": "eAuction Plot in Vinzol, Ahmedabad",
+      "price_display": "₹15,31,000.00",
+      "price_inr": 1531000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Plot",
+      "bank": null,
+      "content_hash": "sha256:b37ee36469964a5bebf9aa4dca35574f0dceb87113f24ecaef22b003925b6f67",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_775847": {
+      "stable_id": "ei_775847",
+      "url": "https://www.eauctionsindia.com/properties/775848",
+      "title": "eAuction Car in Anand, Anand",
+      "price_display": "₹1,20,000.00",
+      "price_inr": 120000.0,
+      "state": "Gujarat",
+      "city": "Anand",
+      "district": "Anand",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:8a1a4da22b60bda5e51dc5e39dd311b0d4d05d66bc1bdd40edd81ead65b7b493",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_775848": {
+      "stable_id": "ei_775848",
+      "url": "https://www.eauctionsindia.com/properties/775849",
+      "title": "eAuction Car in Anand, Anand",
+      "price_display": "₹75,000.00",
+      "price_inr": 75000.0,
+      "state": "Gujarat",
+      "city": "Anand",
+      "district": "Anand",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:bb35d8b6c94a3cced4697a58e1f0341dcda6cbc6e2e4d19e24cc37b68337c14b",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_775849": {
+      "stable_id": "ei_775849",
+      "url": "https://www.eauctionsindia.com/properties/775849",
+      "title": "eAuction Car in Anand, Anand",
+      "price_display": "₹75,000.00",
+      "price_inr": 75000.0,
+      "state": "Gujarat",
+      "city": "Anand",
+      "district": "Anand",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:bb35d8b6c94a3cced4697a58e1f0341dcda6cbc6e2e4d19e24cc37b68337c14b",
+      "stream_label": "Vehicles · Gujarat"
     }
   }
 }
