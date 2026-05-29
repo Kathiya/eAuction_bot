@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-05-28T20:33:06.197641+00:00",
+  "updated_at": "2026-05-29T04:19:25.330132+00:00",
   "listings": {
     "ei_756527": {
       "stable_id": "ei_756527",
@@ -171,6 +171,76 @@
       "content_hash": "sha256:bb35d8b6c94a3cced4697a58e1f0341dcda6cbc6e2e4d19e24cc37b68337c14b",
       "stream_label": "Vehicles · Gujarat"
     },
+    "ei_776471": {
+      "stable_id": "ei_776471",
+      "url": "https://www.eauctionsindia.com/properties/776472",
+      "title": "eAuction Factory land and Building in Pedapudi, Kakinada",
+      "price_display": "₹1,40,39,000.00",
+      "price_inr": 14039000.0,
+      "state": "Gujarat",
+      "city": "Pedapudi",
+      "district": "Kakinada",
+      "property_type": null,
+      "bank": null,
+      "content_hash": "sha256:bd81fa1ff6148949d37f47d0af7a4536676987aaf1b96497509a0740148130ed",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_776472": {
+      "stable_id": "ei_776472",
+      "url": "https://www.eauctionsindia.com/properties/776473",
+      "title": "eAuction Factory land and Building in Pedapudi, Kakinada",
+      "price_display": "₹1,85,02,000.00",
+      "price_inr": 18502000.0,
+      "state": "Gujarat",
+      "city": "Pedapudi",
+      "district": "Kakinada",
+      "property_type": null,
+      "bank": null,
+      "content_hash": "sha256:1b1b2a8880fa03e51890d4c36173c9fd7393e0256dfaac575aa98906c33f9e8a",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_776473": {
+      "stable_id": "ei_776473",
+      "url": "https://www.eauctionsindia.com/properties/776476",
+      "title": "eAuction Machinary in Pedapudi, Kakinada",
+      "price_display": "₹87,79,000.00",
+      "price_inr": 8779000.0,
+      "state": "Gujarat",
+      "city": "Pedapudi",
+      "district": "Kakinada",
+      "property_type": "Machinary",
+      "bank": null,
+      "content_hash": "sha256:d78edea551d91d1879ffa50552ef260744a867b88817c817b60a39d09665ead2",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_776476": {
+      "stable_id": "ei_776476",
+      "url": "https://www.eauctionsindia.com/properties/776481",
+      "title": "eAuction Machinary in Pedapudi, Kakinada",
+      "price_display": "₹39,43,000.00",
+      "price_inr": 3943000.0,
+      "state": "Gujarat",
+      "city": "Pedapudi",
+      "district": "Kakinada",
+      "property_type": "Machinary",
+      "bank": null,
+      "content_hash": "sha256:0593c00af61a4d578921ead1224c5d48db8a32445938b9de7d5d267f3d2d286e",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_776481": {
+      "stable_id": "ei_776481",
+      "url": "https://www.eauctionsindia.com/properties/779210",
+      "title": "eAuction Machinary in Pedapudi, Kakinada",
+      "price_display": "₹9,95,000.00",
+      "price_inr": 995000.0,
+      "state": "Gujarat",
+      "city": "Pedapudi",
+      "district": "Kakinada",
+      "property_type": "Machinary",
+      "bank": null,
+      "content_hash": "sha256:229e5e7f75a9395a4fb0a3b48dbf9f06eacabd3d577d49c576a791f90e1c5093",
+      "stream_label": "Vehicles · Gujarat"
+    },
     "ei_776874": {
       "stable_id": "ei_776874",
       "url": "https://www.eauctionsindia.com/properties/777071",
@@ -212,6 +282,20 @@
       "bank": null,
       "content_hash": "sha256:e09184e6a7ab665ba914dec6993134ba3c4a65c4a2a716634cda4b045aefa266",
       "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_777925": {
+      "stable_id": "ei_777925",
+      "url": "https://www.eauctionsindia.com/properties/777925",
+      "title": "eAuction Commercial Property in Roorkee, Haridwar",
+      "price_display": "₹2,70,00,000.00",
+      "price_inr": 27000000.0,
+      "state": "Gujarat",
+      "city": "Roorkee",
+      "district": "Haridwar",
+      "property_type": "Commercial Property",
+      "bank": null,
+      "content_hash": "sha256:1bc71410801c05d8cebfe0b6abef4ef993062537f1598b93243125f3f8b91d95",
+      "stream_label": "Vehicles · Gujarat"
     },
     "ei_778032": {
       "stable_id": "ei_778032",
@@ -338,6 +422,90 @@
       "bank": null,
       "content_hash": "sha256:a0f281be98943e83738fb0e1a94c26fb27c30cec514f88f37ec1e3a8afd230f8",
       "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_779210": {
+      "stable_id": "ei_779210",
+      "url": "https://www.eauctionsindia.com/properties/779211",
+      "title": "eAuction Commercial Shop in Karol Bagh, New Delhi",
+      "price_display": "₹14,50,000.00",
+      "price_inr": 1450000.0,
+      "state": "Gujarat",
+      "city": "Karol Bagh",
+      "district": "New Delhi",
+      "property_type": "Commercial Shop",
+      "bank": null,
+      "content_hash": "sha256:6a9e6490077442c1f2bbaafb32ef747d79c90e0adf3c3f46de6e7c4be19de112",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_779211": {
+      "stable_id": "ei_779211",
+      "url": "https://www.eauctionsindia.com/properties/779212",
+      "title": "eAuction Plot in Uttam Nagar, New Delhi",
+      "price_display": "₹16,50,000.00",
+      "price_inr": 1650000.0,
+      "state": "Gujarat",
+      "city": "Uttam Nagar",
+      "district": "New Delhi",
+      "property_type": "Plot",
+      "bank": null,
+      "content_hash": "sha256:067379ef6e648a74118b3dbb69e9289cf8de1cb8616dcfd2302d56bcc3a6edbf",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_779212": {
+      "stable_id": "ei_779212",
+      "url": "https://www.eauctionsindia.com/properties/779213",
+      "title": "eAuction Flat in Uttam Nagar, New Delhi",
+      "price_display": "₹16,50,000.00",
+      "price_inr": 1650000.0,
+      "state": "Gujarat",
+      "city": "Uttam Nagar",
+      "district": "New Delhi",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:b648fd22207ccb2b4232655515e4290cd25f1beba9e3168df3d8483acc60d8f5",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_779213": {
+      "stable_id": "ei_779213",
+      "url": "https://www.eauctionsindia.com/properties/779215",
+      "title": "eAuction Flat in Vaishali, Ghaziabad",
+      "price_display": "₹16,50,000.00",
+      "price_inr": 1650000.0,
+      "state": "Gujarat",
+      "city": "Vaishali",
+      "district": "Ghaziabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:e5c7b60c7d2ac31c0fcc1b0e6af7efad1fc73e369c29bd582b4e6a297da2f310",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_779215": {
+      "stable_id": "ei_779215",
+      "url": "https://www.eauctionsindia.com/properties/779216",
+      "title": "eAuction Flat in Paschim Vihar, New Delhi",
+      "price_display": "₹3,15,00,000.00",
+      "price_inr": 31500000.0,
+      "state": "Gujarat",
+      "city": "Paschim Vihar",
+      "district": "New Delhi",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:2b10686ae21a348bd270a1a81dacacb7b6c21efd46bde6023702a879715a21be",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_779216": {
+      "stable_id": "ei_779216",
+      "url": "https://www.eauctionsindia.com/properties/777925",
+      "title": "eAuction Plot in Vikasnagar, Dehradun",
+      "price_display": "₹2,70,00,000.00",
+      "price_inr": 27000000.0,
+      "state": "Gujarat",
+      "city": "Vikasnagar",
+      "district": "Dehradun",
+      "property_type": "Plot",
+      "bank": null,
+      "content_hash": "sha256:f98edf9d7f7169ae2fd8e705cd4d15f343c8966e130473446af2670a588137a8",
+      "stream_label": "Vehicles · Gujarat"
     }
   }
 }
