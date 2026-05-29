@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-05-29T10:07:19.396929+00:00",
+  "updated_at": "2026-05-29T15:59:51.124943+00:00",
   "listings": {
     "ei_756527": {
       "stable_id": "ei_756527",
@@ -62,29 +62,29 @@
     "ei_773420": {
       "stable_id": "ei_773420",
       "url": "https://www.eauctionsindia.com/properties/773421",
-      "title": "eAuction Vehicle in Vadodara, Vadodara",
+      "title": "eAuction Car in Vadodara, Vadodara",
       "price_display": "₹3,37,000.00",
       "price_inr": 337000.0,
       "state": "Gujarat",
       "city": "Vadodara",
       "district": "Vadodara",
-      "property_type": "Vehicle",
+      "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:759cb987e7a0af7ae097f815869954066180566563c07a3c0a644f28f5c52df2",
+      "content_hash": "sha256:717a1a536a05fb6d51316fd342d36078fc938908b99d76c163b01d5ca5de9a6c",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_773421": {
       "stable_id": "ei_773421",
       "url": "https://www.eauctionsindia.com/properties/773422",
-      "title": "eAuction Vehicle in Vadodara, Vadodara",
+      "title": "eAuction Car in Vadodara, Vadodara",
       "price_display": "₹11,13,000.00",
       "price_inr": 1113000.0,
       "state": "Gujarat",
       "city": "Vadodara",
       "district": "Vadodara",
-      "property_type": "Vehicle",
+      "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:b55ab3df9d93473f2493d481de80a211a25642346beabf161baee08d99cf8c20",
+      "content_hash": "sha256:d2233fa78f3daf72d0c5fa9c8cce9c825d3b5ae602e722a728ab825d1381c706",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_773422": {
