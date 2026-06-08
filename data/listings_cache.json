@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-06-07T19:42:16.031995+00:00",
+  "updated_at": "2026-06-08T11:11:13.177311+00:00",
   "listings": {
     "ei_762329": {
       "stable_id": "ei_762329",
@@ -496,15 +496,15 @@
     "ei_786329": {
       "stable_id": "ei_786329",
       "url": "https://www.eauctionsindia.com/properties/783229",
-      "title": "eAuction Plot in Gota, Ahmedabad",
+      "title": "eAuction Flat in Gota, Ahmedabad",
       "price_display": "₹55,44,000.00",
       "price_inr": 5544000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
-      "property_type": "Plot",
+      "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:1e680d4018da52e05f2cab77c01e0a14909d2f02d5ab51baac516cca11a997b2",
+      "content_hash": "sha256:590e5a6fa3348ccc296a7d7c041df26a95b8e9a9f1c0e1e5eef2f56973b4ac24",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
