@@ -1,48 +1,20 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-06-17T04:56:00.158948+00:00",
+  "updated_at": "2026-06-17T11:10:04.991824+00:00",
   "listings": {
-    "ei_762329": {
-      "stable_id": "ei_762329",
-      "url": "https://www.eauctionsindia.com/properties/762329",
-      "title": "eAuction Car in Ellisbridge, Ahmedabad",
-      "price_display": "₹6,96,000.00",
-      "price_inr": 696000.0,
-      "state": "Gujarat",
-      "city": "Ellisbridge",
-      "district": "Ahmedabad",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:ce513f215ea4f4caa0948a445984b841b84f80f0a5c68341c1f7e43b1bc22705",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_771581": {
-      "stable_id": "ei_771581",
-      "url": "https://www.eauctionsindia.com/properties/762329",
-      "title": "eAuction Vehicle in Rajkot, Rajkot",
-      "price_display": "₹6,96,000.00",
-      "price_inr": 696000.0,
-      "state": "Gujarat",
-      "city": "Rajkot",
-      "district": "Rajkot",
-      "property_type": "Vehicle",
-      "bank": null,
-      "content_hash": "sha256:ef8502f662da5b354f9955ff4e49df80a7a03f681dce0292b008fbef727a0768",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_775847": {
       "stable_id": "ei_775847",
-      "url": "https://www.eauctionsindia.com/properties/775847",
+      "url": "https://www.eauctionsindia.com/properties/775848",
       "title": "eAuction Car in Anand, Anand",
-      "price_display": "₹4,20,000.00",
-      "price_inr": 420000.0,
+      "price_display": "₹1,20,000.00",
+      "price_inr": 120000.0,
       "state": "Gujarat",
       "city": "Anand",
       "district": "Anand",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:a72fc8a513e838f23cb16ba8a1129ca6d1ce228e361e72313bbfef8eba48ba44",
+      "content_hash": "sha256:8a1a4da22b60bda5e51dc5e39dd311b0d4d05d66bc1bdd40edd81ead65b7b493",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_775848": {
@@ -71,34 +43,6 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:d575de51e4a2696f776b7997cae5e53bae687e8e0ba195fc57083ef54659a86e",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_778032": {
-      "stable_id": "ei_778032",
-      "url": "https://www.eauctionsindia.com/properties/778034",
-      "title": "eAuction Car in Chandkheda, Ahmedabad",
-      "price_display": "₹9,25,000.00",
-      "price_inr": 925000.0,
-      "state": "Gujarat",
-      "city": "Chandkheda",
-      "district": "Ahmedabad",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:4da6028bf65eb30447d761150c77c29ae36e8ce7a5bc0700b9811326b7208668",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_778034": {
-      "stable_id": "ei_778034",
-      "url": "https://www.eauctionsindia.com/properties/771581",
-      "title": "eAuction Car in Chandkheda, Ahmedabad",
-      "price_display": "₹21,45,447.00",
-      "price_inr": 2145447.0,
-      "state": "Gujarat",
-      "city": "Chandkheda",
-      "district": "Ahmedabad",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:f2e7ba465ba00bcf244ecc16dfd802b1129901a51d4a952d412f1ede08b556d6",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_779576": {
@@ -145,16 +89,16 @@
     },
     "ei_781893": {
       "stable_id": "ei_781893",
-      "url": "https://www.eauctionsindia.com/properties/775847",
+      "url": "https://www.eauctionsindia.com/properties/781893",
       "title": "eAuction Car in Vemali, Vadodara",
-      "price_display": "₹4,20,000.00",
-      "price_inr": 420000.0,
+      "price_display": "₹4,91,000.00",
+      "price_inr": 491000.0,
       "state": "Gujarat",
       "city": "Vemali",
       "district": "Vadodara",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:781a369069be1d6e1955099caeb0a48ccb24a275f646a4bfb4089ca27fe1ffe5",
+      "content_hash": "sha256:80b653f5f342f01c03c6707720f97c6614f072bca6db7405e25176bedf01b652",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_782085": {
@@ -201,16 +145,16 @@
     },
     "ei_787226": {
       "stable_id": "ei_787226",
-      "url": "https://www.eauctionsindia.com/properties/787226",
+      "url": "https://www.eauctionsindia.com/properties/794057",
       "title": "eAuction Vehicle in Unjha, Mehsana",
-      "price_display": "₹5,07,000.00",
-      "price_inr": 507000.0,
+      "price_display": "₹4,55,000.00",
+      "price_inr": 455000.0,
       "state": "Gujarat",
       "city": "Unjha",
       "district": "Mehsana",
       "property_type": "Vehicle",
       "bank": null,
-      "content_hash": "sha256:7f75751386287bf3515b7921fa8d385c350b7daa31aca8aed156fb9fb4112246",
+      "content_hash": "sha256:bc313f1869ba3245ccf6d3a6a644a8baa6d5190b9c312f7dcf812cfb054d9740",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_788874": {
@@ -338,6 +282,62 @@
       "bank": null,
       "content_hash": "sha256:e65ac939ee9fffe3f53f75b84df4cd1be6604acb4f616b9446aa8c47fc3ef271",
       "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_794057": {
+      "stable_id": "ei_794057",
+      "url": "https://www.eauctionsindia.com/properties/794057",
+      "title": "eAuction Car in Vadodara, Vadodara",
+      "price_display": "₹4,55,000.00",
+      "price_inr": 455000.0,
+      "state": "Gujarat",
+      "city": "Vadodara",
+      "district": "Vadodara",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:e9c4419bb192ed40c093e810f1690ecce3f38d27e39748234e4aad4fac6a9f85",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_794058": {
+      "stable_id": "ei_794058",
+      "url": "https://www.eauctionsindia.com/properties/794059",
+      "title": "eAuction Car in Vadodara, Vadodara",
+      "price_display": "₹3,00,000.00",
+      "price_inr": 300000.0,
+      "state": "Gujarat",
+      "city": "Vadodara",
+      "district": "Vadodara",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:40eb4ad51e89245de875cda0c55d083f8ced96b9a2af2aaedbc916d96cf0f5fc",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_794059": {
+      "stable_id": "ei_794059",
+      "url": "https://www.eauctionsindia.com/properties/794060",
+      "title": "eAuction Car in Vadodara, Vadodara",
+      "price_display": "₹7,00,000.00",
+      "price_inr": 700000.0,
+      "state": "Gujarat",
+      "city": "Vadodara",
+      "district": "Vadodara",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:14581f6e79214b833e6306f9f49fc9a459e36f41c1b87316610b5e6ef9c2639a",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_794060": {
+      "stable_id": "ei_794060",
+      "url": "https://www.eauctionsindia.com/properties/794060",
+      "title": "eAuction Car in Chikhali, Navsari",
+      "price_display": "₹7,00,000.00",
+      "price_inr": 700000.0,
+      "state": "Gujarat",
+      "city": "Chikhali",
+      "district": "Navsari",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:8dcaf9933ed2f1c11370712e9b55dc34671e9a821dd38615413d6cb6790d6335",
+      "stream_label": "Vehicles · Gujarat"
     }
   }
 }
