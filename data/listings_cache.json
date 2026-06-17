@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-06-17T15:54:02.796834+00:00",
+  "updated_at": "2026-06-17T20:23:58.867002+00:00",
   "listings": {
     "ei_775847": {
       "stable_id": "ei_775847",
@@ -114,20 +114,6 @@
       "bank": null,
       "content_hash": "sha256:a66421fd3d54f1184af1d69eddbd65c72fee220680f770695daee627eb4b21aa",
       "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_784052": {
-      "stable_id": "ei_784052",
-      "url": "https://www.eauctionsindia.com/properties/784629",
-      "title": "eAuction Flat in Naroda, Ahmedabad",
-      "price_display": "₹35,00,000.00",
-      "price_inr": 3500000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:8a515c0601cbf749a47c2a7027079624dfeb9685eecac0cd2213dc2dc2574306",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_784629": {
       "stable_id": "ei_784629",
@@ -271,16 +257,16 @@
     },
     "ei_792743": {
       "stable_id": "ei_792743",
-      "url": "https://www.eauctionsindia.com/properties/791621",
+      "url": "https://www.eauctionsindia.com/properties/794707",
       "title": "eAuction Land in Sabarmati, Ahmedabad",
-      "price_display": "₹21,04,000.00",
-      "price_inr": 2104000.0,
+      "price_display": "₹87,00,000.00",
+      "price_inr": 8700000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:e65ac939ee9fffe3f53f75b84df4cd1be6604acb4f616b9446aa8c47fc3ef271",
+      "content_hash": "sha256:74cfb46e748b1d0fe2ef170e283d9f1505a7a037d13f16d66aaacc0272c3767f",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_794057": {
@@ -338,6 +324,20 @@
       "bank": null,
       "content_hash": "sha256:8dcaf9933ed2f1c11370712e9b55dc34671e9a821dd38615413d6cb6790d6335",
       "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_794707": {
+      "stable_id": "ei_794707",
+      "url": "https://www.eauctionsindia.com/properties/791621",
+      "title": "eAuction Plot in Sabarmati, Ahmedabad",
+      "price_display": "₹21,04,000.00",
+      "price_inr": 2104000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Plot",
+      "bank": null,
+      "content_hash": "sha256:b021a3d6ab884e2e9f7ab43e0ebd91883b23d3901e7476f7a742fd7f75028cba",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
 }
