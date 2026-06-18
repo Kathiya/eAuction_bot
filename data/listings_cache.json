@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-06-18T15:42:25.774359+00:00",
+  "updated_at": "2026-06-18T20:34:11.717496+00:00",
   "listings": {
     "ei_775847": {
       "stable_id": "ei_775847",
@@ -44,20 +44,6 @@
       "bank": null,
       "content_hash": "sha256:582f8d46aa9168f33317b4a74ce2d8ead4ce1bf4e14c1f9a7929d8b043f3e7bf",
       "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_779576": {
-      "stable_id": "ei_779576",
-      "url": "https://www.eauctionsindia.com/properties/788874",
-      "title": "eAuction Flat in Bavla, Ahmedabad",
-      "price_display": "₹40,00,000.00",
-      "price_inr": 4000000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:0e2926477412d20505afcbae1d65f0643926921459d033017f8de21007829a34",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_781884": {
       "stable_id": "ei_781884",
@@ -131,16 +117,16 @@
     },
     "ei_789506": {
       "stable_id": "ei_789506",
-      "url": "https://www.eauctionsindia.com/properties/791960",
+      "url": "https://www.eauctionsindia.com/properties/795491",
       "title": "eAuction House in Dholka, Ahmedabad",
-      "price_display": "₹6,19,400.00",
-      "price_inr": 619400.0,
+      "price_display": "₹39,00,000.00",
+      "price_inr": 3900000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "House",
       "bank": null,
-      "content_hash": "sha256:cd5ffb2692344095e780b80a7b122c17e69bb607f95ef95f6487d01d156b0990",
+      "content_hash": "sha256:5e84e8cef183653d7af9dcbb2647f7cdf49d42f4d471c27abee80f1cda0484ca",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_791621": {
@@ -337,6 +323,20 @@
       "property_type": "House",
       "bank": null,
       "content_hash": "sha256:9af020f74003fb1735655ad083e6ec61e7e682d4c20ca73acb556e5d343ad134",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_795491": {
+      "stable_id": "ei_795491",
+      "url": "https://www.eauctionsindia.com/properties/791960",
+      "title": "eAuction Flat in Ghatlodiya, Ahmedabad",
+      "price_display": "₹6,19,400.00",
+      "price_inr": 619400.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:650313414c084fc3b4e802f1142868907354bfd8a5afd4d0862814e05b1c654c",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
