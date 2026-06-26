@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-06-26T09:41:38.538834+00:00",
+  "updated_at": "2026-06-26T14:38:48.325164+00:00",
   "listings": {
     "ei_794059": {
       "stable_id": "ei_794059",
@@ -44,90 +44,6 @@
       "bank": null,
       "content_hash": "sha256:9af020f74003fb1735655ad083e6ec61e7e682d4c20ca73acb556e5d343ad134",
       "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_795180": {
-      "stable_id": "ei_795180",
-      "url": "https://www.eauctionsindia.com/properties/795181",
-      "title": "eAuction Plot in Sachin, Surat",
-      "price_display": "₹16,00,000.00",
-      "price_inr": 1600000.0,
-      "state": "Gujarat",
-      "city": "Sachin",
-      "district": "Surat",
-      "property_type": "Plot",
-      "bank": null,
-      "content_hash": "sha256:539e6bbcd60c31d70d044ab87ca03f1fc13d65b3e9a17f07143116f9723b92ec",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_795181": {
-      "stable_id": "ei_795181",
-      "url": "https://www.eauctionsindia.com/properties/795182",
-      "title": "eAuction Plot in Sachin, Surat",
-      "price_display": "₹16,00,000.00",
-      "price_inr": 1600000.0,
-      "state": "Gujarat",
-      "city": "Sachin",
-      "district": "Surat",
-      "property_type": "Plot",
-      "bank": null,
-      "content_hash": "sha256:196134e2ecf0ed3ac3bde6e64fe5bf79f1f685256fc388843de53dda0b4ea7c2",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_795182": {
-      "stable_id": "ei_795182",
-      "url": "https://www.eauctionsindia.com/properties/795183",
-      "title": "eAuction Plot in Vanakala, Surat",
-      "price_display": "₹84,00,000.00",
-      "price_inr": 8400000.0,
-      "state": "Gujarat",
-      "city": "Vanakala",
-      "district": "Surat",
-      "property_type": "Plot",
-      "bank": null,
-      "content_hash": "sha256:002d8105e097187188d1ec41ebdc91bab05f2718dd8f86582f3d2255acc71194",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_795183": {
-      "stable_id": "ei_795183",
-      "url": "https://www.eauctionsindia.com/properties/795187",
-      "title": "eAuction Plot in Vanakala, Surat",
-      "price_display": "₹79,00,000.00",
-      "price_inr": 7900000.0,
-      "state": "Gujarat",
-      "city": "Vanakala",
-      "district": "Surat",
-      "property_type": "Plot",
-      "bank": null,
-      "content_hash": "sha256:565b99474c079c030fd8a81653d8eeed968ca6681190286977858d6b1cc8bab6",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_795187": {
-      "stable_id": "ei_795187",
-      "url": "https://www.eauctionsindia.com/properties/795188",
-      "title": "eAuction Commercial Office in Kharoda, Surat",
-      "price_display": "₹3,39,00,000.00",
-      "price_inr": 33900000.0,
-      "state": "Gujarat",
-      "city": "Kharoda",
-      "district": "Surat",
-      "property_type": "Commercial Office",
-      "bank": null,
-      "content_hash": "sha256:e1a25e3c4c679d01b80185935b572787d375f2a147052ed12d483d26cea9e9b7",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_795188": {
-      "stable_id": "ei_795188",
-      "url": "https://www.eauctionsindia.com/properties/795862",
-      "title": "eAuction Plot in Ghatkesar (M), Hyderabad",
-      "price_display": "₹1.00",
-      "price_inr": 1.0,
-      "state": "Gujarat",
-      "city": "Ghatkesar (M)",
-      "district": "Hyderabad",
-      "property_type": "Plot",
-      "bank": null,
-      "content_hash": "sha256:9893c529d3ba105f5a3e9591c8f7bb615f158683778ca2f24bd08fccf7a470f7",
-      "stream_label": "Vehicles · Gujarat"
     },
     "ei_795601": {
       "stable_id": "ei_795601",
@@ -185,20 +101,6 @@
       "content_hash": "sha256:eb3afa93f8d675d03c49232f0ba4e298d9b8dd4c21ea1a30ef851cd8632e5711",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
-    "ei_795862": {
-      "stable_id": "ei_795862",
-      "url": "https://www.eauctionsindia.com/properties/797363",
-      "title": "eAuction Car in Nagpur, Nagpur",
-      "price_display": "₹5,25,000.00",
-      "price_inr": 525000.0,
-      "state": "Gujarat",
-      "city": "Nagpur",
-      "district": "Nagpur",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:06d41d602914e844636f6ec9cf1cd643387493991bcd29013df4944891f3bc62",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_796056": {
       "stable_id": "ei_796056",
       "url": "https://www.eauctionsindia.com/properties/796056",
@@ -211,20 +113,6 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:ff018891ffb6546b25359df2ad058e5f4b35c95da0c4779b4703b0fb36836bd4",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_797363": {
-      "stable_id": "ei_797363",
-      "url": "https://www.eauctionsindia.com/properties/798254",
-      "title": "eAuction Car in Nagpur, Nagpur",
-      "price_display": "₹4,22,000.00",
-      "price_inr": 422000.0,
-      "state": "Gujarat",
-      "city": "Nagpur",
-      "district": "Nagpur",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:2ad09e0bf980ff36534f6c8c12d922a0a125fdd6a92de1a52b868054789d52b0",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_797712": {
@@ -339,20 +227,6 @@
       "content_hash": "sha256:893901d6d147df114b6e7e4d745d85e18a7d2e67ac9512b941ca94446e55bfc8",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_798254": {
-      "stable_id": "ei_798254",
-      "url": "https://www.eauctionsindia.com/properties/798254",
-      "title": "eAuction Car in Pune, Pune",
-      "price_display": "₹4,22,000.00",
-      "price_inr": 422000.0,
-      "state": "Gujarat",
-      "city": "Pune",
-      "district": "Pune",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:1ce3718886b21554cf3c605d2ea91e734b1049e0ad6b75f7206038e96aff14c9",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_798387": {
       "stable_id": "ei_798387",
       "url": "https://www.eauctionsindia.com/properties/798388",
@@ -449,48 +323,6 @@
       "property_type": "Vehicle",
       "bank": null,
       "content_hash": "sha256:29d2244cc79ebb09cdf9dd72e7091f31aaa587a28a085750ea055da249faf3f3",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_799607": {
-      "stable_id": "ei_799607",
-      "url": "https://www.eauctionsindia.com/properties/799615",
-      "title": "eAuction Car in Muzaffarpur, Muzaffarpur",
-      "price_display": "₹4,25,000.00",
-      "price_inr": 425000.0,
-      "state": "Gujarat",
-      "city": "Muzaffarpur",
-      "district": "Muzaffarpur",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:359ec5ba435a390fda312e24fa27d5720186a98662e6f96b36fb4a695a8266d6",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_799615": {
-      "stable_id": "ei_799615",
-      "url": "https://www.eauctionsindia.com/properties/799804",
-      "title": "eAuction Car in Patna, Patna",
-      "price_display": "₹2,80,000.00",
-      "price_inr": 280000.0,
-      "state": "Gujarat",
-      "city": "Patna",
-      "district": "Patna",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:a3db49f83448c5c16340ae545b3894bf215fd3025ad54276a25f13159ca3e550",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_799804": {
-      "stable_id": "ei_799804",
-      "url": "https://www.eauctionsindia.com/properties/799804",
-      "title": "eAuction Car in silchar, Cachar",
-      "price_display": "₹2,80,000.00",
-      "price_inr": 280000.0,
-      "state": "Gujarat",
-      "city": "silchar",
-      "district": "Cachar",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:2f7d791aa1a18cc220954665d316f2a0c04e14ba465107191ca06518bfb6f9ed",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_800191": {
