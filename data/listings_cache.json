@@ -1,22 +1,8 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-06-28T19:41:01.608359+00:00",
+  "updated_at": "2026-06-29T11:18:02.480890+00:00",
   "listings": {
-    "ei_794059": {
-      "stable_id": "ei_794059",
-      "url": "https://www.eauctionsindia.com/properties/798387",
-      "title": "eAuction Car in Vadodara, Vadodara",
-      "price_display": "₹12,44,000.00",
-      "price_inr": 1244000.0,
-      "state": "Gujarat",
-      "city": "Vadodara",
-      "district": "Vadodara",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:1b6f412bed9cad3fc3288ca9ff1d6dc8196ddf61ad381532015680cd840f9662",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_794060": {
       "stable_id": "ei_794060",
       "url": "https://www.eauctionsindia.com/properties/794060",
@@ -337,6 +323,20 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:af5e5227df789760bae705f439b93f0ed42fdbfd152cb2a32f14240d21183f4a",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_802908": {
+      "stable_id": "ei_802908",
+      "url": "https://www.eauctionsindia.com/properties/798387",
+      "title": "eAuction Vehicle in Chikhli, Navsari",
+      "price_display": "₹12,44,000.00",
+      "price_inr": 1244000.0,
+      "state": "Gujarat",
+      "city": "Chikhli",
+      "district": "Navsari",
+      "property_type": "Vehicle",
+      "bank": null,
+      "content_hash": "sha256:f88f8042efe77f1ac0e35cf9d747bf7505898f50542fe1037f2a087f9ef963a0",
       "stream_label": "Vehicles · Gujarat"
     }
   }
