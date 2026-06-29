@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-06-29T11:18:02.480890+00:00",
+  "updated_at": "2026-06-29T16:00:23.273697+00:00",
   "listings": {
     "ei_794060": {
       "stable_id": "ei_794060",
@@ -29,34 +29,6 @@
       "property_type": "House",
       "bank": null,
       "content_hash": "sha256:9af020f74003fb1735655ad083e6ec61e7e682d4c20ca73acb556e5d343ad134",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_795601": {
-      "stable_id": "ei_795601",
-      "url": "https://www.eauctionsindia.com/properties/795607",
-      "title": "eAuction Flat in Narol, Ahmedabad",
-      "price_display": "₹22,00,000.00",
-      "price_inr": 2200000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:4a165e5e815517cb6d978feac40d562765252b48491e2f3bd3ddb0275950adea",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_795607": {
-      "stable_id": "ei_795607",
-      "url": "https://www.eauctionsindia.com/properties/795608",
-      "title": "eAuction Flat in Gheekanta, Ahmedabad",
-      "price_display": "₹3,00,000.00",
-      "price_inr": 300000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:6232acb62e6b2f513f7e7c43d515a7a0f5ecabc9ca8573bf27a0efd617904ba9",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_795608": {
@@ -103,16 +75,16 @@
     },
     "ei_797712": {
       "stable_id": "ei_797712",
-      "url": "https://www.eauctionsindia.com/properties/795023",
+      "url": "https://www.eauctionsindia.com/properties/803944",
       "title": "eAuction Flat in Daskroi, Ahmedabad",
-      "price_display": "₹12,55,500.00",
-      "price_inr": 1255500.0,
+      "price_display": "₹24,10,000.00",
+      "price_inr": 2410000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:8d42c9d758e5643b801e28d37f93e0a39165581a9924a2214bbf6953a90300e7",
+      "content_hash": "sha256:a01836f811fdf8f674c58ab860fbe1e1f67574da006dafe292e66d9a711b0495",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_798032": {
@@ -175,14 +147,14 @@
       "stable_id": "ei_798041",
       "url": "https://www.eauctionsindia.com/properties/798042",
       "title": "eAuction Plot in valva, Ahmedabad",
-      "price_display": "₹2,80,000.00",
-      "price_inr": 280000.0,
+      "price_display": "₹4,00,000.00",
+      "price_inr": 400000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Plot",
       "bank": null,
-      "content_hash": "sha256:beb821ccc73f3150b8602b729ad13958a616326c4af57036cf6fd70251c7f564",
+      "content_hash": "sha256:0c20d6d91ef509c812f391042d93bead92b897bdeab755dbb87d8af5e7fbd5b7",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_798042": {
@@ -338,6 +310,34 @@
       "bank": null,
       "content_hash": "sha256:f88f8042efe77f1ac0e35cf9d747bf7505898f50542fe1037f2a087f9ef963a0",
       "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_803944": {
+      "stable_id": "ei_803944",
+      "url": "https://www.eauctionsindia.com/properties/803963",
+      "title": "eAuction Flat in Ahmedabad, Ahmedabad",
+      "price_display": "₹18,70,000.00",
+      "price_inr": 1870000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:15077342e575584b49d71f7d64b091f45a379baef68dbb614635e367fb431c88",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_803963": {
+      "stable_id": "ei_803963",
+      "url": "https://www.eauctionsindia.com/properties/795023",
+      "title": "eAuction Flat in Chandkheda, Ahmedabad",
+      "price_display": "₹12,55,500.00",
+      "price_inr": 1255500.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:33a8fb76f1f0f3924ef44d459df09664943a30997a38e713f01bbce89b5c993d",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
 }
