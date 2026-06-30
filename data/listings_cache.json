@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-06-30T04:13:32.658101+00:00",
+  "updated_at": "2026-06-30T09:54:25.342188+00:00",
   "listings": {
     "ei_794060": {
       "stable_id": "ei_794060",
@@ -31,60 +31,18 @@
       "content_hash": "sha256:9af020f74003fb1735655ad083e6ec61e7e682d4c20ca73acb556e5d343ad134",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
-    "ei_795182": {
-      "stable_id": "ei_795182",
-      "url": "https://www.eauctionsindia.com/properties/795183",
-      "title": "eAuction Plot in Vanakala, Surat",
-      "price_display": "₹84,00,000.00",
-      "price_inr": 8400000.0,
-      "state": "Gujarat",
-      "city": "Vanakala",
-      "district": "Surat",
-      "property_type": "Plot",
-      "bank": null,
-      "content_hash": "sha256:002d8105e097187188d1ec41ebdc91bab05f2718dd8f86582f3d2255acc71194",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_795183": {
-      "stable_id": "ei_795183",
-      "url": "https://www.eauctionsindia.com/properties/795187",
-      "title": "eAuction Commercial Office in Kharoda, Surat",
-      "price_display": "₹79,00,000.00",
-      "price_inr": 7900000.0,
-      "state": "Gujarat",
-      "city": "Kharoda",
-      "district": "Surat",
-      "property_type": "Commercial Office",
-      "bank": null,
-      "content_hash": "sha256:f63b5a26afd4c4f9ba890fe49b8bc1d4ca2071b9ac3edc27dc359ec592252edf",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_795187": {
-      "stable_id": "ei_795187",
-      "url": "https://www.eauctionsindia.com/properties/795188",
-      "title": "eAuction Commercial Office in Kharoda, Surat",
-      "price_display": "₹3,39,00,000.00",
-      "price_inr": 33900000.0,
-      "state": "Gujarat",
-      "city": "Kharoda",
-      "district": "Surat",
-      "property_type": "Commercial Office",
-      "bank": null,
-      "content_hash": "sha256:e1a25e3c4c679d01b80185935b572787d375f2a147052ed12d483d26cea9e9b7",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_795188": {
       "stable_id": "ei_795188",
       "url": "https://www.eauctionsindia.com/properties/795862",
-      "title": "eAuction Commercial Shop in Dumbhal, Surat",
+      "title": "eAuction Plot in Ghatkesar (M), Hyderabad",
       "price_display": "₹1,10,00,000.00",
       "price_inr": 11000000.0,
       "state": "Gujarat",
-      "city": "Dumbhal",
-      "district": "Surat",
-      "property_type": "Commercial Shop",
+      "city": "Ghatkesar (M)",
+      "district": "Hyderabad",
+      "property_type": "Plot",
       "bank": null,
-      "content_hash": "sha256:455d0eae5288a601bc6a9ede80b7a0c91fb876553e06c06ed1ede04a38f1091a",
+      "content_hash": "sha256:ea9cf07832be0393a5bc4eb49d0492eb9b99d8a6610efb440e10054125dbd8cf",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_795608": {
@@ -273,14 +231,14 @@
       "stable_id": "ei_798254",
       "url": "https://www.eauctionsindia.com/properties/799607",
       "title": "eAuction Car in Pune, Pune",
-      "price_display": "₹8,00,000.00",
-      "price_inr": 800000.0,
+      "price_display": "₹4,22,000.00",
+      "price_inr": 422000.0,
       "state": "Gujarat",
       "city": "Pune",
       "district": "Pune",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:480624adf2eda555cc4c1126ab3ea6b3620ab99dc29045e54716c61fe4b3ed45",
+      "content_hash": "sha256:3562b2ac924515174f9ad085e92a72962533f9857e6307c8f2c6c88dbbf5be7c",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_798387": {
@@ -397,16 +355,16 @@
     },
     "ei_799615": {
       "stable_id": "ei_799615",
-      "url": "https://www.eauctionsindia.com/properties/799615",
+      "url": "https://www.eauctionsindia.com/properties/799804",
       "title": "eAuction Car in Patna, Patna",
-      "price_display": "₹4,25,000.00",
-      "price_inr": 425000.0,
+      "price_display": "₹2,80,000.00",
+      "price_inr": 280000.0,
       "state": "Gujarat",
       "city": "Patna",
       "district": "Patna",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:83abcfa90a6fdfaa781b0b649f1edd0bb1ea262867769a3872b53ac8b41e22fa",
+      "content_hash": "sha256:a3db49f83448c5c16340ae545b3894bf215fd3025ad54276a25f13159ca3e550",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_799804": {
@@ -506,6 +464,48 @@
       "bank": null,
       "content_hash": "sha256:33a8fb76f1f0f3924ef44d459df09664943a30997a38e713f01bbce89b5c993d",
       "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_804300": {
+      "stable_id": "ei_804300",
+      "url": "https://www.eauctionsindia.com/properties/804304",
+      "title": "eAuction Car in Bengaluru, Bengaluru",
+      "price_display": "₹8,18,000.00",
+      "price_inr": 818000.0,
+      "state": "Gujarat",
+      "city": "Bengaluru",
+      "district": "Bengaluru",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:beb44fe36d779032dee458fd74b6448881bcc3031109ec60b85e56ab32436361",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_804304": {
+      "stable_id": "ei_804304",
+      "url": "https://www.eauctionsindia.com/properties/804339",
+      "title": "eAuction Car in Bengaluru, Bengaluru",
+      "price_display": "₹5,25,000.00",
+      "price_inr": 525000.0,
+      "state": "Gujarat",
+      "city": "Bengaluru",
+      "district": "Bengaluru",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:ee63eba4d93c7efa24659425e974a84e297d30137f9b016add1ab838983efe26",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_804339": {
+      "stable_id": "ei_804339",
+      "url": "https://www.eauctionsindia.com/properties/804339",
+      "title": "eAuction Car in chennai, Chennai",
+      "price_display": "₹5,25,000.00",
+      "price_inr": 525000.0,
+      "state": "Gujarat",
+      "city": "chennai",
+      "district": "Chennai",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:7a78aac0fd994856799096129e746089df5153666d6dc66150ed2fbb8e1c3d6f",
+      "stream_label": "Vehicles · Gujarat"
     }
   }
 }
