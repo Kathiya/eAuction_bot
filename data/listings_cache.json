@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-07-16T14:09:44.285567+00:00",
+  "updated_at": "2026-07-16T19:22:31.205943+00:00",
   "listings": {
     "ei_794060": {
       "stable_id": "ei_794060",
@@ -199,34 +199,6 @@
       "content_hash": "sha256:601d5f1c0e34b26b41a6e1eef0b684e82acc3ea9b2428096a388372acf84ebc5",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
-    "ei_816199": {
-      "stable_id": "ei_816199",
-      "url": "https://www.eauctionsindia.com/properties/816200",
-      "title": "eAuction Flat in Narol, Ahmedabad",
-      "price_display": "₹5,01,000.00",
-      "price_inr": 501000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:9e9767486f0f5b0915d296377665362c7f5b799334183c219adf668e61ce6e03",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_816200": {
-      "stable_id": "ei_816200",
-      "url": "https://www.eauctionsindia.com/properties/818084",
-      "title": "eAuction Flat in Ghodasar, Ahmedabad",
-      "price_display": "₹10,53,750.00",
-      "price_inr": 1053750.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:c4b481824d4956c6ba4b2473199b20ef4855f416f54c708fb4cc302fad14d42b",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
     "ei_816283": {
       "stable_id": "ei_816283",
       "url": "https://www.eauctionsindia.com/properties/817657",
@@ -271,16 +243,16 @@
     },
     "ei_817657": {
       "stable_id": "ei_817657",
-      "url": "https://www.eauctionsindia.com/properties/816162",
+      "url": "https://www.eauctionsindia.com/properties/817657",
       "title": "eAuction Flat in Memnagar, Ahmedabad",
-      "price_display": "₹4,35,000.00",
-      "price_inr": 435000.0,
+      "price_display": "₹1,09,40,000.00",
+      "price_inr": 10940000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:dbbe454463e46f5d6bde0dee27aed61853d63fd2cab139cd9cf475a534398051",
+      "content_hash": "sha256:0dae96485f439852c785770242786731f9781ab588c9fc16f84257fa7526279c",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_817797": {
@@ -337,6 +309,34 @@
       "property_type": "Flat",
       "bank": null,
       "content_hash": "sha256:bcefda422fa663cb4ade1f662fc9726d85c2c9a2af05e94331a2f8a4b109c7b1",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_818504": {
+      "stable_id": "ei_818504",
+      "url": "https://www.eauctionsindia.com/properties/818505",
+      "title": "eAuction Flat in Vatva, Ahmedabad",
+      "price_display": "₹46,50,000.00",
+      "price_inr": 4650000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:cd272d3a0d91fa6aa39e85fcb1370516c66d6fce195beb3175ffba6d60dde92e",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_818505": {
+      "stable_id": "ei_818505",
+      "url": "https://www.eauctionsindia.com/properties/816162",
+      "title": "eAuction Flat in Vatva, Ahmedabad",
+      "price_display": "₹4,35,000.00",
+      "price_inr": 435000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:ecd632b0f1283bee3749c783c5d0e47466e6a5ae4a4bd15e3e11ccbf7a795e0a",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
