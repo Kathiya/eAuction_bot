@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-07-18T19:15:17.395761+00:00",
+  "updated_at": "2026-07-19T03:34:48.403565+00:00",
   "listings": {
     "ei_794060": {
       "stable_id": "ei_794060",
@@ -87,6 +87,62 @@
       "content_hash": "sha256:25381521924e5df8b8267bd10899f681add946718b092df8d8aa44a6fd01ec14",
       "stream_label": "Vehicles · Gujarat"
     },
+    "ei_816162": {
+      "stable_id": "ei_816162",
+      "url": "https://www.eauctionsindia.com/properties/816167",
+      "title": "eAuction Land in Changodar, Ahmedabad",
+      "price_display": "₹4,35,000.00",
+      "price_inr": 435000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:e4c57092d1c3a2510ca8aba93f7c0c5fb53746071cf4e112c43927c6cfeae3a6",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_816167": {
+      "stable_id": "ei_816167",
+      "url": "https://www.eauctionsindia.com/properties/816168",
+      "title": "eAuction Land in Changodar, Ahmedabad",
+      "price_display": "₹4,35,000.00",
+      "price_inr": 435000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:f2b73f5790b7ec67ccddba5c02ac048c9729f4ce4bf13c93ccc518b9cb2ccb5e",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_816168": {
+      "stable_id": "ei_816168",
+      "url": "https://www.eauctionsindia.com/properties/816169",
+      "title": "eAuction Land in Changodar, Ahmedabad",
+      "price_display": "₹4,35,000.00",
+      "price_inr": 435000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:37b6b141871a34e2217e5fd3f9d039e53c626f68ab2fb4041527d5ef81c4e9d2",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_816169": {
+      "stable_id": "ei_816169",
+      "url": "https://www.eauctionsindia.com/properties/816169",
+      "title": "eAuction Land in Changodar, Ahmedabad",
+      "price_display": "₹4,35,000.00",
+      "price_inr": 435000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:37b6b141871a34e2217e5fd3f9d039e53c626f68ab2fb4041527d5ef81c4e9d2",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
     "ei_816735": {
       "stable_id": "ei_816735",
       "url": "https://www.eauctionsindia.com/properties/816736",
@@ -114,6 +170,76 @@
       "bank": null,
       "content_hash": "sha256:76cfe8c80dee2d9481427a11cc73f3d9f6583af2e8c3e4bc669c2847c92ecc16",
       "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_817657": {
+      "stable_id": "ei_817657",
+      "url": "https://www.eauctionsindia.com/properties/818504",
+      "title": "eAuction Flat in Memnagar, Ahmedabad",
+      "price_display": "₹16,50,000.00",
+      "price_inr": 1650000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:cfeb0f414cf5d86d4b1ae0a9203bb7ad279363ff5d38f7f28b3f7b5ac7c6a6b2",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_817797": {
+      "stable_id": "ei_817797",
+      "url": "https://www.eauctionsindia.com/properties/817798",
+      "title": "eAuction Flat in Ramol, Ahmedabad",
+      "price_display": "₹21,09,000.00",
+      "price_inr": 2109000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:7a015965eb086af0f0bf656401d81fddc1d58d3a296592545251b8bfe763588f",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_817798": {
+      "stable_id": "ei_817798",
+      "url": "https://www.eauctionsindia.com/properties/817798",
+      "title": "eAuction House in Maninagar, Ahmedabad",
+      "price_display": "₹21,09,000.00",
+      "price_inr": 2109000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "House",
+      "bank": null,
+      "content_hash": "sha256:1c4fa464d9cc963df3e822e97c965375ac4836f52a49fb502cb98b476f2245e2",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_818504": {
+      "stable_id": "ei_818504",
+      "url": "https://www.eauctionsindia.com/properties/818504",
+      "title": "eAuction Flat in Vatva, Ahmedabad",
+      "price_display": "₹16,50,000.00",
+      "price_inr": 1650000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:51d018aac53424e8161e3ee87860470a8ef24c86fcd74934fd646c11259084f0",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_818505": {
+      "stable_id": "ei_818505",
+      "url": "https://www.eauctionsindia.com/properties/816162",
+      "title": "eAuction Flat in Vatva, Ahmedabad",
+      "price_display": "₹4,35,000.00",
+      "price_inr": 435000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:ecd632b0f1283bee3749c783c5d0e47466e6a5ae4a4bd15e3e11ccbf7a795e0a",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_818935": {
       "stable_id": "ei_818935",
@@ -170,6 +296,48 @@
       "bank": null,
       "content_hash": "sha256:9cb0985e27b114629d9de9600bb468522d26e56525da11496e75f43eb75e7273",
       "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_819469": {
+      "stable_id": "ei_819469",
+      "url": "https://www.eauctionsindia.com/properties/819866",
+      "title": "eAuction Flat in Ghatlodiya, Ahmedabad",
+      "price_display": "₹3,86,00,000.00",
+      "price_inr": 38600000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:bdb6fdf42ab893c218324dbd46ad041b8f6fa805257d9a5388695aeeb7c64952",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_819594": {
+      "stable_id": "ei_819594",
+      "url": "https://www.eauctionsindia.com/properties/817797",
+      "title": "eAuction Flat in Ahmedabad, Ahmedabad",
+      "price_display": "₹11,19,000.00",
+      "price_inr": 1119000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:0c9d9e78157171d084772dde1f3e4075fa4f683cd5de134d2b94a14b94d747f2",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_819866": {
+      "stable_id": "ei_819866",
+      "url": "https://www.eauctionsindia.com/properties/817657",
+      "title": "eAuction Flat in Ghatlodiya, Ahmedabad",
+      "price_display": "₹1,09,40,000.00",
+      "price_inr": 10940000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:30dafaafc7adcd80c5583816c06eddebc9887724d35fe18f4f66ef5664f1211f",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
 }
