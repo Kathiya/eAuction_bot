@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-07-23T08:40:22.783509+00:00",
+  "updated_at": "2026-07-23T14:21:38.858702+00:00",
   "listings": {
     "ei_794060": {
       "stable_id": "ei_794060",
@@ -15,20 +15,6 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:8dcaf9933ed2f1c11370712e9b55dc34671e9a821dd38615413d6cb6790d6335",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_809194": {
-      "stable_id": "ei_809194",
-      "url": "https://www.eauctionsindia.com/properties/822017",
-      "title": "eAuction Car in Ahmedabad, Ahmedabad",
-      "price_display": "₹36,36,000.00",
-      "price_inr": 3636000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:0c4a77389a368a0c93a912f9bc971067eb919a18b3f34cc6673184f40b487bda",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_813400": {
@@ -47,16 +33,16 @@
     },
     "ei_813401": {
       "stable_id": "ei_813401",
-      "url": "https://www.eauctionsindia.com/properties/813401",
+      "url": "https://www.eauctionsindia.com/properties/820213",
       "title": "eAuction Car in Vadodara, Vadodara",
-      "price_display": "₹6,00,000.00",
-      "price_inr": 600000.0,
+      "price_display": "₹3,40,000.00",
+      "price_inr": 340000.0,
       "state": "Gujarat",
       "city": "Vadodara",
       "district": "Vadodara",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:4118c0a5c25ba1122011f3c3cd6f42c997497c8b6b5c0e34ce6a38564d3c8d72",
+      "content_hash": "sha256:7ae65498de33c504d2a58fb0c3733d6b74b2ab7b89cdbb344808e746b9056a18",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_816162": {
@@ -215,16 +201,16 @@
     },
     "ei_820213": {
       "stable_id": "ei_820213",
-      "url": "https://www.eauctionsindia.com/properties/820214",
+      "url": "https://www.eauctionsindia.com/properties/820213",
       "title": "eAuction Vehicle in Gandhinagar, Gandhinagar",
-      "price_display": "₹2,32,500.00",
-      "price_inr": 232500.0,
+      "price_display": "₹3,40,000.00",
+      "price_inr": 340000.0,
       "state": "Gujarat",
       "city": "Gandhinagar",
       "district": "Gandhinagar",
       "property_type": "Vehicle",
       "bank": null,
-      "content_hash": "sha256:77e12a5c78aca08c68506eb68b9069d94b959cd84fa89c90c5ffdb86468f7b71",
+      "content_hash": "sha256:ea1fdae18911e2c7aab8187bc2f60765a3525909e06fa1aa57340db11745bf76",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_820214": {
@@ -271,16 +257,16 @@
     },
     "ei_822868": {
       "stable_id": "ei_822868",
-      "url": "https://www.eauctionsindia.com/properties/816735",
+      "url": "https://www.eauctionsindia.com/properties/823838",
       "title": "eAuction Vehicle in Khergam, Navsari",
-      "price_display": "₹17,98,000.00",
-      "price_inr": 1798000.0,
+      "price_display": "₹5,50,000.00",
+      "price_inr": 550000.0,
       "state": "Gujarat",
       "city": "Khergam",
       "district": "Navsari",
       "property_type": "Vehicle",
       "bank": null,
-      "content_hash": "sha256:c1dbf5ccbcad31b210b57be417bafcd2738fcac0c1eef0efd52fdd65caae7172",
+      "content_hash": "sha256:4e2b049765a83c3b37a936afeb4ed75d59530a223f2a83b1e00ff0584552af9d",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_822975": {
@@ -338,6 +324,20 @@
       "bank": null,
       "content_hash": "sha256:c6df47d6462eb86100e1eb6302fee411dd804e9a93a110cf34ad410d24e3fc71",
       "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_823838": {
+      "stable_id": "ei_823838",
+      "url": "https://www.eauctionsindia.com/properties/816735",
+      "title": "eAuction Vehicle in Lunsikui, Navsari",
+      "price_display": "₹17,98,000.00",
+      "price_inr": 1798000.0,
+      "state": "Gujarat",
+      "city": "Lunsikui",
+      "district": "Navsari",
+      "property_type": "Vehicle",
+      "bank": null,
+      "content_hash": "sha256:a1f4e1b1392ebf93b2e30e887fa446f5eeb8bca01e57277e16e4dd39c80b9b39",
+      "stream_label": "Vehicles · Gujarat"
     }
   }
 }
