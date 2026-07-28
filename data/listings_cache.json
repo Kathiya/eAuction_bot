@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-07-27T19:46:45.244687+00:00",
+  "updated_at": "2026-07-28T14:26:25.359659+00:00",
   "listings": {
     "ei_794060": {
       "stable_id": "ei_794060",
@@ -29,6 +29,76 @@
       "property_type": "Car",
       "bank": null,
       "content_hash": "sha256:0c4a77389a368a0c93a912f9bc971067eb919a18b3f34cc6673184f40b487bda",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_809518": {
+      "stable_id": "ei_809518",
+      "url": "https://www.eauctionsindia.com/properties/809519",
+      "title": "eAuction Car in Panaji, Panaji",
+      "price_display": "₹8,10,000.00",
+      "price_inr": 810000.0,
+      "state": "Gujarat",
+      "city": "Panaji",
+      "district": "Panaji",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:9839899cc55723dd173a6fe3a50f44e9ab5d231d10ad9d590aef051fcc658170",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_809519": {
+      "stable_id": "ei_809519",
+      "url": "https://www.eauctionsindia.com/properties/809552",
+      "title": "eAuction Car in Panaji, Panaji",
+      "price_display": "₹2,00,000.00",
+      "price_inr": 200000.0,
+      "state": "Gujarat",
+      "city": "Panaji",
+      "district": "Panaji",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:93778d9a6990dbb6135faf57df5a21b3bee8f07ec13abf6fa025f75c369ad58c",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_809552": {
+      "stable_id": "ei_809552",
+      "url": "https://www.eauctionsindia.com/properties/809560",
+      "title": "eAuction Car in Karnal, Karnal",
+      "price_display": "₹6,50,000.00",
+      "price_inr": 650000.0,
+      "state": "Gujarat",
+      "city": "Karnal",
+      "district": "Karnal",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:6c4bb07437fa9c84be82b6bc63bf1e5c9923564244847a82ec8a9f57075f952d",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_809560": {
+      "stable_id": "ei_809560",
+      "url": "https://www.eauctionsindia.com/properties/809598",
+      "title": "eAuction Car in Baddi, Solan",
+      "price_display": "₹6,50,000.00",
+      "price_inr": 650000.0,
+      "state": "Gujarat",
+      "city": "Baddi",
+      "district": "Solan",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:a766041c476542e38938ed082f05c7e93291ddc53f1ab3c0663052ca03dcf9c5",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_809598": {
+      "stable_id": "ei_809598",
+      "url": "https://www.eauctionsindia.com/properties/817159",
+      "title": "eAuction Car in Baddi, Solan",
+      "price_display": "₹70,55,000.00",
+      "price_inr": 7055000.0,
+      "state": "Gujarat",
+      "city": "Baddi",
+      "district": "Solan",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:1786e99df86208e9c51cdaf12505a6872b03b3073bd1e3e473e2e9d7faf29204",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_813400": {
@@ -59,33 +129,33 @@
       "content_hash": "sha256:4118c0a5c25ba1122011f3c3cd6f42c997497c8b6b5c0e34ce6a38564d3c8d72",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_816168": {
-      "stable_id": "ei_816168",
-      "url": "https://www.eauctionsindia.com/properties/816169",
-      "title": "eAuction Land in Changodar, Ahmedabad",
-      "price_display": "₹4,35,000.00",
-      "price_inr": 435000.0,
+    "ei_817159": {
+      "stable_id": "ei_817159",
+      "url": "https://www.eauctionsindia.com/properties/817217",
+      "title": "eAuction Land And Building in Nagole, Hyderabad",
+      "price_display": "₹1,21,56,313.00",
+      "price_inr": 12156313.0,
       "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Land",
+      "city": "Nagole",
+      "district": "Hyderabad",
+      "property_type": null,
       "bank": null,
-      "content_hash": "sha256:37b6b141871a34e2217e5fd3f9d039e53c626f68ab2fb4041527d5ef81c4e9d2",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
+      "content_hash": "sha256:5e27f4e6c2ef52eb245ff61306325eb5d0262f50a7c719827393b7d81daf459e",
+      "stream_label": "Vehicles · Gujarat"
     },
-    "ei_816169": {
-      "stable_id": "ei_816169",
-      "url": "https://www.eauctionsindia.com/properties/819594",
-      "title": "eAuction Land in Changodar, Ahmedabad",
-      "price_display": "₹34,05,000.00",
-      "price_inr": 3405000.0,
+    "ei_817217": {
+      "stable_id": "ei_817217",
+      "url": "https://www.eauctionsindia.com/properties/818680",
+      "title": "eAuction Vehicle in Akola, Akola",
+      "price_display": "₹3,50,000.00",
+      "price_inr": 350000.0,
       "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Land",
+      "city": "Akola",
+      "district": "Akola",
+      "property_type": "Vehicle",
       "bank": null,
-      "content_hash": "sha256:a9838b7d7a3cf399be7f38c5089711599c021e508b928f1bf69ec01cb4b5ee7c",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
+      "content_hash": "sha256:7d8d29bab526458bdb76dcb436ddc33b6ca025aa13c68ae6bc35e55d6f26338e",
+      "stream_label": "Vehicles · Gujarat"
     },
     "ei_817797": {
       "stable_id": "ei_817797",
@@ -115,6 +185,34 @@
       "content_hash": "sha256:7ce126a7174aa8d173092be57a28232417ee07706ab60b4ef3f6d737cd67df8d",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
+    "ei_818680": {
+      "stable_id": "ei_818680",
+      "url": "https://www.eauctionsindia.com/properties/818683",
+      "title": "eAuction Vehicle in Akola, Akola",
+      "price_display": "₹9,31,000.00",
+      "price_inr": 931000.0,
+      "state": "Gujarat",
+      "city": "Akola",
+      "district": "Akola",
+      "property_type": "Vehicle",
+      "bank": null,
+      "content_hash": "sha256:f2e23f21b268f6e25d08f7f0289954996a88b05367c1324b059a19444aa1cbbc",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_818683": {
+      "stable_id": "ei_818683",
+      "url": "https://www.eauctionsindia.com/properties/818683",
+      "title": "eAuction Car in Akola, Akola",
+      "price_display": "₹9,31,000.00",
+      "price_inr": 931000.0,
+      "state": "Gujarat",
+      "city": "Akola",
+      "district": "Akola",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:81c68e74fbc11850ed53b650e364dbc6604a72ffc9310390a0625df38a770ebc",
+      "stream_label": "Vehicles · Gujarat"
+    },
     "ei_819128": {
       "stable_id": "ei_819128",
       "url": "https://www.eauctionsindia.com/properties/819128",
@@ -143,19 +241,47 @@
       "content_hash": "sha256:a753ec5198bb903bfe221edb5b960a8d90be0c06add62343c2e67a356f06f8fd",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_819594": {
-      "stable_id": "ei_819594",
-      "url": "https://www.eauctionsindia.com/properties/822520",
-      "title": "eAuction Flat in Ahmedabad, Ahmedabad",
-      "price_display": "₹8,26,000.00",
-      "price_inr": 826000.0,
+    "ei_819428": {
+      "stable_id": "ei_819428",
+      "url": "https://www.eauctionsindia.com/properties/819429",
+      "title": "eAuction Car in Aurangabad, Aurangabad-Bihar",
+      "price_display": "₹2,98,000.00",
+      "price_inr": 298000.0,
       "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
+      "city": "Aurangabad",
+      "district": "Aurangabad-Bihar",
+      "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:051bfd68a9fc9d37c2db42b7038abdb7197cb00f57c468c4a789b552598bb472",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
+      "content_hash": "sha256:b8e93231c3db6af93ef699dc8ca795810b1aacc7c0c2dd74a6613a4e899c2965",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_819429": {
+      "stable_id": "ei_819429",
+      "url": "https://www.eauctionsindia.com/properties/819430",
+      "title": "eAuction Car in Aurangabad, Aurangabad-Bihar",
+      "price_display": "₹1,70,000.00",
+      "price_inr": 170000.0,
+      "state": "Gujarat",
+      "city": "Aurangabad",
+      "district": "Aurangabad-Bihar",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:00ae80df679fd166c5b0ca41cd6abc7f78ce9696cfad25b07c911b334db7081d",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_819430": {
+      "stable_id": "ei_819430",
+      "url": "https://www.eauctionsindia.com/properties/819430",
+      "title": "eAuction Car in Aurangabad, Aurangabad-Bihar",
+      "price_display": "₹1,70,000.00",
+      "price_inr": 170000.0,
+      "state": "Gujarat",
+      "city": "Aurangabad",
+      "district": "Aurangabad-Bihar",
+      "property_type": "Car",
+      "bank": null,
+      "content_hash": "sha256:00ae80df679fd166c5b0ca41cd6abc7f78ce9696cfad25b07c911b334db7081d",
+      "stream_label": "Vehicles · Gujarat"
     },
     "ei_820213": {
       "stable_id": "ei_820213",
@@ -198,20 +324,6 @@
       "bank": null,
       "content_hash": "sha256:4c7791489d3b61dbf3915c513e25d9235e22e90af5071ead40d9acaa07bd8c86",
       "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_822520": {
-      "stable_id": "ei_822520",
-      "url": "https://www.eauctionsindia.com/properties/825855",
-      "title": "eAuction Flat in Vatva, Ahmedabad",
-      "price_display": "₹1,74,00,000.00",
-      "price_inr": 17400000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:8d84960c29ad51bb0bba6f988f33470d437f4a5577cedf9862078142dcfc0709",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_822868": {
       "stable_id": "ei_822868",
@@ -325,10 +437,66 @@
       "content_hash": "sha256:37850522e87423e80c9a69f4e8ea81e342b39653edea3881a6c2f6d5e9319b30",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_825855": {
-      "stable_id": "ei_825855",
+    "ei_827153": {
+      "stable_id": "ei_827153",
+      "url": "https://www.eauctionsindia.com/properties/827154",
+      "title": "eAuction Flat in Vejalpur, Ahmedabad",
+      "price_display": "₹66,12,000.00",
+      "price_inr": 6612000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:352826b411d774fe54ae2932f75a4acb12a985ef9bd0f32edf24e32b1045fd83",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_827154": {
+      "stable_id": "ei_827154",
+      "url": "https://www.eauctionsindia.com/properties/827156",
+      "title": "eAuction Land in Memnagar, Ahmedabad",
+      "price_display": "₹51,91,000.00",
+      "price_inr": 5191000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:a7a2987ca4666a979040129b4faf0f15621b8e714d504f5695208a9c99d1b09c",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_827156": {
+      "stable_id": "ei_827156",
+      "url": "https://www.eauctionsindia.com/properties/827157",
+      "title": "eAuction Land in Memnagar, Ahmedabad",
+      "price_display": "₹14,35,000.00",
+      "price_inr": 1435000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:be3bd1cce021f71ec5be7ceea8ed41f4b515f6a0be8872f829b3f3a9951c9e45",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_827157": {
+      "stable_id": "ei_827157",
+      "url": "https://www.eauctionsindia.com/properties/827157",
+      "title": "eAuction Land in Memnagar, Ahmedabad",
+      "price_display": "₹14,35,000.00",
+      "price_inr": 1435000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:be3bd1cce021f71ec5be7ceea8ed41f4b515f6a0be8872f829b3f3a9951c9e45",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_827158": {
+      "stable_id": "ei_827158",
       "url": "https://www.eauctionsindia.com/properties/817797",
-      "title": "eAuction Flat in Bopal, Ahmedabad",
+      "title": "eAuction Flat in Dascroi, Ahmedabad",
       "price_display": "₹11,19,000.00",
       "price_inr": 1119000.0,
       "state": "Gujarat",
@@ -336,7 +504,7 @@
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:0a2867fd1d776a1a2095e7643ea934a5970227364422fc42cae254516babcb09",
+      "content_hash": "sha256:9d0bee81e930f35a3be4d9150478e1f31cbbbd302e7df8125e833b7cbfa5f486",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
