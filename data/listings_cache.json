@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-08-17T01:45:49.277535+00:00",
+  "updated_at": "2026-08-17T07:09:35.661506+00:00",
   "listings": {
     "ei_794060": {
       "stable_id": "ei_794060",
@@ -59,34 +59,6 @@
       "content_hash": "sha256:a3750103e9f66f818f189cc8f45564af8f4ebfe3f740f80ef49a927b10f6976a",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_836891": {
-      "stable_id": "ei_836891",
-      "url": "https://www.eauctionsindia.com/properties/836893",
-      "title": "eAuction Flat in Vinzol, Ahmedabad",
-      "price_display": "₹9,50,000.00",
-      "price_inr": 950000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:a7486a847136cdef331c82de54dc362da18169995072872e5bcb0744a6016701",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_836893": {
-      "stable_id": "ei_836893",
-      "url": "https://www.eauctionsindia.com/properties/838922",
-      "title": "eAuction Flat in Ramol, Ahmedabad",
-      "price_display": "₹19,00,000.00",
-      "price_inr": 1900000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:e95ec4f305b0b39bd79b8176cca7b8f8579b39fe16ab2f913ece335b647ef7bc",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
     "ei_837436": {
       "stable_id": "ei_837436",
       "url": "https://www.eauctionsindia.com/properties/837789",
@@ -128,20 +100,6 @@
       "bank": null,
       "content_hash": "sha256:91c8a3049e2d52dbc9c497349eb069d7f918eedeb8bd077944c45b09194bd04b",
       "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_838922": {
-      "stable_id": "ei_838922",
-      "url": "https://www.eauctionsindia.com/properties/841323",
-      "title": "eAuction Flat in Hirawadi, Ahmedabad",
-      "price_display": "₹32,55,000.00",
-      "price_inr": 3255000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:e36e1e6067e10a3e73299ab53ad8fa5bd5fca539e194d640c41773925570b7a1",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_840567": {
       "stable_id": "ei_840567",
@@ -185,20 +143,6 @@
       "content_hash": "sha256:5694884bf9205ac094c509e9f2958d6db9b6191267eae044494550d0c65ce2ae",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_841323": {
-      "stable_id": "ei_841323",
-      "url": "https://www.eauctionsindia.com/properties/841323",
-      "title": "eAuction Flat in Vatva, Ahmedabad",
-      "price_display": "₹32,55,000.00",
-      "price_inr": 3255000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:3bc61615983b13969194c2e869f23128b31e230a3b69c7f05b5c4ad738a979c7",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
     "ei_842865": {
       "stable_id": "ei_842865",
       "url": "https://www.eauctionsindia.com/properties/843960",
@@ -213,62 +157,6 @@
       "content_hash": "sha256:52ff4fd107d35287547d71ce87e005e2a0fa4ffd0c941fe519a8546d5e926178",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_843558": {
-      "stable_id": "ei_843558",
-      "url": "https://www.eauctionsindia.com/properties/845213",
-      "title": "eAuction Flat in Nikol, Ahmedabad",
-      "price_display": "₹1,00,75,000.00",
-      "price_inr": 10075000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:1e7bb3b4e31c2d1fccd8d3cb32e212c445ae4511a5ceb48ed88fd9249c9bfe54",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_843714": {
-      "stable_id": "ei_843714",
-      "url": "https://www.eauctionsindia.com/properties/843715",
-      "title": "eAuction Flat in Ghatlodiya, Ahmedabad",
-      "price_display": "₹14,00,000.00",
-      "price_inr": 1400000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:cca525064de2b89e4f2b6fcfc8a2f37321f332c7e750c1e3744b52e144d926d0",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_843715": {
-      "stable_id": "ei_843715",
-      "url": "https://www.eauctionsindia.com/properties/843716",
-      "title": "eAuction Flat in Motera,, Ahmedabad",
-      "price_display": "₹15,00,000.00",
-      "price_inr": 1500000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:483a90c7118af1126bc402f079f40c4144853b5f7a2e012a3bb4e039d3b0dd31",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_843716": {
-      "stable_id": "ei_843716",
-      "url": "https://www.eauctionsindia.com/properties/843558",
-      "title": "eAuction Flat in Asarva, Ahmedabad",
-      "price_display": "₹39,03,300.00",
-      "price_inr": 3903300.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:5a409e0482ef282f1f3013f7cf8831bcedaf025c485cf10f7eb97e1d6ed56c94",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
     "ei_843960": {
       "stable_id": "ei_843960",
       "url": "https://www.eauctionsindia.com/properties/843960",
@@ -282,62 +170,6 @@
       "bank": null,
       "content_hash": "sha256:20e6239f9f82fb84360ab2f515f90cd972c4360ccae0756f3b8b3681b14a2839",
       "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_845213": {
-      "stable_id": "ei_845213",
-      "url": "https://www.eauctionsindia.com/properties/845213",
-      "title": "eAuction Land And Building in Kachchh, Ahmedabad",
-      "price_display": "₹1,00,75,000.00",
-      "price_inr": 10075000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": null,
-      "bank": null,
-      "content_hash": "sha256:64ffc013ae833ff2017dbf6d9d006ba167e0570f90156546da81bd4a7b45ee07",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_845218": {
-      "stable_id": "ei_845218",
-      "url": "https://www.eauctionsindia.com/properties/845221",
-      "title": "eAuction Land And Building in Viramgam, Ahmedabad",
-      "price_display": "₹18,60,000.00",
-      "price_inr": 1860000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": null,
-      "bank": null,
-      "content_hash": "sha256:2a4aed050f72aaa84e0ee4df714126b29994ac400ac223dc3b580a4472b71c04",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_845221": {
-      "stable_id": "ei_845221",
-      "url": "https://www.eauctionsindia.com/properties/845222",
-      "title": "eAuction Flat in Vastral, Ahmedabad",
-      "price_display": "₹80,45,000.00",
-      "price_inr": 8045000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:2b9e0165604abac7b2e2956bf49bee5a42afb7fbb19e35bd2153028a8604cd5e",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_845222": {
-      "stable_id": "ei_845222",
-      "url": "https://www.eauctionsindia.com/properties/845222",
-      "title": "eAuction Bungalow in Vatva, Ahmedabad",
-      "price_display": "₹80,45,000.00",
-      "price_inr": 8045000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Bungalow",
-      "bank": null,
-      "content_hash": "sha256:69fec07fb2a5e0e03f416c195764aa86aeec6d2814dd33564b1968164312fc96",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
 }
