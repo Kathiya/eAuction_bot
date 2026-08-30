@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-08-30T04:59:58.722311+00:00",
+  "updated_at": "2026-08-30T11:43:47.318241+00:00",
   "listings": {
     "ei_794060": {
       "stable_id": "ei_794060",
@@ -157,20 +157,6 @@
       "content_hash": "sha256:9162e452c2aa54724234a28536573d446c3a42e36148ecd4332ff6b41245b14f",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
-    "ei_849829": {
-      "stable_id": "ei_849829",
-      "url": "https://www.eauctionsindia.com/properties/849830",
-      "title": "eAuction Car in Bhuj, Kutch",
-      "price_display": "₹4,54,000.00",
-      "price_inr": 454000.0,
-      "state": "Gujarat",
-      "city": "Bhuj",
-      "district": "Kutch",
-      "property_type": "Car",
-      "bank": null,
-      "content_hash": "sha256:cbf404d21c4e879031cc9c594a7f8842c3ae151060e8ccbfcda3c861fb7cd6b5",
-      "stream_label": "Vehicles · Gujarat"
-    },
     "ei_849830": {
       "stable_id": "ei_849830",
       "url": "https://www.eauctionsindia.com/properties/849838",
@@ -201,30 +187,30 @@
     },
     "ei_851372": {
       "stable_id": "ei_851372",
-      "url": "https://www.eauctionsindia.com/properties/851372",
+      "url": "https://www.eauctionsindia.com/properties/856739",
       "title": "eAuction Vehicle in Ghod Dod Road, Surat",
-      "price_display": "₹3,25,000.00",
-      "price_inr": 325000.0,
+      "price_display": "₹10,05,000.00",
+      "price_inr": 1005000.0,
       "state": "Gujarat",
       "city": "Ghod Dod Road",
       "district": "Surat",
       "property_type": "Vehicle",
       "bank": null,
-      "content_hash": "sha256:ac1ebb4fc1ca9d4f8d5ece0388c72ae938db8cc2342b0ab997c1d937c89057c1",
+      "content_hash": "sha256:db19c5b83749205c91dc8c2b1c7bedffa66d18535bd5e6a7fbc96a35330c31a7",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_852643": {
       "stable_id": "ei_852643",
-      "url": "https://www.eauctionsindia.com/properties/852643",
+      "url": "https://www.eauctionsindia.com/properties/853424",
       "title": "eAuction Car in Gandhidham, Kutch",
-      "price_display": "₹4,75,000.00",
-      "price_inr": 475000.0,
+      "price_display": "₹9,00,000.00",
+      "price_inr": 900000.0,
       "state": "Gujarat",
       "city": "Gandhidham",
       "district": "Kutch",
       "property_type": "Car",
       "bank": null,
-      "content_hash": "sha256:239e163087f592ceeeb2ed388e9df73d6a72f24018dc3965f28369b372a1befb",
+      "content_hash": "sha256:b527cae0dd701c4bd97ba1d4803f903033f5479a85ca2066b67f92cd649795ed",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_853422": {
@@ -491,6 +477,20 @@
       "property_type": "Flat",
       "bank": null,
       "content_hash": "sha256:5c247e37299bf109243cb9f3bb4dfded270e7131d367e13c25f6caebfb5cad54",
+      "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_856739": {
+      "stable_id": "ei_856739",
+      "url": "https://www.eauctionsindia.com/properties/856739",
+      "title": "eAuction Vehicle in Surat, Surat",
+      "price_display": "₹10,05,000.00",
+      "price_inr": 1005000.0,
+      "state": "Gujarat",
+      "city": "Surat",
+      "district": "Surat",
+      "property_type": "Vehicle",
+      "bank": null,
+      "content_hash": "sha256:2e1eecee43085c4eb50852315b1aae678795b8024c5eb7a90763473aeccceb74",
       "stream_label": "Vehicles · Gujarat"
     }
   }
