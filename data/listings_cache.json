@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-09-19T20:27:56.971572+00:00",
+  "updated_at": "2026-09-20T04:36:26.614412+00:00",
   "listings": {
     "ei_794060": {
       "stable_id": "ei_794060",
@@ -171,20 +171,6 @@
       "content_hash": "sha256:8dcaf9933ed2f1c11370712e9b55dc34671e9a821dd38615413d6cb6790d6335",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_869332": {
-      "stable_id": "ei_869332",
-      "url": "https://www.eauctionsindia.com/properties/869333",
-      "title": "eAuction Flat in Viramgam, Ahmedabad",
-      "price_display": "₹14,79,000.00",
-      "price_inr": 1479000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:cf56a7ca8e643c7e12b5081fe0bd41d220e3a1f56fabcf29906e58087e70c9bf",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
     "ei_869333": {
       "stable_id": "ei_869333",
       "url": "https://www.eauctionsindia.com/properties/869334",
@@ -217,28 +203,28 @@
       "stable_id": "ei_869335",
       "url": "https://www.eauctionsindia.com/properties/870385",
       "title": "eAuction Flat in Viramgam, Ahmedabad",
-      "price_display": "₹14,79,000.00",
-      "price_inr": 1479000.0,
+      "price_display": "₹1,31,00,000.00",
+      "price_inr": 13100000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:a8385c77579d784986d450d4969d08c3c2cb18d5f5e0d163141f18c5baf928e7",
+      "content_hash": "sha256:89d4effb1dee41bdb8d0f223eaa37b3e0adcb2d5e111157080cb952c482037f9",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_870385": {
       "stable_id": "ei_870385",
-      "url": "https://www.eauctionsindia.com/properties/874676",
+      "url": "https://www.eauctionsindia.com/properties/870385",
       "title": "eAuction Land in Asarva, Ahmedabad",
-      "price_display": "₹28,00,000.00",
-      "price_inr": 2800000.0,
+      "price_display": "₹1,31,00,000.00",
+      "price_inr": 13100000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:af50b1eafd3b7f234f478ec4a6c090c371422350119b6c2254f4748cab506924",
+      "content_hash": "sha256:1df56c50c21bfee5a0280c5038fe8b26e2518c5516274b9fed8626dd1ea0f0b8",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_873437": {
@@ -313,7 +299,7 @@
     },
     "ei_875311": {
       "stable_id": "ei_875311",
-      "url": "https://www.eauctionsindia.com/properties/875311",
+      "url": "https://www.eauctionsindia.com/properties/875576",
       "title": "eAuction Flat in Bapunagar, Ahmedabad",
       "price_display": "₹7,50,000.00",
       "price_inr": 750000.0,
@@ -322,7 +308,7 @@
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:54b91efa6962c621c283ad912ecf43e5f414beeb4823ed52463d260588d9536d",
+      "content_hash": "sha256:5e62c5ccc81c4af7a3a5d6a0374b15f4ad9a24cfabadf8af6da698149bc6bb57",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_875404": {
@@ -337,6 +323,20 @@
       "property_type": "Flat",
       "bank": null,
       "content_hash": "sha256:9cc2f8c655faa848f027e4ca982027ef745fdf2bd836592db009b879946c46ad",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_875576": {
+      "stable_id": "ei_875576",
+      "url": "https://www.eauctionsindia.com/properties/875576",
+      "title": "eAuction Flat in Bapunagar, Ahmedabad",
+      "price_display": "₹7,50,000.00",
+      "price_inr": 750000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:5e62c5ccc81c4af7a3a5d6a0374b15f4ad9a24cfabadf8af6da698149bc6bb57",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
