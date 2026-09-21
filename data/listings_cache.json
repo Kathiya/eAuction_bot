@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-09-21T04:33:00.297764+00:00",
+  "updated_at": "2026-09-21T12:34:23.555194+00:00",
   "listings": {
     "ei_794060": {
       "stable_id": "ei_794060",
@@ -171,60 +171,18 @@
       "content_hash": "sha256:8dcaf9933ed2f1c11370712e9b55dc34671e9a821dd38615413d6cb6790d6335",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_869333": {
-      "stable_id": "ei_869333",
-      "url": "https://www.eauctionsindia.com/properties/869334",
-      "title": "eAuction Flat in Viramgam, Ahmedabad",
-      "price_display": "₹14,79,000.00",
-      "price_inr": 1479000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:019c117e1cbbba456cbe2fb0042c236592ef1bded5e2e32666a37d0ebd606e7b",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_869334": {
-      "stable_id": "ei_869334",
-      "url": "https://www.eauctionsindia.com/properties/869335",
-      "title": "eAuction Flat in Viramgam, Ahmedabad",
-      "price_display": "₹14,79,000.00",
-      "price_inr": 1479000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:5168d57527f2ff7a1818bbf6a00eeaad5c73c0e9a3bcf82864dfea6bb6827b48",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_869335": {
-      "stable_id": "ei_869335",
-      "url": "https://www.eauctionsindia.com/properties/870385",
-      "title": "eAuction Flat in Viramgam, Ahmedabad",
-      "price_display": "₹1,31,00,000.00",
-      "price_inr": 13100000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:89d4effb1dee41bdb8d0f223eaa37b3e0adcb2d5e111157080cb952c482037f9",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
     "ei_870385": {
       "stable_id": "ei_870385",
-      "url": "https://www.eauctionsindia.com/properties/870385",
+      "url": "https://www.eauctionsindia.com/properties/874676",
       "title": "eAuction Land in Asarva, Ahmedabad",
-      "price_display": "₹1,31,00,000.00",
-      "price_inr": 13100000.0,
+      "price_display": "₹28,00,000.00",
+      "price_inr": 2800000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Land",
       "bank": null,
-      "content_hash": "sha256:1df56c50c21bfee5a0280c5038fe8b26e2518c5516274b9fed8626dd1ea0f0b8",
+      "content_hash": "sha256:af50b1eafd3b7f234f478ec4a6c090c371422350119b6c2254f4748cab506924",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_873437": {
@@ -285,16 +243,16 @@
     },
     "ei_874676": {
       "stable_id": "ei_874676",
-      "url": "https://www.eauctionsindia.com/properties/874356",
+      "url": "https://www.eauctionsindia.com/properties/876062",
       "title": "eAuction Flat in Nikol, Ahmedabad",
-      "price_display": "₹2,98,00,000.00",
-      "price_inr": 29800000.0,
+      "price_display": "₹25,65,000.00",
+      "price_inr": 2565000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:60cbd34602839ab6572b00921599a681cdbcf0e90dc7e23bd8bfcde93a9c45f3",
+      "content_hash": "sha256:1063316275c6e6cc9e86fbf07cdf0a162853883ddc258d7ee9586f627d89c746",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_875311": {
@@ -337,6 +295,48 @@
       "property_type": "Flat",
       "bank": null,
       "content_hash": "sha256:5e62c5ccc81c4af7a3a5d6a0374b15f4ad9a24cfabadf8af6da698149bc6bb57",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_875619": {
+      "stable_id": "ei_875619",
+      "url": "https://www.eauctionsindia.com/properties/875646",
+      "title": "eAuction Flat in Dascroi, Ahmedabad",
+      "price_display": "₹10,51,000.00",
+      "price_inr": 1051000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:f947866f2569835fbb8c675436189677aab57cf2213c517ac2796a43acdb0805",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_875646": {
+      "stable_id": "ei_875646",
+      "url": "https://www.eauctionsindia.com/properties/874356",
+      "title": "eAuction Flat in Daskroi, Ahmedabad",
+      "price_display": "₹2,98,00,000.00",
+      "price_inr": 29800000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:74eef73122e565554c37e25ff28447556baa4833c5ba146e7c0ce6ff91b73cb1",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_876062": {
+      "stable_id": "ei_876062",
+      "url": "https://www.eauctionsindia.com/properties/875619",
+      "title": "eAuction Flat in Maninagar, Ahmedabad",
+      "price_display": "₹10,51,000.00",
+      "price_inr": 1051000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:9f32d05f648a68d8dc546b5820dddb6e8749c65978dd12bfdc7b770a8a94773d",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
