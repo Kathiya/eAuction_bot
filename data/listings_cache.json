@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-09-26T11:12:51.966684+00:00",
+  "updated_at": "2026-09-26T16:14:30.608167+00:00",
   "listings": {
     "ei_853422": {
       "stable_id": "ei_853422",
@@ -58,20 +58,6 @@
       "bank": null,
       "content_hash": "sha256:a2c89aa94ec5d7921329fdde1994318f88aca268fc458239de04179120a34ca3",
       "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_873452": {
-      "stable_id": "ei_873452",
-      "url": "https://www.eauctionsindia.com/properties/880672",
-      "title": "eAuction Flat in Daskroi, Ahmedabad",
-      "price_display": "₹12,00,000.00",
-      "price_inr": 1200000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": "Ahmedabad",
-      "property_type": "Flat",
-      "bank": null,
-      "content_hash": "sha256:d7a18e6385fd82e97140bc0185e66d3c00ad9e8997f163106a0bf530c93597fb",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_875404": {
       "stable_id": "ei_875404",
@@ -313,16 +299,16 @@
     },
     "ei_880672": {
       "stable_id": "ei_880672",
-      "url": "https://www.eauctionsindia.com/properties/879826",
+      "url": "https://www.eauctionsindia.com/properties/880807",
       "title": "eAuction Flat in Aslali, Ahmedabad",
-      "price_display": "₹11,97,000.00",
-      "price_inr": 1197000.0,
+      "price_display": "₹8,60,000.00",
+      "price_inr": 860000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "property_type": "Flat",
       "bank": null,
-      "content_hash": "sha256:75afa74bd1268e3fe3f8c7428b234259dc3b994d26c00fc6fb93381ef47af205",
+      "content_hash": "sha256:8062b83ae49f538ef70fbfb9e50deabeb6d7da8362c444abbc17fd84c20d6944",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_880727": {
@@ -337,6 +323,20 @@
       "property_type": "Flat",
       "bank": null,
       "content_hash": "sha256:0cbd3fed30f55bf9af0af3bc3c9d2049e27cb6cd15ecbadbe1c196cfbb17e603",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_880807": {
+      "stable_id": "ei_880807",
+      "url": "https://www.eauctionsindia.com/properties/879826",
+      "title": "eAuction Flat in Nikol, Ahmedabad",
+      "price_display": "₹11,97,000.00",
+      "price_inr": 1197000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:bbd951d2ec89a5e3296ce3fc419b8f5246b1b38ebbe6ab03131d062673839bed",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
