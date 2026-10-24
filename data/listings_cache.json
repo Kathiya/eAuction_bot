@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-10-24T15:47:26.847344+00:00",
+  "updated_at": "2026-10-24T20:35:14.266399+00:00",
   "listings": {
     "ei_879384": {
       "stable_id": "ei_879384",
@@ -16,6 +16,20 @@
       "bank": null,
       "content_hash": "sha256:464bd396c59fedc2c6fee6e302196b82201f070f900a7e2ed05cb8d444b231be",
       "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_883001": {
+      "stable_id": "ei_883001",
+      "url": "https://www.eauctionsindia.com/properties/895894",
+      "title": "eAuction Land And Building in Viramgam, Ahmedabad",
+      "price_display": "₹5,49,00,000.00",
+      "price_inr": 54900000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": null,
+      "bank": null,
+      "content_hash": "sha256:ced6d93dc8dcc4659d5b070d24ebb05d2efddc5d2bf65e3090a1ad4af81feccd",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_887992": {
       "stable_id": "ei_887992",
@@ -45,6 +59,20 @@
       "content_hash": "sha256:68cdce81ad48491d76e28ccc1807944c979a6d8ba849740514504cba9575cd3c",
       "stream_label": "Vehicles · Gujarat"
     },
+    "ei_891198": {
+      "stable_id": "ei_891198",
+      "url": "https://www.eauctionsindia.com/properties/891198",
+      "title": "eAuction Flat in Paldi, Ahmedabad",
+      "price_display": "₹78,00,000.00",
+      "price_inr": 7800000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:6fd843847b4ae81259ea3e582b5840a18149c295e249fa7bb057c3c1f8755257",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
     "ei_891525": {
       "stable_id": "ei_891525",
       "url": "https://www.eauctionsindia.com/properties/891526",
@@ -72,6 +100,20 @@
       "bank": null,
       "content_hash": "sha256:83cdd8c4efb6585ff3e1051b32d744374a409e44619f0705ac5754148853771e",
       "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_895894": {
+      "stable_id": "ei_895894",
+      "url": "https://www.eauctionsindia.com/properties/899986",
+      "title": "eAuction House in Daskroi, Ahmedabad",
+      "price_display": "₹55,77,000.00",
+      "price_inr": 5577000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "House",
+      "bank": null,
+      "content_hash": "sha256:29e516a95ab38bba008c26df2f73cfa42f4f6f1d57d84fb03dda8ed38bf8b40e",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_897202": {
       "stable_id": "ei_897202",
@@ -129,6 +171,62 @@
       "content_hash": "sha256:7c874f5e28982d786af215267fd0c69da440f48684150ba23dd078b0f1436c6b",
       "stream_label": "Vehicles · Gujarat"
     },
+    "ei_899979": {
+      "stable_id": "ei_899979",
+      "url": "https://www.eauctionsindia.com/properties/883001",
+      "title": "eAuction Flat in Asarva, Ahmedabad",
+      "price_display": "₹39,98,000.00",
+      "price_inr": 3998000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:88b5dea5a8b4b06679ff09846239a5547ba6db102c1580e045e6d440f609c3d8",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_899986": {
+      "stable_id": "ei_899986",
+      "url": "https://www.eauctionsindia.com/properties/899986",
+      "title": "eAuction Flat in Daskroi, Ahmedabad",
+      "price_display": "₹55,77,000.00",
+      "price_inr": 5577000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:3bfe69c073a3338ee480171a1809c1b54e4c34e21c3e9e7399a4ff8c17fee3c7",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_899987": {
+      "stable_id": "ei_899987",
+      "url": "https://www.eauctionsindia.com/properties/899988",
+      "title": "eAuction Flat in MOJE ASARWA, Ahmedabad",
+      "price_display": "₹22,95,000.00",
+      "price_inr": 2295000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:c82992eabf15ad1d4a47f669c24205f78f289a8a32a2a3f24c34ed323138544c",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_899988": {
+      "stable_id": "ei_899988",
+      "url": "https://www.eauctionsindia.com/properties/902187",
+      "title": "eAuction Flat in Vatva, Ahmedabad",
+      "price_display": "₹27,88,000.00",
+      "price_inr": 2788000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:f1cb9d65eab5e622aac057cd14845596dc3ea08ed7a8a89d3336680306a9cc86",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
     "ei_899995": {
       "stable_id": "ei_899995",
       "url": "https://www.eauctionsindia.com/properties/899996",
@@ -170,6 +268,76 @@
       "bank": null,
       "content_hash": "sha256:8ac89abdaeb0c6b7ef4d8334151bbc97f95eedbc30451335a4e022df1578aba4",
       "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_902187": {
+      "stable_id": "ei_902187",
+      "url": "https://www.eauctionsindia.com/properties/902189",
+      "title": "eAuction Land in MOJE ASARWA, Ahmedabad",
+      "price_display": "₹58,06,000.00",
+      "price_inr": 5806000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:817690c6eafe795a0d5bd95c1a0c5cc54a78af0a24a18874ec690e518e06a8c5",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_902189": {
+      "stable_id": "ei_902189",
+      "url": "https://www.eauctionsindia.com/properties/902190",
+      "title": "eAuction Land in MOJE ASARWA, Ahmedabad",
+      "price_display": "₹27,88,000.00",
+      "price_inr": 2788000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:6a7953b83cadf22611bf179e9e9758fa49ea70c4615b1b3448682a6152925c4a",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_902190": {
+      "stable_id": "ei_902190",
+      "url": "https://www.eauctionsindia.com/properties/902190",
+      "title": "eAuction Land in MOJE ASARWA, Ahmedabad",
+      "price_display": "₹27,88,000.00",
+      "price_inr": 2788000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Land",
+      "bank": null,
+      "content_hash": "sha256:6a7953b83cadf22611bf179e9e9758fa49ea70c4615b1b3448682a6152925c4a",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_903008": {
+      "stable_id": "ei_903008",
+      "url": "https://www.eauctionsindia.com/properties/903509",
+      "title": "eAuction Flat in Asarva, Ahmedabad",
+      "price_display": "₹6,05,000.00",
+      "price_inr": 605000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:18e7f8f8c8a3dc4539edc6b88803d099ca5468a0e083244abd290d66e50f37ae",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_903509": {
+      "stable_id": "ei_903509",
+      "url": "https://www.eauctionsindia.com/properties/891198",
+      "title": "eAuction Flat in Dholka, Ahmedabad",
+      "price_display": "₹78,00,000.00",
+      "price_inr": 7800000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "property_type": "Flat",
+      "bank": null,
+      "content_hash": "sha256:29c6d24e5ade026c24f77eed04c40477a22198152608f215f63551f9fcbb3ef3",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
 }
