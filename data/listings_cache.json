@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-11-16T05:58:45.820561+00:00",
+  "updated_at": "2026-11-16T15:34:46.251217+00:00",
   "listings": {
     "ei_899996": {
       "stable_id": "ei_899996",
@@ -19,7 +19,7 @@
     },
     "ei_900349": {
       "stable_id": "ei_900349",
-      "url": "https://www.eauctionsindia.com/properties/903708",
+      "url": "https://www.eauctionsindia.com/properties/900349",
       "title": "Auction 900349",
       "price_display": "₹4,25,000.00",
       "price_inr": 425000.0,
@@ -28,21 +28,21 @@
       "district": null,
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:4e5206f31eebe3afe36e9a027899da58f177e2da9fce358206d2f33110e49399",
+      "content_hash": "sha256:c37cb4d0f5b83020e9ae9f164c2c1a1bb7a39bb1269ff5b1d75628944a17cc49",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_903705": {
       "stable_id": "ei_903705",
-      "url": "https://www.eauctionsindia.com/properties/903705",
+      "url": "https://www.eauctionsindia.com/properties/900349",
       "title": "Auction 903705",
-      "price_display": "₹3,44,000.00",
-      "price_inr": 344000.0,
+      "price_display": "₹4,25,000.00",
+      "price_inr": 425000.0,
       "state": "Gujarat",
       "city": null,
       "district": null,
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:65ad6203e597693980577cfaf15a3f5021461272da844d874e58a1ae3eb92143",
+      "content_hash": "sha256:4b0aaa273d27bda6d77ed761276ab824c1d5fe497c5c7eb19114b88f20d3c6c9",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_903708": {
@@ -61,30 +61,16 @@
     },
     "ei_903710": {
       "stable_id": "ei_903710",
-      "url": "https://www.eauctionsindia.com/properties/923321",
+      "url": "https://www.eauctionsindia.com/properties/924323",
       "title": "Auction 903710",
-      "price_display": "₹4,20,000.00",
-      "price_inr": 420000.0,
+      "price_display": "₹9,00,000.00",
+      "price_inr": 900000.0,
       "state": "Gujarat",
       "city": null,
       "district": null,
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:7a64bd13938d0723dbcc9627cff43a3399f709b6fe1a4660d798412b9a8533aa",
-      "stream_label": "Vehicles · Gujarat"
-    },
-    "ei_906215": {
-      "stable_id": "ei_906215",
-      "url": "https://www.eauctionsindia.com/properties/914673",
-      "title": "Auction 906215",
-      "price_display": "₹11,80,000.00",
-      "price_inr": 1180000.0,
-      "state": "Gujarat",
-      "city": null,
-      "district": null,
-      "property_type": null,
-      "bank": null,
-      "content_hash": "sha256:a9ad6e6eccfb051cbe5c9ffa32e350e4911acc48280590e2b43c1feeb836e684",
+      "content_hash": "sha256:636893e42bbd284adb796b9205128e9ccc31b4a5836fedae168614ed32e85958",
       "stream_label": "Vehicles · Gujarat"
     },
     "ei_913874": {
@@ -338,6 +324,20 @@
       "bank": null,
       "content_hash": "sha256:1cabfd95ae451033356323a0fd40d7186227f16fede7e9aee089d26ba7a5c2f9",
       "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_924323": {
+      "stable_id": "ei_924323",
+      "url": "https://www.eauctionsindia.com/properties/923321",
+      "title": "Auction 924323",
+      "price_display": "₹4,20,000.00",
+      "price_inr": 420000.0,
+      "state": "Gujarat",
+      "city": null,
+      "district": null,
+      "property_type": null,
+      "bank": null,
+      "content_hash": "sha256:e5b29e9551e6583f871ba60920f9f62c80edd52f5a86443c7ea76387bfbdd317",
+      "stream_label": "Vehicles · Gujarat"
     }
   }
 }
