@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source_site": "eauctionsindia",
-  "updated_at": "2026-11-18T00:53:52.772029+00:00",
+  "updated_at": "2026-11-18T15:29:46.810377+00:00",
   "listings": {
     "ei_900349": {
       "stable_id": "ei_900349",
@@ -103,44 +103,30 @@
     },
     "ei_914120": {
       "stable_id": "ei_914120",
-      "url": "https://www.eauctionsindia.com/properties/914120",
+      "url": "https://www.eauctionsindia.com/properties/926323",
       "title": "Auction 914120",
-      "price_display": "₹11,50,000.00",
-      "price_inr": 1150000.0,
+      "price_display": "₹34,00,000.00",
+      "price_inr": 3400000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": null,
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:cfd3f23f4caec836eae698d2e93e688a196eec02fec126a1ab1ee88649f9f5eb",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
-    "ei_918456": {
-      "stable_id": "ei_918456",
-      "url": "https://www.eauctionsindia.com/properties/918457",
-      "title": "Auction 918456",
-      "price_display": "₹37,50,000.00",
-      "price_inr": 3750000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": null,
-      "property_type": null,
-      "bank": null,
-      "content_hash": "sha256:c9115a290d2c1c225c00f6cd08af9d497d59b96cdabed01e745601117f5c8ba8",
+      "content_hash": "sha256:dab8605d86eed302f8bf67674ecb36f1aca07b3c8f12d53dda45eb86881318e3",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_918457": {
       "stable_id": "ei_918457",
-      "url": "https://www.eauctionsindia.com/properties/918457",
+      "url": "https://www.eauctionsindia.com/properties/918458",
       "title": "Auction 918457",
-      "price_display": "₹37,50,000.00",
-      "price_inr": 3750000.0,
+      "price_display": "₹19,00,000.00",
+      "price_inr": 1900000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": null,
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:dae6bf230a68e1896dd7bfcbe95eec7e488370c741a1957f026c5f7445cdba6c",
+      "content_hash": "sha256:fb69615cefcf626eabad745eb21d0340f462f58dc12876733b823181f4ef6808",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_918458": {
@@ -173,16 +159,16 @@
     },
     "ei_918460": {
       "stable_id": "ei_918460",
-      "url": "https://www.eauctionsindia.com/properties/914073",
+      "url": "https://www.eauctionsindia.com/properties/918460",
       "title": "Auction 918460",
-      "price_display": "₹7,10,000.00",
-      "price_inr": 710000.0,
+      "price_display": "₹37,00,000.00",
+      "price_inr": 3700000.0,
       "state": "Gujarat",
       "city": "Ahmedabad",
       "district": null,
       "property_type": null,
       "bank": null,
-      "content_hash": "sha256:08f820a207bb3c9bd98ab115124784203a9dbe8bd7531561fc989316c6303276",
+      "content_hash": "sha256:0a919378ba620902e2bebb7d0189336e4ae1f9420a2e3af106963d21660495c4",
       "stream_label": "Residential · Ahmedabad · Gujarat"
     },
     "ei_921488": {
@@ -269,20 +255,6 @@
       "content_hash": "sha256:c4c0c7a00726e2ed56c548e57fc1cf9c8f4e7a30a7d81abca5b22dee69330791",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_923600": {
-      "stable_id": "ei_923600",
-      "url": "https://www.eauctionsindia.com/properties/918456",
-      "title": "Auction 923600",
-      "price_display": "₹28,00,000.00",
-      "price_inr": 2800000.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": null,
-      "property_type": null,
-      "bank": null,
-      "content_hash": "sha256:1cabfd95ae451033356323a0fd40d7186227f16fede7e9aee089d26ba7a5c2f9",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
     "ei_924323": {
       "stable_id": "ei_924323",
       "url": "https://www.eauctionsindia.com/properties/923321",
@@ -311,20 +283,6 @@
       "content_hash": "sha256:2fa8290bb729390e018c6f4706e4276a2c06e524cf05e5f4a43e10ed07584bd4",
       "stream_label": "Vehicles · Gujarat"
     },
-    "ei_925016": {
-      "stable_id": "ei_925016",
-      "url": "https://www.eauctionsindia.com/properties/923600",
-      "title": "Auction 925016",
-      "price_display": "₹8,48,640.00",
-      "price_inr": 848640.0,
-      "state": "Gujarat",
-      "city": "Ahmedabad",
-      "district": null,
-      "property_type": null,
-      "bank": null,
-      "content_hash": "sha256:6d6304122f1faa2b443348ac2a04488f26c13586de4a5083afe0e54fac23b26d",
-      "stream_label": "Residential · Ahmedabad · Gujarat"
-    },
     "ei_925315": {
       "stable_id": "ei_925315",
       "url": "https://www.eauctionsindia.com/properties/925315",
@@ -338,6 +296,48 @@
       "bank": null,
       "content_hash": "sha256:d55810e4c3d1752ac12b6f640f359e13832550ea459945b3d4c8d39ee07f42f4",
       "stream_label": "Vehicles · Gujarat"
+    },
+    "ei_926323": {
+      "stable_id": "ei_926323",
+      "url": "https://www.eauctionsindia.com/properties/926327",
+      "title": "Auction 926323",
+      "price_display": "₹22,00,000.00",
+      "price_inr": 2200000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": null,
+      "property_type": null,
+      "bank": null,
+      "content_hash": "sha256:fbf010cc7e0416bd594f42e6684abe05a505a0062b5a131db4c733c6491f62d5",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_926327": {
+      "stable_id": "ei_926327",
+      "url": "https://www.eauctionsindia.com/properties/926330",
+      "title": "Auction 926327",
+      "price_display": "₹20,50,000.00",
+      "price_inr": 2050000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": null,
+      "property_type": null,
+      "bank": null,
+      "content_hash": "sha256:908b6b79c2335c07ee19fa71b8695305b089f3443e45aac98971b55846a4a56a",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
+    },
+    "ei_926330": {
+      "stable_id": "ei_926330",
+      "url": "https://www.eauctionsindia.com/properties/926330",
+      "title": "Auction 926330",
+      "price_display": "₹20,50,000.00",
+      "price_inr": 2050000.0,
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "district": null,
+      "property_type": null,
+      "bank": null,
+      "content_hash": "sha256:3e5d7497c4bf76ed84874077109de5aa4d7d363e29434dad7942142dd473c741",
+      "stream_label": "Residential · Ahmedabad · Gujarat"
     }
   }
 }
